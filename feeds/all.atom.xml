@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus</title><link href="https://markus-site.at/" rel="alternate"></link><link href="https://markus-site.at/feeds/all.atom.xml" rel="self"></link><id>https://markus-site.at/</id><updated>2021-04-13T21:00:00+02:00</updated><entry><title>MasterSnippets</title><link href="https://markus-site.at/mastersnippets.html" rel="alternate"></link><published>2021-04-13T21:00:00+02:00</published><updated>2021-04-13T21:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2021-04-13:/mastersnippets.html</id><summary type="html">&lt;h1&gt;What is planned?&lt;/h1&gt;
+&lt;p&gt;Here I will present individual parts of my Masterthesis.
+The title was (Satellitenmessungen vonNiederschlag: Räumliche und Zeitliche Repräsentativität von Niederschlag).&lt;/p&gt;
+&lt;p&gt;At first a small notebook is already available.&lt;/p&gt;
+&lt;h1&gt;Please have a look at the following links.&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://diglib.uibk.ac.at/urn:nbn:at:at-ubi:1-29018"&gt;Masterthesis&lt;/a&gt;
+&lt;a href="https://github.com/markusgoller/master_snippets"&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Will be be continued...&lt;/h3&gt;
+&lt;p&gt;Photo by &lt;a href="https://gpm.nasa.gov/missions/GPM"&gt;Global Precipitation Measurement …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;What is planned?&lt;/h1&gt;
+&lt;p&gt;Here I will present individual parts of my Masterthesis.
+The title was (Satellitenmessungen vonNiederschlag: Räumliche und Zeitliche Repräsentativität von Niederschlag).&lt;/p&gt;
+&lt;p&gt;At first a small notebook is already available.&lt;/p&gt;
+&lt;h1&gt;Please have a look at the following links.&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://diglib.uibk.ac.at/urn:nbn:at:at-ubi:1-29018"&gt;Masterthesis&lt;/a&gt;
+&lt;a href="https://github.com/markusgoller/master_snippets"&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Will be be continued...&lt;/h3&gt;
+&lt;p&gt;Photo by &lt;a href="https://gpm.nasa.gov/missions/GPM"&gt;Global Precipitation Measurement Mission&lt;/a&gt;&lt;/p&gt;</content><category term="blog"></category><category term="Python"></category><category term="Notebooks"></category><category term="Science"></category></entry><entry><title>RuuviTags</title><link href="https://markus-site.at/ruuvitags.html" rel="alternate"></link><published>2020-09-13T20:00:00+02:00</published><updated>2020-09-13T20:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2020-09-13:/ruuvitags.html</id><summary type="html">&lt;h1&gt;What is a RuuviTag?&lt;/h1&gt;
+&lt;p&gt;A RuuviTag is a Open-Source Bluetooth Sensor Beacon, it was a &lt;a href="https://www.kickstarter.com/projects/463050344/ruuvitag-open-source-bluetooth-sensor-beacon"&gt;Kickstarter&lt;/a&gt; project.  &lt;br&gt;
+The tag is about 5 cm in diameter and with it's sensors you can basically measure the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Temperature&lt;/li&gt;
+&lt;li&gt;Relative humidity&lt;/li&gt;
+&lt;li&gt;Barometric pressure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;What is planned?&lt;/h1&gt;
+&lt;p&gt;At first I want to compare the …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;What is a RuuviTag?&lt;/h1&gt;
+&lt;p&gt;A RuuviTag is a Open-Source Bluetooth Sensor Beacon, it was a &lt;a href="https://www.kickstarter.com/projects/463050344/ruuvitag-open-source-bluetooth-sensor-beacon"&gt;Kickstarter&lt;/a&gt; project.  &lt;br&gt;
+The tag is about 5 cm in diameter and with it's sensors you can basically measure the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Temperature&lt;/li&gt;
+&lt;li&gt;Relative humidity&lt;/li&gt;
+&lt;li&gt;Barometric pressure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;What is planned?&lt;/h1&gt;
+&lt;p&gt;At first I want to compare the data with the data of my &lt;a href="www.markusgoller.at/weather-station.html"&gt;PSA&lt;/a&gt;.
+Since I live in the Alps and there are wonderful mountains around me, I would like to use it to measure the environmental conditions around me (possibly a comparison with my smartwatch while skiing).&lt;/p&gt;
+&lt;h1&gt;Here are a few impressions from the RuuviTag(s):&lt;/h1&gt;
+&lt;h3&gt;"Slogan" ;-)&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Photo" src="/images/RuuviTags/IMG_20200914_185318_resize.jpg"&gt;&lt;/p&gt;
+&lt;h3&gt;Measurements of three RuuviTags transmitted via Bluetooth on my Phone&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Photo" src="/images/RuuviTags/Screenshot_2020-09-13-18-53-25-224_com.ruuvi.station_resize.jpg"&gt;&lt;/p&gt;
+&lt;h3&gt;RuuviTag and it's enclosure&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Photo" src="/images/RuuviTags/IMG_20200914_183532_resize.jpg"&gt;&lt;/p&gt;
+&lt;h4&gt;Will be continued...&lt;/h4&gt;</content><category term="blog"></category><category term="Arduino"></category><category term="Environment"></category></entry><entry><title>Bike tour Berlin (Jupyter Notebook)</title><link href="https://markus-site.at/bike-tour-berlin-jupyter-notebook.html" rel="alternate"></link><published>2020-08-26T16:00:00+02:00</published><updated>2020-08-26T16:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2020-08-26:/bike-tour-berlin-jupyter-notebook.html</id><summary type="html">&lt;h1&gt;Bike tour Berlin&lt;/h1&gt;
+&lt;p&gt;Since my brother and I belong more to the sporty guys, we thought, why shouldn't we explore Berlin by bike.
+So we grabbed a rental bike and went for a spin through Berlin.
+Since I personally haven't created a Jupyter Notebook for a while now, I think …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Bike tour Berlin&lt;/h1&gt;
+&lt;p&gt;Since my brother and I belong more to the sporty guys, we thought, why shouldn't we explore Berlin by bike.
+So we grabbed a rental bike and went for a spin through Berlin.
+Since I personally haven't created a Jupyter Notebook for a while now, I think this is a good opportunity.&lt;/p&gt;
+&lt;h3&gt;What is planned?&lt;/h3&gt;
+&lt;p&gt;A map with all the routes we have taken this will include the following Python elements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jupyter Notebook&lt;/li&gt;
+&lt;li&gt;Pandas &lt;/li&gt;
+&lt;li&gt;Basemap&lt;/li&gt;
+&lt;li&gt;Matplotlib&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The notebook is unfortunately not quite finished yet and will follow.&lt;/p&gt;
+&lt;p&gt;All in all we were really quite sporty and cycled a good 100 kilometers across Berlin, here are a few impressions from Berlin,&lt;/p&gt;
+&lt;h3&gt;Alexanderplatz&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Photo" src="/images/bike_tour_berlin_notebook/IMG_20200815_114145_resize.jpg"&gt;&lt;/p&gt;
+&lt;h3&gt;Gedächtniskirche&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Photo" src="/images/bike_tour_berlin_notebook/IMG_20200815_200436_1_resize.jpg"&gt;&lt;/p&gt;
+&lt;h3&gt;Parts of the Wall&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Photo" src="/images/bike_tour_berlin_notebook/IMG_20200819_205230_resize.jpg"&gt;&lt;/p&gt;
+&lt;h3&gt;Abandoned Airport Tempelhof&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Photo" src="/images/bike_tour_berlin_notebook/IMG_20200817_134433_resize.jpg"&gt;&lt;/p&gt;</content><category term="blog"></category></entry><entry><title>My Personal Satellite</title><link href="https://markus-site.at/my-personal-satellite.html" rel="alternate"></link><published>2020-07-25T19:30:00+02:00</published><updated>2020-11-16T23:30:00+01:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2020-07-25:/my-personal-satellite.html</id><summary type="html">&lt;h1&gt;One project that I am especially looking forward to is following:&lt;/h1&gt;
+&lt;p&gt;I built my own satellite and launch it into space ;-).
+Well you will ask yourself, how is this possible?
+Short answer, crowdfunding via &lt;a href="https://www.kickstarter.com/projects/ambasat/ambasat-1-an-educational-space-satellite-kit?lang=de"&gt;Kickstarter&lt;/a&gt; make it possible.
+The campaign was launched in May 2019 and ended in July 2019 …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;One project that I am especially looking forward to is following:&lt;/h1&gt;
+&lt;p&gt;I built my own satellite and launch it into space ;-).
+Well you will ask yourself, how is this possible?
+Short answer, crowdfunding via &lt;a href="https://www.kickstarter.com/projects/ambasat/ambasat-1-an-educational-space-satellite-kit?lang=de"&gt;Kickstarter&lt;/a&gt; make it possible.
+The campaign was launched in May 2019 and ended in July 2019. &lt;br&gt;
+The so called &lt;a href="https://ambasat.com/"&gt;AmbaSAT-1&lt;/a&gt; is a small satellite (Sprite-class Space satellite).
+The dimensions of the satellite are just 35 mm * 35 mm .
+The sprites will be sent to everybody who backed a kit. 
+In the basic configuration the satellite is equipped with a gyroscope, accelerometer, magnetometer, microcontroller (an Arduino compatible ATMEGA 328P-AU), memory, a Long Range Wide Area Network (LoRaWAN) radio transceiver (RFM95) and in my case because I want to send the satellite into space, with solar cells.
+Furthermore there are a few more options how to equip the satellite, I took a gas sensor &lt;a href="https://ambasat.com/product/ambasat-1-sensor-03/"&gt;AmbaSat-1 Sensor 03 – BME680&lt;/a&gt;. 
+The data is transmitted by the sprites in real-time using the LoRaWAN radio transceiver and the more than five thousand Earth-based &lt;a href="https://www.thethingsnetwork.org/"&gt;The Things Network (TTN)&lt;/a&gt; receivers (Gateways) which are distributed over the earth. In first tests in July 2019 more than 700 km radio distance could be covered (&lt;a href="https://www.thethingsnetwork.org/article/lorawan-distance-world-record"&gt;Servet IV mission &lt;/a&gt; and &lt;a href="https://github.com/G4lile0/High_Altitude_Balloon_Experiments/tree/master/Pape_I_400gr/Antennas"&gt;G4lile0/High_Altitude_Balloon_Experiments&lt;/a&gt;).
+I took the kit where I can assemble the satellite myself (soldering work, yeah :-) ). &lt;br&gt;
+The next step is testing the sensors mounted on the satellite, AmbaSat has therefore it's own dashboard.
+About two month before the launch the spacecrafts will be send back to AmbaSAT and they will do pre-launch testings.
+They will do a compliance-, two-week soak-, followed by a vibration test. &lt;br&gt;
+If everything is ok the spacecrafts will be send to &lt;a href="https://www.interorbital.com/"&gt;Interorbital Systems&lt;/a&gt; (IOS) and deployed in a CubeSAT.
+The CubeSat should transport about 200 sprites.&lt;/p&gt;
+&lt;p&gt;The launch of the rocket should be in the year 2021 with the first Neptune 2 rocket launch from Interorbital Systems (IOS).&lt;/p&gt;
+&lt;p&gt;However, due to COVID-19 crisis there are delivery difficulties and I did not get a satellite kit yet.
+...&lt;/p&gt;
+&lt;h2&gt;News from AmbaSat (2020-10-26)&lt;/h2&gt;
+&lt;p&gt;"The latest batch of AmbaSat-1 kits are ready to ship", I can hardly wait to solder the kit :-). See more at the &lt;a href="https://ambasat.com/ambasat-1-kits-ready-to-ship/"&gt;AmbaSAT Blog&lt;/a&gt;.
+&lt;img alt="Photo" src="/images/my_personal_satellite/ambasat-boxes-r.jpg"&gt;  &lt;/p&gt;
+&lt;h2&gt;Recent News from Ambasat (2020-11-16)&lt;/h2&gt;
+&lt;p&gt;AmbaSat has processed my Order from Febuary 2020.
+&lt;img alt="Photo" src="/images/my_personal_satellite/AmbaSat_processed_order_2020-11-16 20-56-30.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ambasat.com/blog-2/"&gt;Link to AmbaSAT Blog&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Will be continued...&lt;/h4&gt;
+&lt;p&gt;Photos by &lt;a href="https://ambasat.com/"&gt;AmbaSAT-1&lt;/a&gt;&lt;/p&gt;</content><category term="blog"></category><category term="Arduino"></category><category term="Satellite"></category><category term="Space"></category><category term="Environment"></category><category term="LoRaWAN"></category><category term="TTN"></category></entry><entry><title>Weather Station</title><link href="https://markus-site.at/weather-station.html" rel="alternate"></link><published>2020-07-18T16:00:00+02:00</published><updated>2020-11-15T20:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2020-07-18:/weather-station.html</id><summary type="html">&lt;h1&gt;As a studied atmospheric scientist it is almost a duty to operate a personal weather station &lt;a href="https://www.wunderground.com/dashboard/pws/IPATSC2/"&gt;(PWS)&lt;/a&gt;.&lt;/h1&gt;
+&lt;p&gt;Here you can see the outside sensors.
+&lt;img alt="Photo" src="/images/weather_station/IMG_20200705_154307_resize.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;It is a Renkfore radio weather station &lt;a href="https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139"&gt;"WH2315"&lt;/a&gt;.
+The station has a radio connection to a basis station and this is connected to a Raspberry Pi …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;As a studied atmospheric scientist it is almost a duty to operate a personal weather station &lt;a href="https://www.wunderground.com/dashboard/pws/IPATSC2/"&gt;(PWS)&lt;/a&gt;.&lt;/h1&gt;
+&lt;p&gt;Here you can see the outside sensors.
+&lt;img alt="Photo" src="/images/weather_station/IMG_20200705_154307_resize.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;It is a Renkfore radio weather station &lt;a href="https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139"&gt;"WH2315"&lt;/a&gt;.
+The station has a radio connection to a basis station and this is connected to a Raspberry Pi.
+The data is than hosted via &lt;a href="http://www.weewx.com/"&gt;WeeWX&lt;/a&gt; to &lt;a href="https://www.wunderground.com/"&gt;Weather Underground&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Below is a picture of the basis station.
+&lt;img alt="Photo" src="/images/weather_station/IMG_20200726_172233_resize.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Here you can see a sample screenshot of my PWS taken from Weather Underground suitable to the photo above. 
+&lt;img alt="Photo" src="/images/weather_station/renkforce_weather_history_ipatsc2_Screenshot from 2020-07-27 21-01-11.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Technical Data:&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Range&lt;/th&gt;
+&lt;th&gt;Resolution&lt;/th&gt;
+&lt;th&gt;Accuracy&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Basis Station sensors&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Temperature&lt;/td&gt;
+&lt;td&gt;-9.9 °C - +60 °C&lt;/td&gt;
+&lt;td&gt;0.1%&lt;/td&gt;
+&lt;td&gt;+-1 °C&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Relative humidity&lt;/td&gt;
+&lt;td&gt;1% - 99%&lt;/td&gt;
+&lt;td&gt;1%&lt;/td&gt;
+&lt;td&gt;+-5%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Barometric pressure&lt;/td&gt;
+&lt;td&gt;300 - 1100 hPa&lt;/td&gt;
+&lt;td&gt;0.1%&lt;/td&gt;
+&lt;td&gt;+-3 hPa in the area of 700 - 1100 hPa&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Outside sensors&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Temperature&lt;/td&gt;
+&lt;td&gt;-40 °C - +60 °C&lt;/td&gt;
+&lt;td&gt;0.1 °C&lt;/td&gt;
+&lt;td&gt;+-1 °C&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Relative humidity&lt;/td&gt;
+&lt;td&gt;1% - 99%&lt;/td&gt;
+&lt;td&gt;1%&lt;/td&gt;
+&lt;td&gt;+-5%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Rain volume&lt;/td&gt;
+&lt;td&gt;0 - 9999 mm&lt;/td&gt;
+&lt;td&gt;0.3 mm (at rain volume of &amp;lt; 1000 mm) 1 mm (at rain volume of &amp;gt;= 1000 mm)&lt;/td&gt;
+&lt;td&gt;+-10%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Wind speed&lt;/td&gt;
+&lt;td&gt;0 - 50 m/s&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;+- 1 m/s  (at wind speed &amp;lt; 5 m/s) +- 10% (at wind speed &amp;gt;= 5 m/s)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Illumination strength&lt;/td&gt;
+&lt;td&gt;0 - 300000 lux&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;+- 15%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;UV-index&lt;/td&gt;
+&lt;td&gt;0 - 15 (0 - 20000 W/m²&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Status of the weather station called via the Pi:&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;pi&lt;/span&gt;&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;raspberrypi&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;~&lt;/span&gt; &lt;span class="o"&gt;$&lt;/span&gt; &lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;etc&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;init&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;weewx&lt;/span&gt; &lt;span class="n"&gt;status&lt;/span&gt; 
+&lt;span class="err"&gt;●&lt;/span&gt; &lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;service&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;LSB&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;weewx&lt;/span&gt; &lt;span class="n"&gt;weather&lt;/span&gt; &lt;span class="n"&gt;system&lt;/span&gt;
+   &lt;span class="n"&gt;Loaded&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;loaded&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;etc&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;init&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;generated&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;vendor&lt;/span&gt; &lt;span class="n"&gt;preset&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;enabled&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+   &lt;span class="n"&gt;Active&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;active&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;running&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;since&lt;/span&gt; &lt;span class="n"&gt;Sun&lt;/span&gt; &lt;span class="mi"&gt;2020&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;15&lt;/span&gt; &lt;span class="mi"&gt;14&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;21&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;41&lt;/span&gt; &lt;span class="n"&gt;CET&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="mi"&gt;52&lt;/span&gt;&lt;span class="nb"&gt;min&lt;/span&gt; &lt;span class="n"&gt;ago&lt;/span&gt;
+     &lt;span class="n"&gt;Docs&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;man&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;systemd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;sysv&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;generator&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="n"&gt;Process&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;612&lt;/span&gt; &lt;span class="n"&gt;ExecStop&lt;/span&gt;&lt;span class="o"&gt;=/&lt;/span&gt;&lt;span class="n"&gt;etc&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;init&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;weewx&lt;/span&gt; &lt;span class="n"&gt;stop&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;code&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;exited&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;status&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;SUCCESS&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="n"&gt;Process&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;714&lt;/span&gt; &lt;span class="n"&gt;ExecStart&lt;/span&gt;&lt;span class="o"&gt;=/&lt;/span&gt;&lt;span class="n"&gt;etc&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;init&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;weewx&lt;/span&gt; &lt;span class="n"&gt;start&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;code&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;exited&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;status&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;SUCCESS&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+   &lt;span class="n"&gt;CGroup&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;system&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;slice&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;service&lt;/span&gt;
+           &lt;span class="err"&gt;└─&lt;/span&gt;&lt;span class="mi"&gt;729&lt;/span&gt; &lt;span class="n"&gt;python&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;usr&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;bin&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;weewxd&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="n"&gt;daemon&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="n"&gt;pidfile&lt;/span&gt;&lt;span class="o"&gt;=/&lt;/span&gt;&lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;run&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pid&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;etc&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;conf&lt;/span&gt;
+
+&lt;span class="n"&gt;Nov&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;05&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;19&lt;/span&gt; &lt;span class="n"&gt;raspberrypi&lt;/span&gt; &lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;729&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt; &lt;span class="n"&gt;restx&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Wunderground&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;PWS&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Published&lt;/span&gt; &lt;span class="n"&gt;record&lt;/span&gt; &lt;span class="mi"&gt;2020&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;15&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;05&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;00&lt;/span&gt; &lt;span class="n"&gt;CET&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1605449100&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;Nov&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;05&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;32&lt;/span&gt; &lt;span class="n"&gt;raspberrypi&lt;/span&gt; &lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;729&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt; &lt;span class="n"&gt;cheetahgenerator&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Generated&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt; &lt;span class="n"&gt;files&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;report&lt;/span&gt; &lt;span class="n"&gt;SeasonsReport&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="mf"&gt;12.61&lt;/span&gt; &lt;span class="n"&gt;seconds&lt;/span&gt;
+&lt;span class="n"&gt;Nov&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;05&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;38&lt;/span&gt; &lt;span class="n"&gt;raspberrypi&lt;/span&gt; &lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;729&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt; &lt;span class="n"&gt;imagegenerator&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Generated&lt;/span&gt; &lt;span class="mi"&gt;14&lt;/span&gt; &lt;span class="n"&gt;images&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;SeasonsReport&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="mf"&gt;6.01&lt;/span&gt; &lt;span class="n"&gt;seconds&lt;/span&gt;
+&lt;span class="n"&gt;Nov&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;05&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;38&lt;/span&gt; &lt;span class="n"&gt;raspberrypi&lt;/span&gt; &lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;729&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt; &lt;span class="n"&gt;copygenerator&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;copied&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="n"&gt;files&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;www&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;weewx&lt;/span&gt;
+&lt;span class="n"&gt;Nov&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;30&lt;/span&gt; &lt;span class="n"&gt;raspberrypi&lt;/span&gt; &lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;729&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt; &lt;span class="n"&gt;manager&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Added&lt;/span&gt; &lt;span class="n"&gt;record&lt;/span&gt; &lt;span class="mi"&gt;2020&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;15&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;00&lt;/span&gt; &lt;span class="n"&gt;CET&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1605449400&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;database&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;weewx.sdb&amp;#39;&lt;/span&gt;
+&lt;span class="n"&gt;Nov&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;30&lt;/span&gt; &lt;span class="n"&gt;raspberrypi&lt;/span&gt; &lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;729&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt; &lt;span class="n"&gt;manager&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Added&lt;/span&gt; &lt;span class="n"&gt;record&lt;/span&gt; &lt;span class="mi"&gt;2020&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;15&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;00&lt;/span&gt; &lt;span class="n"&gt;CET&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1605449400&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;daily&lt;/span&gt; &lt;span class="n"&gt;summary&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;weewx.sdb&amp;#39;&lt;/span&gt;
+&lt;span class="n"&gt;Nov&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;31&lt;/span&gt; &lt;span class="n"&gt;raspberrypi&lt;/span&gt; &lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;729&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt; &lt;span class="n"&gt;restx&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Wunderground&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;PWS&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Published&lt;/span&gt; &lt;span class="n"&gt;record&lt;/span&gt; &lt;span class="mi"&gt;2020&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;15&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;00&lt;/span&gt; &lt;span class="n"&gt;CET&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1605449400&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;Nov&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;44&lt;/span&gt; &lt;span class="n"&gt;raspberrypi&lt;/span&gt; &lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;729&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt; &lt;span class="n"&gt;cheetahgenerator&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Generated&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt; &lt;span class="n"&gt;files&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;report&lt;/span&gt; &lt;span class="n"&gt;SeasonsReport&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="mf"&gt;12.67&lt;/span&gt; &lt;span class="n"&gt;seconds&lt;/span&gt;
+&lt;span class="n"&gt;Nov&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;50&lt;/span&gt; &lt;span class="n"&gt;raspberrypi&lt;/span&gt; &lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;729&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt; &lt;span class="n"&gt;imagegenerator&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Generated&lt;/span&gt; &lt;span class="mi"&gt;14&lt;/span&gt; &lt;span class="n"&gt;images&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;SeasonsReport&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="mf"&gt;5.98&lt;/span&gt; &lt;span class="n"&gt;seconds&lt;/span&gt;
+&lt;span class="n"&gt;Nov&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;50&lt;/span&gt; &lt;span class="n"&gt;raspberrypi&lt;/span&gt; &lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;729&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt; &lt;span class="n"&gt;copygenerator&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;copied&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="n"&gt;files&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;www&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;weewx&lt;/span&gt;
+&lt;span class="n"&gt;pi&lt;/span&gt;&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;raspberrypi&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;~&lt;/span&gt; &lt;span class="o"&gt;$&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Stop / Start the connection to the Pi (in case of errors):&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nf"&gt;pi&lt;/span&gt;&lt;span class="nv"&gt;@raspberrypi&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="o"&gt;~&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;etc&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;init&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;stop&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nf"&gt;pi&lt;/span&gt;&lt;span class="nv"&gt;@raspberrypi&lt;/span&gt;&lt;span class="err"&gt;:&lt;/span&gt;&lt;span class="o"&gt;~&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;etc&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;init&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;start&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Finally a link to &lt;a href="https://www.wunderground.com/dashboard/pws/IPATSC2/"&gt;live data of my PWS&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Will be be continued...&lt;/h3&gt;</content><category term="blog"></category><category term="Raspberry Pi"></category><category term="Python"></category><category term="weather station"></category></entry><entry><title>Raspberry Pi Rail Slider</title><link href="https://markus-site.at/raspberry-pi-rail-slider.html" rel="alternate"></link><published>2020-06-29T21:00:00+02:00</published><updated>2020-07-25T19:30:00+02:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2020-06-29:/raspberry-pi-rail-slider.html</id><summary type="html">&lt;h1&gt;One project I did and currently do is the following.&lt;/h1&gt;
+&lt;p&gt;Here you can see the whole construction at a glance.
+&lt;img alt="Photo" src="/images/PIRailSlider/IMG_20200712_115919_compressed.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Well, what's all this. As you can see, here is a Rasperry Pi (Pi) mounted on a metal sled. 
+Basically the camera is pulled along the sled with the help …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;One project I did and currently do is the following.&lt;/h1&gt;
+&lt;p&gt;Here you can see the whole construction at a glance.
+&lt;img alt="Photo" src="/images/PIRailSlider/IMG_20200712_115919_compressed.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Well, what's all this. As you can see, here is a Rasperry Pi (Pi) mounted on a metal sled. 
+Basically the camera is pulled along the sled with the help of a motor. I was inspired by the projects of this page &lt;a href="http://www.davidhunt.ie/"&gt;www.DavidHunt.ie&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Construction&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Photo" src="/images/PIRailSlider/IMG_20200709_191035_resize.jpg"&gt;
+&lt;img alt="Photo" src="/images/PIRailSlider/IMG_20200709_191045_resize.jpg"&gt;&lt;/p&gt;
+&lt;h4&gt;What I basically needed for this project&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Pi&lt;/li&gt;
+&lt;li&gt;Pi camera&lt;/li&gt;
+&lt;li&gt;touchscreen&lt;/li&gt;
+&lt;li&gt;5V powerbank&lt;/li&gt;
+&lt;li&gt;wires&lt;/li&gt;
+&lt;li&gt;geared 12V DC motor&lt;/li&gt;
+&lt;li&gt;belt&lt;/li&gt;
+&lt;li&gt;washer for fixing the belt&lt;/li&gt;
+&lt;li&gt;2 iron rods (clothes rails)&lt;/li&gt;
+&lt;li&gt;mounting plate&lt;/li&gt;
+&lt;li&gt;u-shaped aluminum profile&lt;/li&gt;
+&lt;li&gt;ball bearings&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Code Snippets:&lt;/h2&gt;
+&lt;p&gt;The original code is from James Moore and was edited by me. &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="ch"&gt;#!/usr/bin/env python&lt;/span&gt;
+&lt;span class="c1"&gt;#  raspiLapseCam.py&lt;/span&gt;
+&lt;span class="c1"&gt;#&lt;/span&gt;
+&lt;span class="c1"&gt;#  Created by James Moore on 28/07/2013.&lt;/span&gt;
+&lt;span class="c1"&gt;#  Copyright (c) 2013 Fotosyn. All rights reserved.&lt;/span&gt;
+&lt;span class="c1"&gt;#&lt;/span&gt;
+&lt;span class="c1"&gt;#  Import some frameworks&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;PiRailSlider_f&lt;/span&gt;
+
+
+&lt;span class="c1"&gt;# Make New folder&lt;/span&gt;
+&lt;span class="n"&gt;new_folder&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;PiRailSlider_f&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mkdir_folder&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;folder_path&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;/home/pi/PiRailSlider/LapsePiTouch/Lapse&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="c1"&gt;#----------------------------------------------&lt;/span&gt;
+&lt;span class="n"&gt;fileSerial&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Run a WHILE Loop of infinitel&lt;/span&gt;
+&lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;d&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;now&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;d:&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;hour&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="c1"&gt;# rpi-camera&lt;/span&gt;
+        &lt;span class="n"&gt;fileSerial&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;PiRailSlider_f&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;raspistill&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;fileSerial&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;fileSerial&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                                          &lt;span class="n"&gt;new_folder&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;new_folder&lt;/span&gt;
+        &lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="n"&gt;fileSerial&lt;/span&gt; &lt;span class="o"&gt;+=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+
+        &lt;span class="c1"&gt;# Starts Motor&lt;/span&gt;
+        &lt;span class="n"&gt;PiRailSlider_f&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Motor12V_GPIO_TimeLapse&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Motor1A&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;37&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Motor1B&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;36&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Motor1E&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;33&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                                      &lt;span class="n"&gt;t_motor&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;t_sleep&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;
+        &lt;span class="p"&gt;)&lt;/span&gt;
+
+    &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+
+        &lt;span class="c1"&gt;# Just trapping out the WHILE Statement&lt;/span&gt;
+        &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;=============== Doing nothing at this time&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Youtube Testvideo&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=-9EHdp1ynUU"&gt;&lt;img alt="Minions Banana Song Full Song" src="http://img.youtube.com/vi/-9EHdp1ynUU/0.jpg"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Will be continued...&lt;/h4&gt;</content><category term="blog"></category><category term="Raspberry Pi"></category><category term="Python"></category><category term="Time Lapse"></category></entry><entry><title>Travelling</title><link href="https://markus-site.at/travelling.html" rel="alternate"></link><published>2020-06-12T21:00:00+02:00</published><updated>2020-06-12T21:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2020-06-12:/travelling.html</id><content type="html">&lt;h1&gt;In my spare time I like to be in the nature.&lt;/h1&gt;
+&lt;h2&gt;Here are some places I have been lately.&lt;/h2&gt;
+&lt;h3&gt;Hiking above Innsbruck; Tyrol, Austria.&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Photo" src="/images/travelling/IMG_20191110_170235_crop.jpg"&gt;&lt;/p&gt;
+&lt;h3&gt;Fonduing above the Achensee; Tyrol, Austria.&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Photo" src="/images/travelling/IMG_20170908_182103_edited_1.jpg"&gt;&lt;/p&gt;
+&lt;h3&gt;Climbing in the Oetztal; Tyrol, Austria.&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Photo" src="/images/travelling/IMG_20180926_185843_edited_1.jpg"&gt;&lt;/p&gt;</content><category term="blog"></category><category term="Travelling"></category></entry></feed>

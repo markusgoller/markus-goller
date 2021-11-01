@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+  <title>Weather Station</title>
+
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="origin" />
+  <meta name="generator" content="Pelican" />
+<link href="https://markus-site.at/weather-station.html" rel="canonical" />
+  <!-- Feed -->
+        <link href="https://markus-site.at/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Blog of Markus Full Atom Feed" />
+          <link href="https://markus-site.at/feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="Blog of Markus Categories Atom Feed" />
+
+  <link href="https://markus-site.at/theme/css/style.css" type="text/css" rel="stylesheet" />
+
+  <!-- Code highlight color scheme -->
+      <link href="https://markus-site.at/theme/css/code_blocks/github.css" rel="stylesheet">
+
+
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+
+    <meta name="description" content="As a studied atmospheric scientist it is almost a duty to operate a personal weather station (PWS). Here you can see the outside...">
+
+    <meta name="author" content="Markus">
+
+    <meta name="tags" content="Raspberry Pi">
+    <meta name="tags" content="Python">
+    <meta name="tags" content="weather station">
+
+
+
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="Blog of Markus"/>
+<meta property="og:title" content="Weather Station"/>
+<meta property="og:description" content="As a studied atmospheric scientist it is almost a duty to operate a personal weather station (PWS). Here you can see the outside..."/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="https://markus-site.at/weather-station.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2020-07-18 16:00:00+02:00"/>
+<meta property="article:modified_time" content="2020-11-15 20:00:00+01:00"/>
+<meta property="article:author" content="https://markus-site.at/author/markus.html">
+<meta property="article:section" content="blog"/>
+<meta property="article:tag" content="Raspberry Pi"/>
+<meta property="article:tag" content="Python"/>
+<meta property="article:tag" content="weather station"/>
+<meta property="og:image" content="https://markus-site.at/../images/weather_station/IMG_20200630_170836_edited_1.jpg">
+
+<!-- Twitter Card -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "Weather Station",
+  "headline": "Weather Station",
+  "datePublished": "2020-07-18 16:00:00+02:00",
+  "dateModified": "2020-11-15 20:00:00+01:00",
+  "author": {
+    "@type": "Person",
+    "name": "Markus",
+    "url": "https://markus-site.at/author/markus.html"
+  },
+  "image": "https://markus-site.at/../images/weather_station/IMG_20200630_170836_edited_1.jpg",
+  "url": "https://markus-site.at/weather-station.html",
+  "description": "As a studied atmospheric scientist it is almost a duty to operate a personal weather station (PWS). Here you can see the outside..."
+}
+</script>
+</head>
+<!-- TODO : Body class -->
+<body class="home-template">
+
+<nav id="menu">
+  <a class="close-button">Close</a>
+  <div class="nav-wrapper">
+    <p class="nav-label">Menu</p>
+    <ul>
+          <li><a href="/" role="presentation">Home</a></li>
+          <li><a href="/archives.html" role="presentation">Archives</a></li>
+
+              <li role="presentation"><a href="https://markus-site.at/pages/about.html">About</a></li>
+
+    </ul>
+  </div>
+</nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header id="post-header" class="has-cover">
+      <div class="inner">
+        <nav id="navigation">
+            <span id="home-button" class="nav-button">
+                <a class="home-button" href="https://markus-site.at/" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+            </span>
+          <span id="menu-button" class="nav-button">
+            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
+          </span>
+        </nav>
+        <h1 class="post-title">Weather Station</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="https://markus-site.at/author/markus.html">Markus</a>
+            | <time datetime="Sat 18 July 2020">Sat 18 July 2020</time>
+        </span>
+        <!-- TODO : Modified check -->
+            <span class="post-meta"> | Updated on Sun 15 November 2020</span>
+            <div class="post-cover cover" style="background-image: url('https://markus-site.at/../images/weather_station/IMG_20200630_170836_edited_1.jpg')">
+      </div>
+    </header>
+
+  <section id="wrapper">
+    <a class="hidden-close"></a>
+
+    <!-- Post content -->
+    <main class="content" role="main">
+        <article class="post">
+        <div class="inner">
+            <section class="post-content">
+                <h1>As a studied atmospheric scientist it is almost a duty to operate a personal weather station <a href="https://www.wunderground.com/dashboard/pws/IPATSC2/">(PWS)</a>.</h1>
+<p>Here you can see the outside sensors.
+<img alt="Photo" src="/images/weather_station/IMG_20200705_154307_resize.jpg"></p>
+<p>It is a Renkfore radio weather station <a href="https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139">"WH2315"</a>.
+The station has a radio connection to a basis station and this is connected to a Raspberry Pi.
+The data is than hosted via <a href="http://www.weewx.com/">WeeWX</a> to <a href="https://www.wunderground.com/">Weather Underground</a>.</p>
+<p>Below is a picture of the basis station.
+<img alt="Photo" src="/images/weather_station/IMG_20200726_172233_resize.jpg"></p>
+<p>Here you can see a sample screenshot of my PWS taken from Weather Underground suitable to the photo above. 
+<img alt="Photo" src="/images/weather_station/renkforce_weather_history_ipatsc2_Screenshot from 2020-07-27 21-01-11.png"></p>
+<h2>Technical Data:</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th>Range</th>
+<th>Resolution</th>
+<th>Accuracy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Basis Station sensors</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Temperature</td>
+<td>-9.9 °C - +60 °C</td>
+<td>0.1%</td>
+<td>+-1 °C</td>
+</tr>
+<tr>
+<td></td>
+<td>Relative humidity</td>
+<td>1% - 99%</td>
+<td>1%</td>
+<td>+-5%</td>
+</tr>
+<tr>
+<td></td>
+<td>Barometric pressure</td>
+<td>300 - 1100 hPa</td>
+<td>0.1%</td>
+<td>+-3 hPa in the area of 700 - 1100 hPa</td>
+</tr>
+<tr>
+<td>Outside sensors</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Temperature</td>
+<td>-40 °C - +60 °C</td>
+<td>0.1 °C</td>
+<td>+-1 °C</td>
+</tr>
+<tr>
+<td></td>
+<td>Relative humidity</td>
+<td>1% - 99%</td>
+<td>1%</td>
+<td>+-5%</td>
+</tr>
+<tr>
+<td></td>
+<td>Rain volume</td>
+<td>0 - 9999 mm</td>
+<td>0.3 mm (at rain volume of &lt; 1000 mm) 1 mm (at rain volume of &gt;= 1000 mm)</td>
+<td>+-10%</td>
+</tr>
+<tr>
+<td></td>
+<td>Wind speed</td>
+<td>0 - 50 m/s</td>
+<td>-</td>
+<td>+- 1 m/s  (at wind speed &lt; 5 m/s) +- 10% (at wind speed &gt;= 5 m/s)</td>
+</tr>
+<tr>
+<td></td>
+<td>Illumination strength</td>
+<td>0 - 300000 lux</td>
+<td>-</td>
+<td>+- 15%</td>
+</tr>
+<tr>
+<td></td>
+<td>UV-index</td>
+<td>0 - 15 (0 - 20000 W/m²</td>
+<td>-</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h2>Status of the weather station called via the Pi:</h2>
+<div class="highlight"><pre><span></span><code><span class="n">pi</span><span class="err">@</span><span class="n">raspberrypi</span><span class="p">:</span><span class="o">~</span> <span class="o">$</span> <span class="n">sudo</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">init</span><span class="o">.</span><span class="n">d</span><span class="o">/</span><span class="n">weewx</span> <span class="n">status</span> 
+<span class="err">●</span> <span class="n">weewx</span><span class="o">.</span><span class="n">service</span> <span class="o">-</span> <span class="n">LSB</span><span class="p">:</span> <span class="n">weewx</span> <span class="n">weather</span> <span class="n">system</span>
+   <span class="n">Loaded</span><span class="p">:</span> <span class="n">loaded</span> <span class="p">(</span><span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">init</span><span class="o">.</span><span class="n">d</span><span class="o">/</span><span class="n">weewx</span><span class="p">;</span> <span class="n">generated</span><span class="p">;</span> <span class="n">vendor</span> <span class="n">preset</span><span class="p">:</span> <span class="n">enabled</span><span class="p">)</span>
+   <span class="n">Active</span><span class="p">:</span> <span class="n">active</span> <span class="p">(</span><span class="n">running</span><span class="p">)</span> <span class="n">since</span> <span class="n">Sun</span> <span class="mi">2020</span><span class="o">-</span><span class="mi">11</span><span class="o">-</span><span class="mi">15</span> <span class="mi">14</span><span class="p">:</span><span class="mi">21</span><span class="p">:</span><span class="mi">41</span> <span class="n">CET</span><span class="p">;</span> <span class="mi">52</span><span class="nb">min</span> <span class="n">ago</span>
+     <span class="n">Docs</span><span class="p">:</span> <span class="n">man</span><span class="p">:</span><span class="n">systemd</span><span class="o">-</span><span class="n">sysv</span><span class="o">-</span><span class="n">generator</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span>
+  <span class="n">Process</span><span class="p">:</span> <span class="mi">612</span> <span class="n">ExecStop</span><span class="o">=/</span><span class="n">etc</span><span class="o">/</span><span class="n">init</span><span class="o">.</span><span class="n">d</span><span class="o">/</span><span class="n">weewx</span> <span class="n">stop</span> <span class="p">(</span><span class="n">code</span><span class="o">=</span><span class="n">exited</span><span class="p">,</span> <span class="n">status</span><span class="o">=</span><span class="mi">0</span><span class="o">/</span><span class="n">SUCCESS</span><span class="p">)</span>
+  <span class="n">Process</span><span class="p">:</span> <span class="mi">714</span> <span class="n">ExecStart</span><span class="o">=/</span><span class="n">etc</span><span class="o">/</span><span class="n">init</span><span class="o">.</span><span class="n">d</span><span class="o">/</span><span class="n">weewx</span> <span class="n">start</span> <span class="p">(</span><span class="n">code</span><span class="o">=</span><span class="n">exited</span><span class="p">,</span> <span class="n">status</span><span class="o">=</span><span class="mi">0</span><span class="o">/</span><span class="n">SUCCESS</span><span class="p">)</span>
+   <span class="n">CGroup</span><span class="p">:</span> <span class="o">/</span><span class="n">system</span><span class="o">.</span><span class="n">slice</span><span class="o">/</span><span class="n">weewx</span><span class="o">.</span><span class="n">service</span>
+           <span class="err">└─</span><span class="mi">729</span> <span class="n">python</span> <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">bin</span><span class="o">/</span><span class="n">weewxd</span> <span class="o">--</span><span class="n">daemon</span> <span class="o">--</span><span class="n">pidfile</span><span class="o">=/</span><span class="k">var</span><span class="o">/</span><span class="n">run</span><span class="o">/</span><span class="n">weewx</span><span class="o">.</span><span class="n">pid</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">weewx</span><span class="o">/</span><span class="n">weewx</span><span class="o">.</span><span class="n">conf</span>
+
+<span class="n">Nov</span> <span class="mi">15</span> <span class="mi">15</span><span class="p">:</span><span class="mi">05</span><span class="p">:</span><span class="mi">19</span> <span class="n">raspberrypi</span> <span class="n">weewx</span><span class="p">[</span><span class="mi">729</span><span class="p">]:</span> <span class="n">restx</span><span class="p">:</span> <span class="n">Wunderground</span><span class="o">-</span><span class="n">PWS</span><span class="p">:</span> <span class="n">Published</span> <span class="n">record</span> <span class="mi">2020</span><span class="o">-</span><span class="mi">11</span><span class="o">-</span><span class="mi">15</span> <span class="mi">15</span><span class="p">:</span><span class="mi">05</span><span class="p">:</span><span class="mi">00</span> <span class="n">CET</span> <span class="p">(</span><span class="mi">1605449100</span><span class="p">)</span>
+<span class="n">Nov</span> <span class="mi">15</span> <span class="mi">15</span><span class="p">:</span><span class="mi">05</span><span class="p">:</span><span class="mi">32</span> <span class="n">raspberrypi</span> <span class="n">weewx</span><span class="p">[</span><span class="mi">729</span><span class="p">]:</span> <span class="n">cheetahgenerator</span><span class="p">:</span> <span class="n">Generated</span> <span class="mi">8</span> <span class="n">files</span> <span class="k">for</span> <span class="n">report</span> <span class="n">SeasonsReport</span> <span class="ow">in</span> <span class="mf">12.61</span> <span class="n">seconds</span>
+<span class="n">Nov</span> <span class="mi">15</span> <span class="mi">15</span><span class="p">:</span><span class="mi">05</span><span class="p">:</span><span class="mi">38</span> <span class="n">raspberrypi</span> <span class="n">weewx</span><span class="p">[</span><span class="mi">729</span><span class="p">]:</span> <span class="n">imagegenerator</span><span class="p">:</span> <span class="n">Generated</span> <span class="mi">14</span> <span class="n">images</span> <span class="k">for</span> <span class="n">SeasonsReport</span> <span class="ow">in</span> <span class="mf">6.01</span> <span class="n">seconds</span>
+<span class="n">Nov</span> <span class="mi">15</span> <span class="mi">15</span><span class="p">:</span><span class="mi">05</span><span class="p">:</span><span class="mi">38</span> <span class="n">raspberrypi</span> <span class="n">weewx</span><span class="p">[</span><span class="mi">729</span><span class="p">]:</span> <span class="n">copygenerator</span><span class="p">:</span> <span class="n">copied</span> <span class="mi">0</span> <span class="n">files</span> <span class="n">to</span> <span class="o">/</span><span class="k">var</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="n">html</span><span class="o">/</span><span class="n">weewx</span>
+<span class="n">Nov</span> <span class="mi">15</span> <span class="mi">15</span><span class="p">:</span><span class="mi">10</span><span class="p">:</span><span class="mi">30</span> <span class="n">raspberrypi</span> <span class="n">weewx</span><span class="p">[</span><span class="mi">729</span><span class="p">]:</span> <span class="n">manager</span><span class="p">:</span> <span class="n">Added</span> <span class="n">record</span> <span class="mi">2020</span><span class="o">-</span><span class="mi">11</span><span class="o">-</span><span class="mi">15</span> <span class="mi">15</span><span class="p">:</span><span class="mi">10</span><span class="p">:</span><span class="mi">00</span> <span class="n">CET</span> <span class="p">(</span><span class="mi">1605449400</span><span class="p">)</span> <span class="n">to</span> <span class="n">database</span> <span class="s1">&#39;weewx.sdb&#39;</span>
+<span class="n">Nov</span> <span class="mi">15</span> <span class="mi">15</span><span class="p">:</span><span class="mi">10</span><span class="p">:</span><span class="mi">30</span> <span class="n">raspberrypi</span> <span class="n">weewx</span><span class="p">[</span><span class="mi">729</span><span class="p">]:</span> <span class="n">manager</span><span class="p">:</span> <span class="n">Added</span> <span class="n">record</span> <span class="mi">2020</span><span class="o">-</span><span class="mi">11</span><span class="o">-</span><span class="mi">15</span> <span class="mi">15</span><span class="p">:</span><span class="mi">10</span><span class="p">:</span><span class="mi">00</span> <span class="n">CET</span> <span class="p">(</span><span class="mi">1605449400</span><span class="p">)</span> <span class="n">to</span> <span class="n">daily</span> <span class="n">summary</span> <span class="ow">in</span> <span class="s1">&#39;weewx.sdb&#39;</span>
+<span class="n">Nov</span> <span class="mi">15</span> <span class="mi">15</span><span class="p">:</span><span class="mi">10</span><span class="p">:</span><span class="mi">31</span> <span class="n">raspberrypi</span> <span class="n">weewx</span><span class="p">[</span><span class="mi">729</span><span class="p">]:</span> <span class="n">restx</span><span class="p">:</span> <span class="n">Wunderground</span><span class="o">-</span><span class="n">PWS</span><span class="p">:</span> <span class="n">Published</span> <span class="n">record</span> <span class="mi">2020</span><span class="o">-</span><span class="mi">11</span><span class="o">-</span><span class="mi">15</span> <span class="mi">15</span><span class="p">:</span><span class="mi">10</span><span class="p">:</span><span class="mi">00</span> <span class="n">CET</span> <span class="p">(</span><span class="mi">1605449400</span><span class="p">)</span>
+<span class="n">Nov</span> <span class="mi">15</span> <span class="mi">15</span><span class="p">:</span><span class="mi">10</span><span class="p">:</span><span class="mi">44</span> <span class="n">raspberrypi</span> <span class="n">weewx</span><span class="p">[</span><span class="mi">729</span><span class="p">]:</span> <span class="n">cheetahgenerator</span><span class="p">:</span> <span class="n">Generated</span> <span class="mi">8</span> <span class="n">files</span> <span class="k">for</span> <span class="n">report</span> <span class="n">SeasonsReport</span> <span class="ow">in</span> <span class="mf">12.67</span> <span class="n">seconds</span>
+<span class="n">Nov</span> <span class="mi">15</span> <span class="mi">15</span><span class="p">:</span><span class="mi">10</span><span class="p">:</span><span class="mi">50</span> <span class="n">raspberrypi</span> <span class="n">weewx</span><span class="p">[</span><span class="mi">729</span><span class="p">]:</span> <span class="n">imagegenerator</span><span class="p">:</span> <span class="n">Generated</span> <span class="mi">14</span> <span class="n">images</span> <span class="k">for</span> <span class="n">SeasonsReport</span> <span class="ow">in</span> <span class="mf">5.98</span> <span class="n">seconds</span>
+<span class="n">Nov</span> <span class="mi">15</span> <span class="mi">15</span><span class="p">:</span><span class="mi">10</span><span class="p">:</span><span class="mi">50</span> <span class="n">raspberrypi</span> <span class="n">weewx</span><span class="p">[</span><span class="mi">729</span><span class="p">]:</span> <span class="n">copygenerator</span><span class="p">:</span> <span class="n">copied</span> <span class="mi">0</span> <span class="n">files</span> <span class="n">to</span> <span class="o">/</span><span class="k">var</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="n">html</span><span class="o">/</span><span class="n">weewx</span>
+<span class="n">pi</span><span class="err">@</span><span class="n">raspberrypi</span><span class="p">:</span><span class="o">~</span> <span class="o">$</span> 
+</code></pre></div>
+
+<h2>Stop / Start the connection to the Pi (in case of errors):</h2>
+<div class="highlight"><pre><span></span><code><span class="nf">pi</span><span class="nv">@raspberrypi</span><span class="err">:</span><span class="o">~</span><span class="w"> </span><span class="err">$</span><span class="w"> </span><span class="n">sudo</span><span class="w"> </span><span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">init</span><span class="p">.</span><span class="n">d</span><span class="o">/</span><span class="n">weewx</span><span class="w"> </span><span class="n">stop</span><span class="w"></span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code><span class="nf">pi</span><span class="nv">@raspberrypi</span><span class="err">:</span><span class="o">~</span><span class="w"> </span><span class="err">$</span><span class="w"> </span><span class="n">sudo</span><span class="w"> </span><span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">init</span><span class="p">.</span><span class="n">d</span><span class="o">/</span><span class="n">weewx</span><span class="w"> </span><span class="k">start</span><span class="w"></span>
+</code></pre></div>
+
+<p>Finally a link to <a href="https://www.wunderground.com/dashboard/pws/IPATSC2/">live data of my PWS</a>.</p>
+<h3>Will be be continued...</h3>
+            </section>
+
+            <section class="post-info">
+                <div class="post-share">
+                    <a class="twitter" href="https://twitter.com/share?text=Weather Station&amp;url=https://markus-site.at/weather-station.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
+                    </a>
+                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://markus-site.at/weather-station.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
+                    </a>
+                    <a class="googleplus" href="https://plus.google.com/share?url=https://markus-site.at/weather-station.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <i class="ic ic-googleplus"></i><span class="hidden">Google+</span>
+                    </a>
+                    <div class="clear"></div>
+                </div>
+
+                <aside class="post-tags">
+<a href="https://markus-site.at/tag/raspberry-pi.html">Raspberry Pi</a><a href="https://markus-site.at/tag/python.html">Python</a><a href="https://markus-site.at/tag/weather-station.html">weather station</a>                </aside>
+
+                <div class="clear"></div>
+
+
+                </section>
+
+
+                <aside class="post-nav">
+                    <div class="clear"></div>
+                </aside>
+
+            </div>
+        </article>
+    </main>
+      <!-- TODO : Body class -->
+    <div id="body-class" style="display: none;" class=""></div>
+
+    <footer id="footer">
+      <div class="inner">
+        <section class="credits">
+
+
+          <span class="credits-theme">Theme <a href="https://github.com/arulrajnet/attila" rel="nofollow">Attila</a></span>
+          <span class="credits-software">Published with <a href="https://github.com/getpelican/pelican" rel="nofollow">Pelican</a></span>
+        </section>
+      </div>
+    </footer>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://markus-site.at/theme/js/script.js"></script>
+
+</body>
+</html>
