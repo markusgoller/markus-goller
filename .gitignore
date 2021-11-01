@@ -1,0 +1,23 @@
+# Editor
+.vscode
+
+# Environment
+.env
+
+# Pelican
+## Build Folder
+output/
+
+# Python
+__pycache__
+*.pyc 
+
+# Tests
+.bak
+
+# Drafts
+draft.md
+pflanzen_app_tirol.md
+
+# all_images (original size)
+all_images/
