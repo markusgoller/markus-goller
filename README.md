@@ -1,3 +1,5 @@
+![Release on GitHub Pages](https://github.com/markusgoller/markus-site/actions/workflows/release.yml/badge.svg)
+
 # Making of markus-site.at
 Here I want to describe how my [personal blog](https://markus-site.at) was created. Please have also a look at the corresponding [GitHub](https://github.com/markusgoller/markus-site/) repo.
 
