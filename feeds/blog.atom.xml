@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus - blog</title><link href="https://markus-site.at/" rel="alternate"></link><link href="https://markus-site.at/feeds/blog.atom.xml" rel="self"></link><id>https://markus-site.at/</id><updated>2021-04-13T21:00:00+02:00</updated><entry><title>MasterSnippets</title><link href="https://markus-site.at/mastersnippets.html" rel="alternate"></link><published>2021-04-13T21:00:00+02:00</published><updated>2021-04-13T21:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2021-04-13:/mastersnippets.html</id><summary type="html">&lt;h1&gt;What is planned?&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus - blog</title><link href="https://markus-site.at/" rel="alternate"></link><link href="https://markus-site.at/feeds/blog.atom.xml" rel="self"></link><id>https://markus-site.at/</id><updated>2021-10-30T18:00:00+02:00</updated><entry><title>Pflanzen App Tirol</title><link href="https://markus-site.at/pflanzen-app-tirol.html" rel="alternate"></link><published>2021-10-30T18:00:00+02:00</published><updated>2021-10-30T18:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2021-10-30:/pflanzen-app-tirol.html</id><summary type="html">&lt;h1&gt;What is the Pflanzen App Tirol?&lt;/h1&gt;
+&lt;p&gt;It is a quiz app which has the benefit to give people again an awareness for the flora of Tyrol.
+It was initiated by Joseph Molyneux and his team.
+The app is available at the &lt;a href="https://play.google.com/store/apps/details?id=com.gurk.botanikapp&amp;amp;gl=AT"&gt;Google Playstore&lt;/a&gt;, and was supported by the Land Tirol …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;What is the Pflanzen App Tirol?&lt;/h1&gt;
+&lt;p&gt;It is a quiz app which has the benefit to give people again an awareness for the flora of Tyrol.
+It was initiated by Joseph Molyneux and his team.
+The app is available at the &lt;a href="https://play.google.com/store/apps/details?id=com.gurk.botanikapp&amp;amp;gl=AT"&gt;Google Playstore&lt;/a&gt;, and was supported by the Land Tirol, Diözese Innsbruck and the Austrian Biologists Association.&lt;/p&gt;
+&lt;h2&gt;What did I do:&lt;/h2&gt;
+&lt;p&gt;I did the homepage with the help of the static site generator &lt;a href="https://blog.getpelican.com/"&gt;Pelican&lt;/a&gt;, powered by python.&lt;/p&gt;
+&lt;h2&gt;Here are a few links:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pflanzenapp.tirol/"&gt;Pflanzen App Tirol&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.austrianbiologist.at/aba/pflanzen-tirols/"&gt;https://www.austrianbiologist.at/aba/pflanzen-tirols/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="blog"></category></entry><entry><title>MasterSnippets</title><link href="https://markus-site.at/mastersnippets.html" rel="alternate"></link><published>2021-04-13T21:00:00+02:00</published><updated>2021-04-13T21:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2021-04-13:/mastersnippets.html</id><summary type="html">&lt;h1&gt;What is planned?&lt;/h1&gt;
 &lt;p&gt;Here I will present individual parts of my Masterthesis.
 The title was (Satellitenmessungen vonNiederschlag: Räumliche und Zeitliche Repräsentativität von Niederschlag).&lt;/p&gt;
 &lt;p&gt;At first a small notebook is already available.&lt;/p&gt;
