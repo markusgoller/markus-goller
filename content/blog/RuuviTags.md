@@ -25,5 +25,3 @@ Since I live in the Alps and there are wonderful mountains around me, I would li
 
 ### RuuviTag and it's enclosure
 ![Photo](/images/RuuviTags/IMG_20200914_183532_resize.jpg)
-
-#### Will be continued...

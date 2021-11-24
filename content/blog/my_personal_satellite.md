@@ -38,6 +38,5 @@ AmbaSat has processed my Order from Febuary 2020.
 
 [Link to AmbaSAT Blog](https://ambasat.com/blog-2/)
 
-#### Will be continued...
 
 Photos by [AmbaSAT-1](https://ambasat.com/)

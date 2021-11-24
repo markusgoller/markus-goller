@@ -73,7 +73,3 @@ while True:
 ```
 ## Youtube Testvideo
 [![Minions Banana Song Full Song](http://img.youtube.com/vi/-9EHdp1ynUU/0.jpg)](https://www.youtube.com/watch?v=-9EHdp1ynUU)
-
-
-
-#### Will be continued...
