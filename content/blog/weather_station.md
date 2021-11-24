@@ -1,6 +1,6 @@
 Title: Weather Station
 Date: 2020-07-18 16:00
-Modified: 2020-11-15 20:00
+Modified: 2021-11-24 20:00
 og_image:../images/weather_station/IMG_20200630_170836_edited_1.jpg
 Tags: Raspberry Pi, Python, weather station
 
@@ -11,7 +11,22 @@ Here you can see the outside sensors.
 
 It is a Renkfore radio weather station ["WH2315"](https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139).
 The station has a radio connection to a basis station and this is connected to a Raspberry Pi.
-The data is than hosted via [WeeWX](http://www.weewx.com/) to [Weather Underground](https://www.wunderground.com/).
+
+
+
+## Installation and hosting via [WeeWX](http://www.weewx.com/) and [Weather Underground](https://www.wunderground.com/). 
+WeeWX is an open source software for weather stations.
+I followed basically the [WeeWX debian documentation](http://weewx.com/docs/debian.htm). 
+```
+wget -qO - https://weewx.com/apt/weewx-python3.list | sudo tee /etc/apt/sources.list.d/weewx.list
+sudo apt-get update
+sudo apt-get install weewx
+```
+
+Because the driver for the Renkforce WH2315 station is not available in WeeWX it has to be installed seperatly [(see https://github.com/matthewwall/weewx-wh23xx)](https://github.com/matthewwall/weewx-wh23xx).
+I used than later weewx-wh23xx as the driver .
+
+
 
 Below is a picture of the basis station.
 ![Photo](/images/weather_station/IMG_20200726_172233_resize.jpg)
@@ -35,7 +50,7 @@ Here you can see a sample screenshot of my PWS taken from Weather Underground su
 |                       | UV-index              | 0 - 15 (0 - 20000 W/m² | -                                                                          | -                                                                 |
 
 
-## Status of the weather station called via the Pi:
+## Status of the weather station:
 ```
 pi@raspberrypi:~ $ sudo /etc/init.d/weewx status 
 ● weewx.service - LSB: weewx weather system
@@ -60,15 +75,40 @@ Nov 15 15:10:50 raspberrypi weewx[729]: copygenerator: copied 0 files to /var/ww
 pi@raspberrypi:~ $ 
 ```
 
-## Stop / Start the connection to the Pi (in case of errors):
+## Basics of WeeWX:
+Configurations are saved here:
 ```
+/etc/weewx/weewx.conf
+```
+Quick change / initial setup in weewx.conf:
+```
+pi@raspberrypi:~ $ wee_config --reconfigure
+pi@raspberrypi:~ $ wee_config --help
+```
+
+
+Commands:
+```
+pi@raspberrypi:~ $ sudo /etc/init.d/weewx status
 pi@raspberrypi:~ $ sudo /etc/init.d/weewx stop
-```
-```
 pi@raspberrypi:~ $ sudo /etc/init.d/weewx start
 ```
 
 
+
+Some files are saved here:
+```
+pi@raspberrypi:/var/www/html/weewx $ pwd
+/var/www/html/weewx
+pi@raspberrypi:/var/www/html/weewx $ ls
+celestial.html    daytempdew.png   daywind.png         monthhum.png        monthtemp.png     rss.xml            weekhumin.png      weektempin.png   yearbarometer.png  yeartempfeel.png  yearwindvec.png
+daybarometer.png  daytempfeel.png  daywindvec.png      monthradiation.png  monthuv.png       seasons.css        weekhum.png        weektemp.png     yearhumin.png      yeartempin.png
+dayhumin.png      daytempin.png    favicon.ico         monthrain.png       monthvolt.png     seasons.js         weekradiation.png  weekuv.png       yearhum.png        yeartemp.png
+dayhum.png        daytemp.png      font                monthrx.png         monthwinddir.png  statistics.html    weekrain.png       weekvolt.png     yearradiation.png  yearuv.png
+dayradiation.png  dayuv.png        index.html          monthtempdew.png    monthwind.png     tabular.html       weekrx.png         weekwinddir.png  yearrain.png       yearvolt.png
+dayrain.png       dayvolt.png      monthbarometer.png  monthtempfeel.png   monthwindvec.png  telemetry.html     weektempdew.png    weekwind.png     yearrx.png         yearwinddir.png
+dayrx.png         daywinddir.png   monthhumin.png      monthtempin.png     NOAA              weekbarometer.png  weektempfeel.png   weekwindvec.png  yeartempdew.png    yearwind.png
+```
 
 Finally a link to [live data of my PWS](https://www.wunderground.com/dashboard/pws/IPATSC2/).
 
