@@ -111,5 +111,3 @@ dayrx.png         daywinddir.png   monthhumin.png      monthtempin.png     NOAA 
 ```
 
 Finally a link to [live data of my PWS](https://www.wunderground.com/dashboard/pws/IPATSC2/).
-
-### Will be be continued...
