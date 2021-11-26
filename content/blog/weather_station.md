@@ -89,6 +89,7 @@ pi@raspberrypi:~ $ wee_config --help
 
 Commands:
 ```
+pi@raspberrypi:~ $ sudo weewxd
 pi@raspberrypi:~ $ sudo /etc/init.d/weewx status
 pi@raspberrypi:~ $ sudo /etc/init.d/weewx stop
 pi@raspberrypi:~ $ sudo /etc/init.d/weewx start
