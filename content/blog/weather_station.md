@@ -9,7 +9,7 @@ Tags: Raspberry Pi, Python, weather station
 Here you can see the outside sensors.
 ![Photo](/images/weather_station/IMG_20200705_154307_resize.jpg)
 
-It is a Renkfore radio weather station ["WH2315"](https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139).
+It is a [Renkfore WH2315](https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139) radio weather station .
 The station has a radio connection to a basis station and this is connected to a Raspberry Pi.
 
 
@@ -23,8 +23,8 @@ sudo apt-get update
 sudo apt-get install weewx
 ```
 
-Because the driver for the Renkforce WH2315 station is not available in WeeWX it has to be installed seperatly [(see https://github.com/matthewwall/weewx-wh23xx)](https://github.com/matthewwall/weewx-wh23xx).
-I used than later weewx-wh23xx as the driver .
+Because the driver for the Renkforce WH2315 station is not available in WeeWX it has to be installed seperatly [(see https://github.com/EdwinGH/weewx-wh23xx/)](https://github.com/EdwinGH/weewx-wh23xx/).
+I used than later WH23xx as the driver .
 
 
 
