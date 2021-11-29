@@ -12,22 +12,6 @@ Here you can see the outside sensors.
 It is a [Renkfore WH2315](https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139) radio weather station .
 The station has a radio connection to a basis station and this is connected to a Raspberry Pi.
 
-
-
-## Installation and hosting via [WeeWX](http://www.weewx.com/) and [Weather Underground](https://www.wunderground.com/). 
-WeeWX is an open source software for weather stations.
-I followed basically the [WeeWX debian documentation](http://weewx.com/docs/debian.htm). 
-```
-wget -qO - https://weewx.com/apt/weewx-python3.list | sudo tee /etc/apt/sources.list.d/weewx.list
-sudo apt-get update
-sudo apt-get install weewx
-```
-
-Because the driver for the Renkforce WH2315 station is not available in WeeWX it has to be installed seperatly [(see https://github.com/EdwinGH/weewx-wh23xx/)](https://github.com/EdwinGH/weewx-wh23xx/).
-I used than later WH23xx as the driver .
-
-
-
 Below is a picture of the basis station.
 ![Photo](/images/weather_station/IMG_20200726_172233_resize.jpg)
 
@@ -48,6 +32,19 @@ Here you can see a sample screenshot of my PWS taken from Weather Underground su
 |                       | Wind speed            | 0 - 50 m/s             | -                                                                          | +- 1 m/s  (at wind speed < 5 m/s) +- 10% (at wind speed >= 5 m/s) |
 |                       | Illumination strength | 0 - 300000 lux         | -                                                                          | +- 15%                                                            |
 |                       | UV-index              | 0 - 15 (0 - 20000 W/m² | -                                                                          | -                                                                 |
+
+
+## Installation of [WeeWX](http://www.weewx.com/) and hosting via [Weather Underground](https://www.wunderground.com/). 
+WeeWX is an open source software for weather stations.
+I followed basically the [WeeWX debian documentation](http://weewx.com/docs/debian.htm). 
+```
+wget -qO - https://weewx.com/apt/weewx-python3.list | sudo tee /etc/apt/sources.list.d/weewx.list
+sudo apt-get update
+sudo apt-get install weewx
+```
+
+Because the driver for the Renkforce WH2315 station is not available in WeeWX it has to be installed seperatly see [https://github.com/EdwinGH/weewx-wh23xx/)](https://github.com/EdwinGH/weewx-wh23xx/).
+I used than later WH23xx as the driver .
 
 
 ## Status of the weather station:
