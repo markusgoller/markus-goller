@@ -112,11 +112,11 @@ The CubeSat should transport about 200 sprites.&lt;/p&gt;
 &lt;p&gt;Photos by &lt;a href="https://ambasat.com/"&gt;AmbaSAT-1&lt;/a&gt;&lt;/p&gt;</content><category term="blog"></category><category term="Arduino"></category><category term="Satellite"></category><category term="Space"></category><category term="Environment"></category><category term="LoRaWAN"></category><category term="TTN"></category></entry><entry><title>Weather Station</title><link href="https://markus-site.at/weather-station.html" rel="alternate"></link><published>2020-07-18T16:00:00+02:00</published><updated>2021-11-24T20:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2020-07-18:/weather-station.html</id><summary type="html">&lt;h1&gt;As a studied atmospheric scientist it is almost a duty to operate a personal weather station &lt;a href="https://www.wunderground.com/dashboard/pws/IPATSC2/"&gt;(PWS)&lt;/a&gt;.&lt;/h1&gt;
 &lt;p&gt;Here you can see the outside sensors.
 &lt;img alt="Photo" src="/images/weather_station/IMG_20200705_154307_resize.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;It is a Renkfore radio weather station &lt;a href="https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139"&gt;"WH2315"&lt;/a&gt;.
+&lt;p&gt;It is a &lt;a href="https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139"&gt;Renkfore WH2315&lt;/a&gt; radio weather station .
 The station has a radio connection to a basis station and this is connected to a Raspberry Pi …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;As a studied atmospheric scientist it is almost a duty to operate a personal weather station &lt;a href="https://www.wunderground.com/dashboard/pws/IPATSC2/"&gt;(PWS)&lt;/a&gt;.&lt;/h1&gt;
 &lt;p&gt;Here you can see the outside sensors.
 &lt;img alt="Photo" src="/images/weather_station/IMG_20200705_154307_resize.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;It is a Renkfore radio weather station &lt;a href="https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139"&gt;"WH2315"&lt;/a&gt;.
+&lt;p&gt;It is a &lt;a href="https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139"&gt;Renkfore WH2315&lt;/a&gt; radio weather station .
 The station has a radio connection to a basis station and this is connected to a Raspberry Pi.&lt;/p&gt;
 &lt;h2&gt;Installation and hosting via &lt;a href="http://www.weewx.com/"&gt;WeeWX&lt;/a&gt; and &lt;a href="https://www.wunderground.com/"&gt;Weather Underground&lt;/a&gt;.&lt;/h2&gt;
 &lt;p&gt;WeeWX is an open source software for weather stations.
@@ -126,8 +126,8 @@ sudo apt-get update
 sudo apt-get install weewx
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Because the driver for the Renkforce WH2315 station is not available in WeeWX it has to be installed seperatly &lt;a href="https://github.com/matthewwall/weewx-wh23xx"&gt;(see https://github.com/matthewwall/weewx-wh23xx)&lt;/a&gt;.
-I used than later weewx-wh23xx as the driver .&lt;/p&gt;
+&lt;p&gt;Because the driver for the Renkforce WH2315 station is not available in WeeWX it has to be installed seperatly &lt;a href="https://github.com/EdwinGH/weewx-wh23xx/"&gt;(see https://github.com/EdwinGH/weewx-wh23xx/)&lt;/a&gt;.
+I used than later WH23xx as the driver .&lt;/p&gt;
 &lt;p&gt;Below is a picture of the basis station.
 &lt;img alt="Photo" src="/images/weather_station/IMG_20200726_172233_resize.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;Here you can see a sample screenshot of my PWS taken from Weather Underground suitable to the photo above. 
