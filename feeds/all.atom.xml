@@ -118,16 +118,6 @@ The station has a radio connection to a basis station and this is connected to a
 &lt;img alt="Photo" src="/images/weather_station/IMG_20200705_154307_resize.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;It is a &lt;a href="https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139"&gt;Renkfore WH2315&lt;/a&gt; radio weather station .
 The station has a radio connection to a basis station and this is connected to a Raspberry Pi.&lt;/p&gt;
-&lt;h2&gt;Installation and hosting via &lt;a href="http://www.weewx.com/"&gt;WeeWX&lt;/a&gt; and &lt;a href="https://www.wunderground.com/"&gt;Weather Underground&lt;/a&gt;.&lt;/h2&gt;
-&lt;p&gt;WeeWX is an open source software for weather stations.
-I followed basically the &lt;a href="http://weewx.com/docs/debian.htm"&gt;WeeWX debian documentation&lt;/a&gt;. &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;wget -qO - https://weewx.com/apt/weewx-python3.list | sudo tee /etc/apt/sources.list.d/weewx.list
-sudo apt-get update
-sudo apt-get install weewx
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Because the driver for the Renkforce WH2315 station is not available in WeeWX it has to be installed seperatly &lt;a href="https://github.com/EdwinGH/weewx-wh23xx/"&gt;(see https://github.com/EdwinGH/weewx-wh23xx/)&lt;/a&gt;.
-I used than later WH23xx as the driver .&lt;/p&gt;
 &lt;p&gt;Below is a picture of the basis station.
 &lt;img alt="Photo" src="/images/weather_station/IMG_20200726_172233_resize.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;Here you can see a sample screenshot of my PWS taken from Weather Underground suitable to the photo above. 
@@ -223,6 +213,16 @@ I used than later WH23xx as the driver .&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h2&gt;Installation of &lt;a href="http://www.weewx.com/"&gt;WeeWX&lt;/a&gt; and hosting via &lt;a href="https://www.wunderground.com/"&gt;Weather Underground&lt;/a&gt;.&lt;/h2&gt;
+&lt;p&gt;WeeWX is an open source software for weather stations.
+I followed basically the &lt;a href="http://weewx.com/docs/debian.htm"&gt;WeeWX debian documentation&lt;/a&gt;. &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;wget -qO - https://weewx.com/apt/weewx-python3.list | sudo tee /etc/apt/sources.list.d/weewx.list
+sudo apt-get update
+sudo apt-get install weewx
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Because the driver for the Renkforce WH2315 station is not available in WeeWX it has to be installed seperatly see &lt;a href="https://github.com/EdwinGH/weewx-wh23xx/"&gt;https://github.com/EdwinGH/weewx-wh23xx/)&lt;/a&gt;.
+I used than later WH23xx as the driver .&lt;/p&gt;
 &lt;h2&gt;Status of the weather station:&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;pi&lt;/span&gt;&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;raspberrypi&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;~&lt;/span&gt; &lt;span class="o"&gt;$&lt;/span&gt; &lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;etc&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;init&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;weewx&lt;/span&gt; &lt;span class="n"&gt;status&lt;/span&gt; 
 &lt;span class="err"&gt;●&lt;/span&gt; &lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;service&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;LSB&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;weewx&lt;/span&gt; &lt;span class="n"&gt;weather&lt;/span&gt; &lt;span class="n"&gt;system&lt;/span&gt;
