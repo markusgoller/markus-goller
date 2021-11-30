@@ -11,6 +11,7 @@ Here you can see the outside sensors.
 
 It is a [Renkfore WH2315](https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139) radio weather station .
 The station has a radio connection to a basis station and this is connected to a Raspberry Pi.
+I used Rasperry Pi OS (32-bit, released 2021-10-30).
 
 Below is a picture of the basis station.
 ![Photo](/images/weather_station/IMG_20200726_172233_resize.jpg)
@@ -93,7 +94,6 @@ pi@raspberrypi:~ $ sudo /etc/init.d/weewx start
 ```
 
 
-
 Some files are saved here:
 ```
 pi@raspberrypi:/var/www/html/weewx $ pwd
@@ -107,5 +107,7 @@ dayradiation.png  dayuv.png        index.html          monthtempdew.png    month
 dayrain.png       dayvolt.png      monthbarometer.png  monthtempfeel.png   monthwindvec.png  telemetry.html     weektempdew.png    weekwind.png     yearrx.png         yearwinddir.png
 dayrx.png         daywinddir.png   monthhumin.png      monthtempin.png     NOAA              weekbarometer.png  weektempfeel.png   weekwindvec.png  yeartempdew.png    yearwind.png
 ```
+
+
 
 Finally a link to [live data of my PWS](https://www.wunderground.com/dashboard/pws/IPATSC2/).
