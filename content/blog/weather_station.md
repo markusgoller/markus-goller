@@ -9,34 +9,20 @@ Tags: Raspberry Pi, Python, weather station
 Here you can see the outside sensors.
 ![Photo](/images/weather_station/IMG_20200705_154307_resize.jpg)
 
-It is a [Renkfore WH2315](https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139) radio weather station .
-The station has a radio connection to a basis station and this is connected to a Raspberry Pi.
-I used Rasperry Pi OS (32-bit, released 2021-10-30).
-
 Below is a picture of the basis station.
 ![Photo](/images/weather_station/IMG_20200726_172233_resize.jpg)
 
-Here you can see a sample screenshot of my PWS taken from Weather Underground suitable to the photo above. 
+It is a [Renkfore WH2315](https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139) radio weather station.
+The station has a radio connection to a basis station and this is connected to a Raspberry Pi.
+I used Rasperry Pi OS (32-bit, released 2021-10-30).
+Via the open source software [WeeWX] the data is hosted on [Weather Underground](https://www.wunderground.com/). 
+
+
+Here you can see a sample screenshot of my PWS taken from Weather Underground suitable to the photos above. 
 ![Photo](/images/weather_station/renkforce_weather_history_ipatsc2_Screenshot from 2020-07-27 21-01-11.png)
 
-## Technical Data:
-|                       |                       | Range                  | Resolution                                                                 | Accuracy                                                          |
-|-----------------------|-----------------------|------------------------|----------------------------------------------------------------------------|-------------------------------------------------------------------|
-| Basis Station sensors |                       |                        |                                                                            |                                                                   |
-|                       | Temperature           | -9.9 °C - +60 °C       | 0.1%                                                                       | +-1 °C                                                            |
-|                       | Relative humidity     | 1% - 99%               | 1%                                                                         | +-5%                                                              |
-|                       | Barometric pressure   | 300 - 1100 hPa         | 0.1%                                                                       | +-3 hPa in the area of 700 - 1100 hPa                             |
-| Outside sensors       |                       |                        |                                                                            |                                                                   |
-|                       | Temperature           | -40 °C - +60 °C        | 0.1 °C                                                                     | +-1 °C                                                            |
-|                       | Relative humidity     | 1% - 99%               | 1%                                                                         | +-5%                                                              |
-|                       | Rain volume           | 0 - 9999 mm            | 0.3 mm (at rain volume of < 1000 mm) 1 mm (at rain volume of >= 1000 mm)   | +-10%                                                             |
-|                       | Wind speed            | 0 - 50 m/s             | -                                                                          | +- 1 m/s  (at wind speed < 5 m/s) +- 10% (at wind speed >= 5 m/s) |
-|                       | Illumination strength | 0 - 300000 lux         | -                                                                          | +- 15%                                                            |
-|                       | UV-index              | 0 - 15 (0 - 20000 W/m² | -                                                                          | -                                                                 |
 
-
-## Installation of [WeeWX](http://www.weewx.com/) and hosting via [Weather Underground](https://www.wunderground.com/). 
-WeeWX is an open source software for weather stations.
+## Installation of WeeWX and hosting via Weather Underground 
 I followed basically the [WeeWX debian documentation](http://weewx.com/docs/debian.htm). 
 ```
 wget -qO - https://weewx.com/apt/weewx-python3.list | sudo tee /etc/apt/sources.list.d/weewx.list
@@ -45,7 +31,7 @@ sudo apt-get install weewx
 ```
 
 Because the driver for the Renkforce WH2315 station is not available in WeeWX it has to be installed seperatly see [https://github.com/EdwinGH/weewx-wh23xx/)](https://github.com/EdwinGH/weewx-wh23xx/).
-I used than later WH23xx as the driver .
+I used than later WH23xx as the driver.
 
 
 ## Status of the weather station:
@@ -108,6 +94,19 @@ dayrain.png       dayvolt.png      monthbarometer.png  monthtempfeel.png   month
 dayrx.png         daywinddir.png   monthhumin.png      monthtempin.png     NOAA              weekbarometer.png  weektempfeel.png   weekwindvec.png  yeartempdew.png    yearwind.png
 ```
 
-
+## Technical Data (Renkfore WH2315):
+|                       |                       | Range                  | Resolution                                                                 | Accuracy                                                          |
+|-----------------------|-----------------------|------------------------|----------------------------------------------------------------------------|-------------------------------------------------------------------|
+| Basis Station sensors |                       |                        |                                                                            |                                                                   |
+|                       | Temperature           | -9.9 °C - +60 °C       | 0.1%                                                                       | +-1 °C                                                            |
+|                       | Relative humidity     | 1% - 99%               | 1%                                                                         | +-5%                                                              |
+|                       | Barometric pressure   | 300 - 1100 hPa         | 0.1%                                                                       | +-3 hPa in the area of 700 - 1100 hPa                             |
+| Outside sensors       |                       |                        |                                                                            |                                                                   |
+|                       | Temperature           | -40 °C - +60 °C        | 0.1 °C                                                                     | +-1 °C                                                            |
+|                       | Relative humidity     | 1% - 99%               | 1%                                                                         | +-5%                                                              |
+|                       | Rain volume           | 0 - 9999 mm            | 0.3 mm (at rain volume of < 1000 mm) 1 mm (at rain volume of >= 1000 mm)   | +-10%                                                             |
+|                       | Wind speed            | 0 - 50 m/s             | -                                                                          | +- 1 m/s  (at wind speed < 5 m/s) +- 10% (at wind speed >= 5 m/s) |
+|                       | Illumination strength | 0 - 300000 lux         | -                                                                          | +- 15%                                                            |
+|                       | UV-index              | 0 - 15 (0 - 20000 W/m² | -                                                                          | -                                                                 |
 
 Finally a link to [live data of my PWS](https://www.wunderground.com/dashboard/pws/IPATSC2/).
