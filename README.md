@@ -28,12 +28,14 @@ Here you can see the DNS-settings on netcup:
 
 ## To install *pelican* you have two options:
 ### First option (use pip):
-```
+```bash
+(base) unix@unix-TUXEDO:~$
 python -m pip install "pelican[markdown]"
 ```
 ### Second option (I prefer that option):
 Use [anaconda](https://www.anaconda.com/). Make a conda environment (python 3.6+ version) install pelican and name the environment e.g. "pelican".
-```
+```bash
+(base) unix@unix-TUXEDO:~$
 conda install -c conda-forge pelican
 ```
 
@@ -46,7 +48,8 @@ Specifications:
 * Include the *Imgbot* app (GitHub app that optimizes your images via automated pull requests).
 
 Clone locally:
-```
+```bash
+(base) unix@unix-TUXEDO:~$
 git clone https://github.com/markusgoller/markus-site.git
 ```
 
@@ -54,7 +57,7 @@ git clone https://github.com/markusgoller/markus-site.git
 https://docs.getpelican.com/en/3.6.3/quickstart.html
 
 * Execute inside the folder (markus-site)
-```
+```bash
 (base) [unix@localhost test_github_io_domain]$ conda activate pelican
 (pelican) [unix@localhost markus-site]$ pelican-quickstart
 Welcome to pelican-quickstart v4.2.0.
@@ -98,13 +101,15 @@ Add the basic structure (inside content-folder):
 
 
 First method:
-```
+```bash
+(pelican) [unix@localhost markus-site]$
 pelican content
 pelican --listen
 ```
 
 Or use invoke (preferred) method:
-```
+```bash
+(pelican) [unix@localhost markus-site]$
 invoke livereload
 ```
 
@@ -141,14 +146,16 @@ It is a task execution tool & library.
 For example I find the automatic generation of the site and the browser live reload very practical, you get it both with ($ invoke livereload), see also [getpelican](https://docs.getpelican.com/en/stable/publish.html).
 
 Install invoke livereload in the anaconda *pelican* environment:
-```
+```bash
+(pelican) [unix@localhost markus-site]$
 python -m pip install invoke
 python -m pip install livereload
 ```
 
 Using invoke livereload:
-```
-(pelican) [unix@localhost markus-site]$ invoke livereload
+```bash
+(pelican) [unix@localhost markus-site]$ 
+invoke livereload
 ```
 
 ### Deploys the static files to GitHub Pages via release.yml:
@@ -159,7 +166,8 @@ Change the *task.py* file:
 
 
 * Test it locally.
-```
+```bash
+(pelican) [unix@localhost markus-site]$
 invoke livereload
 ```
 * Push it to GitHub.
@@ -180,19 +188,19 @@ https://docs.getpelican.com/en/stable/settings.html
 
 
 With the below method, there is no warranty that the pictures will be loaded into the ouput folder:
-```
+```md
 ![Photo]({attach}../images/ *.jpg
 ```
 
 Instead I used this method:
-```
+```md
 ![Photo](/images/*.jpg) 
 ```
 Therefore you have to set the following additions in the *pelican.conf* file.
 * "static" is already set.
 * "images" has to be added.
 
-```
+```conf
 # Static files
 STATIC_PATHS = [
     'static', 
@@ -209,7 +217,7 @@ https://imagemagick.org/script/mogrify.php
     E.g. (content/images/my_personal_satellite/)
 
 Shrink the images in that folder individually:
-```
+```bash
 mogrify -resize 933x700 *.jpg
 
 ```
@@ -218,6 +226,6 @@ mogrify -resize 933x700 *.jpg
 The uploaded pictures are automatically resized by the [Imgbot App](https://github.com/marketplace?type=apps&query=imgbot), this is done via a pull requests of the app at the remote repo.
 After the pull request you can remove the old branch.
 The local Git repo must then only be synchronized with the remote one via ($ git fetch):
-```
+```bash
 (base) [unix@localhost markus-site]$ git fetch --prune
 ```
