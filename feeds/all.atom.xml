@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus</title><link href="https://markus-site.at/" rel="alternate"></link><link href="https://markus-site.at/feeds/all.atom.xml" rel="self"></link><id>https://markus-site.at/</id><updated>2022-02-16T13:00:00+01:00</updated><entry><title>Weather Station Backup</title><link href="https://markus-site.at/weather-station-backup.html" rel="alternate"></link><published>2022-02-16T13:00:00+01:00</published><updated>2022-02-16T13:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2022-02-16:/weather-station-backup.html</id><summary type="html">&lt;h1&gt;Weather Station Backup&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus</title><link href="https://markus-site.at/" rel="alternate"></link><link href="https://markus-site.at/feeds/all.atom.xml" rel="self"></link><id>https://markus-site.at/</id><updated>2022-02-16T13:00:00+01:00</updated><entry><title>Weather Station Backup</title><link href="https://markus-site.at/weather-station-backup.html" rel="alternate"></link><published>2022-02-16T13:00:00+01:00</published><updated>2022-02-16T13:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2022-02-16:/weather-station-backup.html</id><summary type="html">&lt;h1&gt;Weather Station Backup:&lt;/h1&gt;
 &lt;p&gt;Backup for the &lt;a href="http://www.weewx.com/"&gt;WeeWX&lt;/a&gt;-configuration of the Renkfore WH2315 radio weather station:
 A detailed description can be seen in the main article &lt;a href="https://markus-site.at/weather-station.html"&gt;weather_station&lt;/a&gt;.
 Docs have been taken from the &lt;a href="http://weewx.com/docs/usersguide.htm#backup"&gt;WeeWX docs-site&lt;/a&gt;.&lt;/p&gt;
 &lt;h1&gt;The following files and folders have to be copied:&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Configurations (/etc/weewx/weewx.conf)&lt;/li&gt;
-&lt;li&gt;Skins …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Weather Station Backup&lt;/h1&gt;
+&lt;li&gt;Skins …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Weather Station Backup:&lt;/h1&gt;
 &lt;p&gt;Backup for the &lt;a href="http://www.weewx.com/"&gt;WeeWX&lt;/a&gt;-configuration of the Renkfore WH2315 radio weather station:
 A detailed description can be seen in the main article &lt;a href="https://markus-site.at/weather-station.html"&gt;weather_station&lt;/a&gt;.
 Docs have been taken from the &lt;a href="http://weewx.com/docs/usersguide.htm#backup"&gt;WeeWX docs-site&lt;/a&gt;.&lt;/p&gt;
@@ -22,7 +22,7 @@ Docs have been taken from the &lt;a href="http://weewx.com/docs/usersguide.htm#b
 &lt;span class="o"&gt;(&lt;/span&gt;base&lt;span class="o"&gt;)&lt;/span&gt; unix@unix-TUXEDO:~/dev/weather_station_backup$ scp -r pi@raspberrypi:/home/weewx/skins .
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h1&gt;Restore from backup&lt;/h1&gt;
+&lt;h1&gt;Restore from backup:&lt;/h1&gt;
 &lt;p&gt;Install WeeWX and replace the default files with those from above.&lt;/p&gt;</content><category term="blog"></category><category term="Raspberry Pi"></category><category term="weather station"></category></entry><entry><title>Pflanzen App Tirol</title><link href="https://markus-site.at/pflanzen-app-tirol.html" rel="alternate"></link><published>2021-10-30T18:00:00+02:00</published><updated>2021-10-30T18:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2021-10-30:/pflanzen-app-tirol.html</id><summary type="html">&lt;h1&gt;What is the Pflanzen App Tirol?&lt;/h1&gt;
 &lt;p&gt;It is a quiz app which has the benefit to give people again an awareness for the flora of Tyrol.
 It was initiated by Joseph Molyneux and his team.
@@ -150,7 +150,7 @@ I used Rasperry Pi OS (32-bit, released 2021-10-30).
 Via the open source software [WeeWX] the data is hosted on &lt;a href="https://www.wunderground.com/"&gt;Weather Underground&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;Here you can see a sample screenshot of my PWS taken from Weather Underground suitable to the photos above. 
 &lt;img alt="Photo" src="/images/weather_station/renkforce_weather_history_ipatsc2_Screenshot from 2020-07-27 21-01-11.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Installation of WeeWX and hosting via Weather Underground&lt;/h2&gt;
+&lt;h2&gt;Installation of WeeWX and hosting via Weather Underground:&lt;/h2&gt;
 &lt;p&gt;I followed basically the &lt;a href="http://weewx.com/docs/debian.htm"&gt;WeeWX debian documentation&lt;/a&gt;. &lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~ $
 wget -qO - https://weewx.com/apt/weewx-python3.list &lt;span class="p"&gt;|&lt;/span&gt; sudo tee /etc/apt/sources.list.d/weewx.list
