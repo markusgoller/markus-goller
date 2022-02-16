@@ -22,7 +22,7 @@ Here you can see a sample screenshot of my PWS taken from Weather Underground su
 ![Photo](/images/weather_station/renkforce_weather_history_ipatsc2_Screenshot from 2020-07-27 21-01-11.png)
 
 
-## Installation of WeeWX and hosting via Weather Underground 
+## Installation of WeeWX and hosting via Weather Underground:
 I followed basically the [WeeWX debian documentation](http://weewx.com/docs/debian.htm). 
 ```bash
 pi@raspberrypi:~ $
