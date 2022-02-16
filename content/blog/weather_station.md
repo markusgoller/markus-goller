@@ -24,7 +24,8 @@ Here you can see a sample screenshot of my PWS taken from Weather Underground su
 
 ## Installation of WeeWX and hosting via Weather Underground 
 I followed basically the [WeeWX debian documentation](http://weewx.com/docs/debian.htm). 
-```
+```bash
+pi@raspberrypi:~ $
 wget -qO - https://weewx.com/apt/weewx-python3.list | sudo tee /etc/apt/sources.list.d/weewx.list
 sudo apt-get update
 sudo apt-get install weewx
@@ -35,8 +36,9 @@ I used than later WH23xx as the driver.
 
 
 ## Status of the weather station:
-```
-pi@raspberrypi:~ $ sudo /etc/init.d/weewx status 
+```bash
+pi@raspberrypi:~ $
+sudo /etc/init.d/weewx status 
 ● weewx.service - LSB: weewx weather system
    Loaded: loaded (/etc/init.d/weewx; generated; vendor preset: enabled)
    Active: active (running) since Sun 2020-11-15 14:21:41 CET; 52min ago
@@ -61,29 +63,30 @@ pi@raspberrypi:~ $
 
 ## Basics of WeeWX:
 Configurations are saved here:
-```
+```bash
+pi@raspberrypi:~ $
 /etc/weewx/weewx.conf
 ```
 Quick change / initial setup in weewx.conf:
-```
-pi@raspberrypi:~ $ wee_config --reconfigure
-pi@raspberrypi:~ $ wee_config --help
+```bash
+pi@raspberrypi:~ $ 
+wee_config --reconfigure
+wee_config --help
 ```
 
 
 Commands:
-```
-pi@raspberrypi:~ $ sudo weewxd
-pi@raspberrypi:~ $ sudo /etc/init.d/weewx status
-pi@raspberrypi:~ $ sudo /etc/init.d/weewx stop
-pi@raspberrypi:~ $ sudo /etc/init.d/weewx start
+```bash
+pi@raspberrypi:~ $ 
+sudo weewxd
+sudo /etc/init.d/weewx status
+sudo /etc/init.d/weewx stop
+sudo /etc/init.d/weewx start
 ```
 
 
 Some files are saved here:
-```
-pi@raspberrypi:/var/www/html/weewx $ pwd
-/var/www/html/weewx
+```bash
 pi@raspberrypi:/var/www/html/weewx $ ls
 celestial.html    daytempdew.png   daywind.png         monthhum.png        monthtemp.png     rss.xml            weekhumin.png      weektempin.png   yearbarometer.png  yeartempfeel.png  yearwindvec.png
 daybarometer.png  daytempfeel.png  daywindvec.png      monthradiation.png  monthuv.png       seasons.css        weekhum.png        weektemp.png     yearhumin.png      yeartempin.png
