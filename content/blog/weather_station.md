@@ -18,7 +18,7 @@ I used Rasperry Pi OS (32-bit, released 2021-10-30).
 Via the open source software [WeeWX]((http://weewx.com/) the data is than hosted on [Weather Underground](https://www.wunderground.com/). 
 
 Below you can see a my setting (arrows define the connections).
-<img src="/images/pi_as_server/setting_without_server.svg" alt="connections">
+<img src="/images/pi_as_server/setting_without_server.svg" alt="setting_without_server">
 
 
 Here you can see a sample screenshot of my PWS taken from Weather Underground suitable to the photos above. 
