@@ -1,6 +1,6 @@
 Title: Weather Station
 Date: 2020-07-18 16:00
-Modified: 2021-11-24 20:00
+Modified: 2022-02-17 20:00
 og_image:../images/weather_station/IMG_20200630_170836_edited_1.jpg
 Tags: Raspberry Pi, Python, weather station
 
@@ -15,7 +15,10 @@ Below is a picture of the basis station.
 It is a [Renkfore WH2315](https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139) radio weather station.
 The station has a radio connection to a basis station and this is connected to a Raspberry Pi.
 I used Rasperry Pi OS (32-bit, released 2021-10-30).
-Via the open source software [WeeWX] the data is hosted on [Weather Underground](https://www.wunderground.com/). 
+Via the open source software [WeeWX]((http://weewx.com/) the data is than hosted on [Weather Underground](https://www.wunderground.com/). 
+
+Below you can see a my setting (arrows define the connections).
+<img src="/images/pi_as_server/setting_without_server.svg" alt="connections">
 
 
 Here you can see a sample screenshot of my PWS taken from Weather Underground suitable to the photos above. 
