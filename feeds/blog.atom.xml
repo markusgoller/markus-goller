@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus - blog</title><link href="https://markus-site.at/" rel="alternate"></link><link href="https://markus-site.at/feeds/blog.atom.xml" rel="self"></link><id>https://markus-site.at/</id><updated>2022-02-16T13:00:00+01:00</updated><entry><title>Weather Station Backup</title><link href="https://markus-site.at/weather-station-backup.html" rel="alternate"></link><published>2022-02-16T13:00:00+01:00</published><updated>2022-02-16T13:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2022-02-16:/weather-station-backup.html</id><summary type="html">&lt;h1&gt;Weather Station Backup:&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus - blog</title><link href="https://markus-site.at/" rel="alternate"></link><link href="https://markus-site.at/feeds/blog.atom.xml" rel="self"></link><id>https://markus-site.at/</id><updated>2022-02-17T20:00:00+01:00</updated><entry><title>Weather Station Backup</title><link href="https://markus-site.at/weather-station-backup.html" rel="alternate"></link><published>2022-02-16T13:00:00+01:00</published><updated>2022-02-16T13:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2022-02-16:/weather-station-backup.html</id><summary type="html">&lt;h1&gt;Weather Station Backup:&lt;/h1&gt;
 &lt;p&gt;Backup for the &lt;a href="http://www.weewx.com/"&gt;WeeWX&lt;/a&gt;-configuration of the Renkfore WH2315 radio weather station:
 A detailed description can be seen in the main article &lt;a href="https://markus-site.at/weather-station.html"&gt;(Weather Station)&lt;/a&gt;.
 Docs have been taken from the &lt;a href="http://weewx.com/docs/usersguide.htm#backup"&gt;WeeWX docs-site&lt;/a&gt;.&lt;/p&gt;
@@ -133,7 +133,7 @@ The CubeSat should transport about 200 sprites.&lt;/p&gt;
 &lt;p&gt;AmbaSat has processed my Order from Febuary 2020.
 &lt;img alt="Photo" src="/images/my_personal_satellite/AmbaSat_processed_order_2020-11-16 20-56-30.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://ambasat.com/blog-2/"&gt;Link to AmbaSAT Blog&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Photos by &lt;a href="https://ambasat.com/"&gt;AmbaSAT-1&lt;/a&gt;&lt;/p&gt;</content><category term="blog"></category><category term="Arduino"></category><category term="Satellite"></category><category term="Space"></category><category term="Environment"></category><category term="LoRaWAN"></category><category term="TTN"></category></entry><entry><title>Weather Station</title><link href="https://markus-site.at/weather-station.html" rel="alternate"></link><published>2020-07-18T16:00:00+02:00</published><updated>2021-11-24T20:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2020-07-18:/weather-station.html</id><summary type="html">&lt;h1&gt;As a studied atmospheric scientist it is almost a duty to operate a personal weather station &lt;a href="https://www.wunderground.com/dashboard/pws/IPATSC2/"&gt;(PWS)&lt;/a&gt;.&lt;/h1&gt;
+&lt;p&gt;Photos by &lt;a href="https://ambasat.com/"&gt;AmbaSAT-1&lt;/a&gt;&lt;/p&gt;</content><category term="blog"></category><category term="Arduino"></category><category term="Satellite"></category><category term="Space"></category><category term="Environment"></category><category term="LoRaWAN"></category><category term="TTN"></category></entry><entry><title>Weather Station</title><link href="https://markus-site.at/weather-station.html" rel="alternate"></link><published>2020-07-18T16:00:00+02:00</published><updated>2022-02-17T20:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2020-07-18:/weather-station.html</id><summary type="html">&lt;h1&gt;As a studied atmospheric scientist it is almost a duty to operate a personal weather station &lt;a href="https://www.wunderground.com/dashboard/pws/IPATSC2/"&gt;(PWS)&lt;/a&gt;.&lt;/h1&gt;
 &lt;p&gt;Here you can see the outside sensors.
 &lt;img alt="Photo" src="/images/weather_station/IMG_20200705_154307_resize.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;Below is a picture of the basis station.
@@ -147,7 +147,9 @@ The station has a radio connection to a basis station …&lt;/p&gt;</summary><co
 &lt;p&gt;It is a &lt;a href="https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139"&gt;Renkfore WH2315&lt;/a&gt; radio weather station.
 The station has a radio connection to a basis station and this is connected to a Raspberry Pi.
 I used Rasperry Pi OS (32-bit, released 2021-10-30).
-Via the open source software [WeeWX] the data is hosted on &lt;a href="https://www.wunderground.com/"&gt;Weather Underground&lt;/a&gt;. &lt;/p&gt;
+Via the open source software [WeeWX]((http://weewx.com/) the data is than hosted on &lt;a href="https://www.wunderground.com/"&gt;Weather Underground&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Below you can see a my setting (arrows define the connections).
+&lt;img src="/images/pi_as_server/setting_without_server.svg" alt="connections"&gt;&lt;/p&gt;
 &lt;p&gt;Here you can see a sample screenshot of my PWS taken from Weather Underground suitable to the photos above. 
 &lt;img alt="Photo" src="/images/weather_station/renkforce_weather_history_ipatsc2_Screenshot from 2020-07-27 21-01-11.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Installation of WeeWX and hosting via Weather Underground:&lt;/h2&gt;
