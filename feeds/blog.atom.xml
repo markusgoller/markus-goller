@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus - blog</title><link href="https://markus-site.at/" rel="alternate"></link><link href="https://markus-site.at/feeds/blog.atom.xml" rel="self"></link><id>https://markus-site.at/</id><updated>2022-02-16T13:00:00+01:00</updated><entry><title>Weather Station Backup</title><link href="https://markus-site.at/weather-station-backup.html" rel="alternate"></link><published>2022-02-16T13:00:00+01:00</published><updated>2022-02-16T13:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2022-02-16:/weather-station-backup.html</id><summary type="html">&lt;h1&gt;Weather Station Backup:&lt;/h1&gt;
 &lt;p&gt;Backup for the &lt;a href="http://www.weewx.com/"&gt;WeeWX&lt;/a&gt;-configuration of the Renkfore WH2315 radio weather station:
-A detailed description can be seen in the main article &lt;a href="https://markus-site.at/weather-station.html"&gt;weather_station&lt;/a&gt;.
+A detailed description can be seen in the main article &lt;a href="https://markus-site.at/weather-station.html"&gt;(Weather Station)&lt;/a&gt;.
 Docs have been taken from the &lt;a href="http://weewx.com/docs/usersguide.htm#backup"&gt;WeeWX docs-site&lt;/a&gt;.&lt;/p&gt;
 &lt;h1&gt;The following files and folders have to be copied:&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Configurations (/etc/weewx/weewx.conf)&lt;/li&gt;
 &lt;li&gt;Skins …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Weather Station Backup:&lt;/h1&gt;
 &lt;p&gt;Backup for the &lt;a href="http://www.weewx.com/"&gt;WeeWX&lt;/a&gt;-configuration of the Renkfore WH2315 radio weather station:
-A detailed description can be seen in the main article &lt;a href="https://markus-site.at/weather-station.html"&gt;weather_station&lt;/a&gt;.
+A detailed description can be seen in the main article &lt;a href="https://markus-site.at/weather-station.html"&gt;(Weather Station)&lt;/a&gt;.
 Docs have been taken from the &lt;a href="http://weewx.com/docs/usersguide.htm#backup"&gt;WeeWX docs-site&lt;/a&gt;.&lt;/p&gt;
 &lt;h1&gt;The following files and folders have to be copied:&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Configurations (/etc/weewx/weewx.conf)&lt;/li&gt;
-&lt;li&gt;Skins and templates(/etc/weewx/skins)&lt;/li&gt;
-&lt;li&gt;Custom code or extensions(/usr/share/weewx/user)&lt;/li&gt;
+&lt;li&gt;Skins and templates (/etc/weewx/skins)&lt;/li&gt;
+&lt;li&gt;Custom code or extensions (/usr/share/weewx/user)&lt;/li&gt;
 &lt;li&gt;Database (/var/lib/weewx/weewx.sdb)  ...do not make a copy of the SQLite database between in the middle of a transaction!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;Here is an excerpt from what I have copied:&lt;/h1&gt;
