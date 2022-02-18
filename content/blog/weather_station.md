@@ -18,9 +18,11 @@ I used Rasperry Pi OS (32-bit, released 2021-10-30).
 Via the open source software [WeeWX]((http://weewx.com/) the data is than hosted on [Weather Underground](https://www.wunderground.com/). 
 
 Below you can see a my setting (arrows define the connections).
-<img src="/images/pi_as_server/setting_without_server.svg" alt="setting_without_server">
+<img alt="Photo" src="/images/pi_as_server/setting_without_server.svg">
 
-![Photo](/images/pi_as_server/setting_without_server.svg)
+<p>Here you can see the outside sensors.
+<img alt="Photo" src="/images/weather_station/IMG_20200705_154307_resize.jpg"></p>
+
 
 Here you can see  a sample screenshot of my PWS taken from Weather Underground suitable to the photos above. 
 ![Photo](/images/weather_station/renkforce_weather_history_ipatsc2_Screenshot from 2020-07-27 21-01-11.png)
