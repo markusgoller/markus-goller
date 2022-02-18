@@ -1,5 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus</title><link href="https://markus-site.at/" rel="alternate"></link><link href="https://markus-site.at/feeds/all.atom.xml" rel="self"></link><id>https://markus-site.at/</id><updated>2022-02-17T20:00:00+01:00</updated><entry><title>Weather Station Backup</title><link href="https://markus-site.at/weather-station-backup.html" rel="alternate"></link><published>2022-02-16T13:00:00+01:00</published><updated>2022-02-16T13:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2022-02-16:/weather-station-backup.html</id><summary type="html">&lt;h1&gt;Weather Station Backup:&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus</title><link href="https://markus-site.at/" rel="alternate"></link><link href="https://markus-site.at/feeds/all.atom.xml" rel="self"></link><id>https://markus-site.at/</id><updated>2022-02-17T20:00:00+01:00</updated><entry><title>Pi as Server</title><link href="https://markus-site.at/pi-as-server.html" rel="alternate"></link><published>2022-02-16T16:00:00+01:00</published><updated>2022-02-16T16:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2022-02-16:/pi-as-server.html</id><summary type="html">&lt;h1&gt;Pi as Server&lt;/h1&gt;
+&lt;p&gt;In order to publish the data of my weather station elsewhere as on &lt;a href="https://www.wunderground.com/"&gt;Weather Underground&lt;/a&gt; an external server has to be installed.
+I have bought a vServer on &lt;a href="https://www.netcup.de/"&gt;netcup&lt;/a&gt;. 
+This server workes with &lt;a href="http://nginx.org/"&gt;nginx&lt;/a&gt; as webserver.&lt;/p&gt;
+&lt;p&gt;Here you can see my setting (arrows define the connections).
+&lt;img src="/images/pi_as_server/setting_with_server.svg" alt="setting_with_server"&gt;&lt;/p&gt;
+&lt;p&gt;A …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Pi as Server&lt;/h1&gt;
+&lt;p&gt;In order to publish the data of my weather station elsewhere as on &lt;a href="https://www.wunderground.com/"&gt;Weather Underground&lt;/a&gt; an external server has to be installed.
+I have bought a vServer on &lt;a href="https://www.netcup.de/"&gt;netcup&lt;/a&gt;. 
+This server workes with &lt;a href="http://nginx.org/"&gt;nginx&lt;/a&gt; as webserver.&lt;/p&gt;
+&lt;p&gt;Here you can see my setting (arrows define the connections).
+&lt;img src="/images/pi_as_server/setting_with_server.svg" alt="setting_with_server"&gt;&lt;/p&gt;
+&lt;p&gt;A detailed description can be seen in the main article &lt;a href="https://markus-site.at/weather-station.html"&gt;(Weather Station)&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Installation takes place on the Pi and on the server:&lt;/h2&gt;
+&lt;p&gt;Following links give good overviews:
+&lt;a href="https://tonyteaches.tech/nginx-raspberry-pi/"&gt;How to Install Nginx on Raspberry Pi (Tony Teaches Tech)&lt;/a&gt; with including &lt;a href="https://www.youtube.com/watch?v=ECsQ8jbpMow&amp;amp;t=35s"&gt;video&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;First I have installed nginx:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~ $
+sudo apt update
+sudo apt upgrade
+sudo apt install nginx
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;I have basically worked through the following steps in the &lt;a href="http://weewx.com/docs/usersguide.htm#integrating_with_webserver"&gt;WeeWX&lt;/a&gt; documentation:&lt;/h2&gt;
+&lt;p&gt;Verify that nginx is running:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~ $
+systemctl status nginx
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;WeeWx does host the files here:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;pi&lt;/span&gt;&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;raspberrypi&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;~&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;$&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;www&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;ls&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;index&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;nginx&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;debian&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;So Nginx should contain the following configuration:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~ $ vim /etc/nginx/sites-available/default
+...
+&lt;span class="c1"&gt;# include snippets/snakeoil.conf;&lt;/span&gt;
+
+root /var/www/html&lt;span class="p"&gt;;&lt;/span&gt;
+
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Test that nginx runs on local network:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;http://192.168.0.115/index.nginx-debian.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img alt="Photo" src="/images/pi_as_server/index_nginx-debian_html.png"&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;http://192.168.0.115/weewx/index.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img alt="Photo" src="/images/pi_as_server/weewx_index.png"&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;a href="(https://www.cyberciti.biz/faq/nginx-restart-ubuntu-linux-command/)"&gt;Commands&lt;/a&gt;:&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~ $
+sudo systemctl start nginx 
+sudo systemctl stop nginx 
+sudo systemctl restart nginx
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;Integrating the webserver&lt;/h3&gt;
+&lt;p&gt;To publish the data of weewx and make finally worldwide available over the Internet the &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;www&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;folder has only to be synced via a cronjob.&lt;/p&gt;</content><category term="blog"></category><category term="Raspberry Pi"></category><category term="weather station"></category></entry><entry><title>Weather Station Backup</title><link href="https://markus-site.at/weather-station-backup.html" rel="alternate"></link><published>2022-02-16T13:00:00+01:00</published><updated>2022-02-16T13:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2022-02-16:/weather-station-backup.html</id><summary type="html">&lt;h1&gt;Weather Station Backup:&lt;/h1&gt;
 &lt;p&gt;Backup for the &lt;a href="http://www.weewx.com/"&gt;WeeWX&lt;/a&gt;-configuration of the Renkfore WH2315 radio weather station:
 A detailed description can be seen in the main article &lt;a href="https://markus-site.at/weather-station.html"&gt;(Weather Station)&lt;/a&gt;.
 Docs have been taken from the &lt;a href="http://weewx.com/docs/usersguide.htm#backup"&gt;WeeWX docs-site&lt;/a&gt;.&lt;/p&gt;

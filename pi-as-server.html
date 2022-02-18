@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+  <title>Pi as Server</title>
+
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="origin" />
+  <meta name="generator" content="Pelican" />
+<link href="https://markus-site.at/pi-as-server.html" rel="canonical" />
+  <!-- Feed -->
+        <link href="https://markus-site.at/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Blog of Markus Full Atom Feed" />
+          <link href="https://markus-site.at/feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="Blog of Markus Categories Atom Feed" />
+
+  <link href="https://markus-site.at/theme/css/style.css" type="text/css" rel="stylesheet" />
+
+  <!-- Code highlight color scheme -->
+      <link href="https://markus-site.at/theme/css/code_blocks/github.css" rel="stylesheet">
+
+
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+
+    <meta name="description" content="Pi as Server In order to publish the data of my weather station elsewhere as on Weather Underground an external server has to be...">
+
+    <meta name="author" content="Markus">
+
+    <meta name="tags" content="Raspberry Pi">
+    <meta name="tags" content="weather station">
+
+
+
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="Blog of Markus"/>
+<meta property="og:title" content="Pi as Server"/>
+<meta property="og:description" content="Pi as Server In order to publish the data of my weather station elsewhere as on Weather Underground an external server has to be..."/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="https://markus-site.at/pi-as-server.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2022-02-16 16:00:00+01:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="https://markus-site.at/author/markus.html">
+<meta property="article:section" content="blog"/>
+<meta property="article:tag" content="Raspberry Pi"/>
+<meta property="article:tag" content="weather station"/>
+<meta property="og:image" content="https://markus-site.at/../images/weather_station/IMG_20200630_170836_edited_1.jpg">
+
+<!-- Twitter Card -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "Pi as Server",
+  "headline": "Pi as Server",
+  "datePublished": "2022-02-16 16:00:00+01:00",
+  "dateModified": "",
+  "author": {
+    "@type": "Person",
+    "name": "Markus",
+    "url": "https://markus-site.at/author/markus.html"
+  },
+  "image": "https://markus-site.at/../images/weather_station/IMG_20200630_170836_edited_1.jpg",
+  "url": "https://markus-site.at/pi-as-server.html",
+  "description": "Pi as Server In order to publish the data of my weather station elsewhere as on Weather Underground an external server has to be..."
+}
+</script>
+</head>
+<!-- TODO : Body class -->
+<body class="home-template">
+
+<nav id="menu">
+  <a class="close-button">Close</a>
+  <div class="nav-wrapper">
+    <p class="nav-label">Menu</p>
+    <ul>
+          <li><a href="/" role="presentation">Home</a></li>
+          <li><a href="/archives.html" role="presentation">Archives</a></li>
+
+              <li role="presentation"><a href="https://markus-site.at/pages/about.html">About</a></li>
+
+    </ul>
+  </div>
+</nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header id="post-header" class="has-cover">
+      <div class="inner">
+        <nav id="navigation">
+            <span id="home-button" class="nav-button">
+                <a class="home-button" href="https://markus-site.at/" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+            </span>
+          <span id="menu-button" class="nav-button">
+            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
+          </span>
+        </nav>
+        <h1 class="post-title">Pi as Server</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="https://markus-site.at/author/markus.html">Markus</a>
+            | <time datetime="Wed 16 February 2022">Wed 16 February 2022</time>
+        </span>
+        <!-- TODO : Modified check -->
+            <div class="post-cover cover" style="background-image: url('https://markus-site.at/../images/weather_station/IMG_20200630_170836_edited_1.jpg')">
+      </div>
+    </header>
+
+  <section id="wrapper">
+    <a class="hidden-close"></a>
+
+    <!-- Post content -->
+    <main class="content" role="main">
+        <article class="post">
+        <div class="inner">
+            <section class="post-content">
+                <h1>Pi as Server</h1>
+<p>In order to publish the data of my weather station elsewhere as on <a href="https://www.wunderground.com/">Weather Underground</a> an external server has to be installed.
+I have bought a vServer on <a href="https://www.netcup.de/">netcup</a>. 
+This server workes with <a href="http://nginx.org/">nginx</a> as webserver.</p>
+<p>Here you can see my setting (arrows define the connections).
+<img src="/images/pi_as_server/setting_with_server.svg" alt="setting_with_server"></p>
+<p>A detailed description can be seen in the main article <a href="https://markus-site.at/weather-station.html">(Weather Station)</a>.</p>
+<h2>Installation takes place on the Pi and on the server:</h2>
+<p>Following links give good overviews:
+<a href="https://tonyteaches.tech/nginx-raspberry-pi/">How to Install Nginx on Raspberry Pi (Tony Teaches Tech)</a> with including <a href="https://www.youtube.com/watch?v=ECsQ8jbpMow&amp;t=35s">video</a>.</p>
+<p>First I have installed nginx:</p>
+<div class="highlight"><pre><span></span><code>pi@raspberrypi:~ $
+sudo apt update
+sudo apt upgrade
+sudo apt install nginx
+</code></pre></div>
+
+<h2>I have basically worked through the following steps in the <a href="http://weewx.com/docs/usersguide.htm#integrating_with_webserver">WeeWX</a> documentation:</h2>
+<p>Verify that nginx is running:</p>
+<div class="highlight"><pre><span></span><code>pi@raspberrypi:~ $
+systemctl status nginx
+</code></pre></div>
+
+<p>WeeWx does host the files here:</p>
+<div class="highlight"><pre><span></span><code><span class="n">pi</span><span class="err">@</span><span class="n">raspberrypi</span><span class="p">:</span><span class="o">~</span><span class="w"> </span><span class="o">$</span><span class="w"></span>
+<span class="n">cd</span><span class="w"> </span><span class="o">/</span><span class="k">var</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="n">html</span><span class="o">/</span><span class="w"></span>
+<span class="n">ls</span><span class="w"></span>
+<span class="n">index</span><span class="o">.</span><span class="n">nginx</span><span class="o">-</span><span class="n">debian</span><span class="o">.</span><span class="n">html</span><span class="w">  </span><span class="n">weewx</span><span class="w"></span>
+</code></pre></div>
+
+<p>So Nginx should contain the following configuration:</p>
+<div class="highlight"><pre><span></span><code>pi@raspberrypi:~ $ vim /etc/nginx/sites-available/default
+...
+<span class="c1"># include snippets/snakeoil.conf;</span>
+
+root /var/www/html<span class="p">;</span>
+
+...
+</code></pre></div>
+
+<p>Test that nginx runs on local network:</p>
+<div class="highlight"><pre><span></span><code>http://192.168.0.115/index.nginx-debian.html
+</code></pre></div>
+
+<p><img alt="Photo" src="/images/pi_as_server/index_nginx-debian_html.png"></p>
+<div class="highlight"><pre><span></span><code>http://192.168.0.115/weewx/index.html
+</code></pre></div>
+
+<p><img alt="Photo" src="/images/pi_as_server/weewx_index.png"></p>
+<h3><a href="(https://www.cyberciti.biz/faq/nginx-restart-ubuntu-linux-command/)">Commands</a>:</h3>
+<div class="highlight"><pre><span></span><code>pi@raspberrypi:~ $
+sudo systemctl start nginx 
+sudo systemctl stop nginx 
+sudo systemctl restart nginx
+</code></pre></div>
+
+<h3>Integrating the webserver</h3>
+<p>To publish the data of weewx and make finally worldwide available over the Internet the </p>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="k">var</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="n">html</span><span class="o">/</span><span class="n">weewx</span><span class="w">  </span>
+</code></pre></div>
+
+<p>folder has only to be synced via a cronjob.</p>
+            </section>
+
+            <section class="post-info">
+                <div class="post-share">
+                    <a class="twitter" href="https://twitter.com/share?text=Pi as Server&amp;url=https://markus-site.at/pi-as-server.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
+                    </a>
+                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://markus-site.at/pi-as-server.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
+                    </a>
+                    <a class="googleplus" href="https://plus.google.com/share?url=https://markus-site.at/pi-as-server.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <i class="ic ic-googleplus"></i><span class="hidden">Google+</span>
+                    </a>
+                    <div class="clear"></div>
+                </div>
+
+                <aside class="post-tags">
+<a href="https://markus-site.at/tag/raspberry-pi.html">Raspberry Pi</a><a href="https://markus-site.at/tag/weather-station.html">weather station</a>                </aside>
+
+                <div class="clear"></div>
+
+
+                </section>
+
+
+                <aside class="post-nav">
+                    <div class="clear"></div>
+                </aside>
+
+            </div>
+        </article>
+    </main>
+      <!-- TODO : Body class -->
+    <div id="body-class" style="display: none;" class=""></div>
+
+    <footer id="footer">
+      <div class="inner">
+        <section class="credits">
+
+
+          <span class="credits-theme">Theme <a href="https://github.com/arulrajnet/attila" rel="nofollow">Attila</a></span>
+          <span class="credits-software">Published with <a href="https://github.com/getpelican/pelican" rel="nofollow">Pelican</a></span>
+        </section>
+      </div>
+    </footer>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://markus-site.at/theme/js/script.js"></script>
+
+</body>
+</html>
