@@ -38,9 +38,7 @@ systemctl status nginx
 
 WeeWx does host the files here:
 ```
-pi@raspberrypi:~ $
-cd /var/www/html/
-ls
+pi@raspberrypi:~ $ ls /var/www/html/
 index.nginx-debian.html  weewx
 ```
 
