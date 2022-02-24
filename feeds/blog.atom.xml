@@ -82,11 +82,6 @@ Docs have been taken from the &lt;a href="http://weewx.com/docs/usersguide.htm#b
 &lt;li&gt;Custom code or extensions (/usr/share/weewx/user)&lt;/li&gt;
 &lt;li&gt;Database (/var/lib/weewx/weewx.sdb)  ...do not make a copy of the SQLite database between in the middle of a transaction!&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Here is an excerpt from what I have copied:&lt;/h1&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;(&lt;/span&gt;base&lt;span class="o"&gt;)&lt;/span&gt; unix@unix-TUXEDO:~/dev/weather_station_backup$ scp -r pi@raspberrypi:/etc/weewx/weewx.conf .
-&lt;span class="o"&gt;(&lt;/span&gt;base&lt;span class="o"&gt;)&lt;/span&gt; unix@unix-TUXEDO:~/dev/weather_station_backup$ scp -r pi@raspberrypi:/home/weewx/skins .
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 &lt;h1&gt;Restore from backup:&lt;/h1&gt;
 &lt;p&gt;Install WeeWX and replace the default files with those from above.&lt;/p&gt;</content><category term="blog"></category><category term="Raspberry Pi"></category><category term="weather station"></category></entry><entry><title>Pflanzen App Tirol</title><link href="https://markus-site.at/pflanzen-app-tirol.html" rel="alternate"></link><published>2021-10-30T18:00:00+02:00</published><updated>2021-10-30T18:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2021-10-30:/pflanzen-app-tirol.html</id><summary type="html">&lt;h1&gt;What is the Pflanzen App Tirol?&lt;/h1&gt;
 &lt;p&gt;It is a quiz app which has the benefit to give people again an awareness for the flora of Tyrol.
