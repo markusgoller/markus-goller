@@ -164,6 +164,11 @@ sudo apt-get install weewx
 I used than later WH23xx as the driver.</p>
 <h2>Status of the weather station:</h2>
 <div class="highlight"><pre><span></span><code>pi@raspberrypi:~ $
+sudo tail -f /var/log/syslog
+</code></pre></div>
+
+<p>or</p>
+<div class="highlight"><pre><span></span><code>pi@raspberrypi:~ $
 sudo /etc/init.d/weewx status 
 ● weewx.service - LSB: weewx weather system
    Loaded: loaded <span class="o">(</span>/etc/init.d/weewx<span class="p">;</span> generated<span class="p">;</span> vendor preset: enabled<span class="o">)</span>
