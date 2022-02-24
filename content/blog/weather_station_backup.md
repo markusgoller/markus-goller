@@ -15,13 +15,5 @@ Docs have been taken from the [WeeWX docs-site](http://weewx.com/docs/usersguide
 * Custom code or extensions (/usr/share/weewx/user)
 * Database (/var/lib/weewx/weewx.sdb)  ...do not make a copy of the SQLite database between in the middle of a transaction!
 
-# Here is an excerpt from what I have copied:
-```bash
-(base) unix@unix-TUXEDO:~/dev/weather_station_backup$ scp -r pi@raspberrypi:/etc/weewx/weewx.conf .
-(base) unix@unix-TUXEDO:~/dev/weather_station_backup$ scp -r pi@raspberrypi:/home/weewx/skins .
-
-```
-
-
 # Restore from backup:
 Install WeeWX and replace the default files with those from above.
