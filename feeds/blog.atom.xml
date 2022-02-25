@@ -268,6 +268,7 @@ wee_config --help
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~ $ 
 sudo weewxd
 sudo /etc/init.d/weewx status
+sudo /etc/init.d/weewx restart
 sudo /etc/init.d/weewx stop
 sudo /etc/init.d/weewx start
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
