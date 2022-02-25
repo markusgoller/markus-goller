@@ -89,6 +89,7 @@ Commands:
 pi@raspberrypi:~ $ 
 sudo weewxd
 sudo /etc/init.d/weewx status
+sudo /etc/init.d/weewx restart
 sudo /etc/init.d/weewx stop
 sudo /etc/init.d/weewx start
 ```
