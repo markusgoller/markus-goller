@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus</title><link href="https://markus-site.at/" rel="alternate"></link><link href="https://markus-site.at/feeds/all.atom.xml" rel="self"></link><id>https://markus-site.at/</id><updated>2022-02-17T20:00:00+01:00</updated><entry><title>Pi as Server</title><link href="https://markus-site.at/pi-as-server.html" rel="alternate"></link><published>2022-02-16T16:00:00+01:00</published><updated>2022-02-16T16:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2022-02-16:/pi-as-server.html</id><summary type="html">&lt;h1&gt;Pi as Server&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus</title><link href="https://markusgoller.at/" rel="alternate"></link><link href="https://markusgoller.at/feeds/all.atom.xml" rel="self"></link><id>https://markusgoller.at/</id><updated>2022-02-17T20:00:00+01:00</updated><entry><title>Pi as Server</title><link href="https://markusgoller.at/pi-as-server.html" rel="alternate"></link><published>2022-02-16T16:00:00+01:00</published><updated>2022-02-16T16:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2022-02-16:/pi-as-server.html</id><summary type="html">&lt;h1&gt;Pi as Server&lt;/h1&gt;
 &lt;p&gt;In order to publish the data of my weather station elsewhere as on &lt;a href="https://www.wunderground.com/"&gt;Weather Underground&lt;/a&gt; an external server has to be installed.
 I have bought a vServer on &lt;a href="https://www.netcup.de/"&gt;netcup&lt;/a&gt;. 
 This server workes with &lt;a href="http://nginx.org/"&gt;nginx&lt;/a&gt; as webserver.&lt;/p&gt;
@@ -11,7 +11,7 @@ I have bought a vServer on &lt;a href="https://www.netcup.de/"&gt;netcup&lt;/a&g
 This server workes with &lt;a href="http://nginx.org/"&gt;nginx&lt;/a&gt; as webserver.&lt;/p&gt;
 &lt;p&gt;Here you can see my setting (arrows define the connections).
 &lt;img src="/images/pi_as_server/setting_with_server.svg" alt="setting_with_server"&gt;&lt;/p&gt;
-&lt;p&gt;A detailed description can be seen in the main article &lt;a href="https://markus-site.at/weather-station.html"&gt;(Weather Station)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A detailed description can be seen in the main article &lt;a href="https://markusgoller.at/weather-station.html"&gt;(Weather Station)&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Installation takes place on the Pi and on the server:&lt;/h2&gt;
 &lt;p&gt;Following links give good overviews:
 &lt;a href="https://tonyteaches.tech/nginx-raspberry-pi/"&gt;How to Install Nginx on Raspberry Pi (Tony Teaches Tech)&lt;/a&gt; with including &lt;a href="https://www.youtube.com/watch?v=ECsQ8jbpMow&amp;amp;t=35s"&gt;video&lt;/a&gt;.&lt;/p&gt;
@@ -64,16 +64,16 @@ sudo systemctl restart nginx
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;www&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;folder has only to be synced via a cronjob.&lt;/p&gt;</content><category term="blog"></category><category term="Raspberry Pi"></category><category term="weather station"></category></entry><entry><title>Weather Station Backup</title><link href="https://markus-site.at/weather-station-backup.html" rel="alternate"></link><published>2022-02-16T13:00:00+01:00</published><updated>2022-02-16T13:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2022-02-16:/weather-station-backup.html</id><summary type="html">&lt;h1&gt;Weather Station Backup:&lt;/h1&gt;
+&lt;p&gt;folder has only to be synced via a cronjob.&lt;/p&gt;</content><category term="blog"></category><category term="Raspberry Pi"></category><category term="weather station"></category></entry><entry><title>Weather Station Backup</title><link href="https://markusgoller.at/weather-station-backup.html" rel="alternate"></link><published>2022-02-16T13:00:00+01:00</published><updated>2022-02-16T13:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2022-02-16:/weather-station-backup.html</id><summary type="html">&lt;h1&gt;Weather Station Backup:&lt;/h1&gt;
 &lt;p&gt;Backup for the &lt;a href="http://www.weewx.com/"&gt;WeeWX&lt;/a&gt;-configuration of the Renkfore WH2315 radio weather station:
-A detailed description can be seen in the main article &lt;a href="https://markus-site.at/weather-station.html"&gt;(Weather Station)&lt;/a&gt;.
+A detailed description can be seen in the main article &lt;a href="https://markusgoller.at/weather-station.html"&gt;(Weather Station)&lt;/a&gt;.
 Docs have been taken from the &lt;a href="http://weewx.com/docs/usersguide.htm#backup"&gt;WeeWX docs-site&lt;/a&gt;.&lt;/p&gt;
 &lt;h1&gt;The following files and folders have to be copied:&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Configurations (/etc/weewx/weewx.conf)&lt;/li&gt;
 &lt;li&gt;Skins …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Weather Station Backup:&lt;/h1&gt;
 &lt;p&gt;Backup for the &lt;a href="http://www.weewx.com/"&gt;WeeWX&lt;/a&gt;-configuration of the Renkfore WH2315 radio weather station:
-A detailed description can be seen in the main article &lt;a href="https://markus-site.at/weather-station.html"&gt;(Weather Station)&lt;/a&gt;.
+A detailed description can be seen in the main article &lt;a href="https://markusgoller.at/weather-station.html"&gt;(Weather Station)&lt;/a&gt;.
 Docs have been taken from the &lt;a href="http://weewx.com/docs/usersguide.htm#backup"&gt;WeeWX docs-site&lt;/a&gt;.&lt;/p&gt;
 &lt;h1&gt;The following files and folders have to be copied:&lt;/h1&gt;
 &lt;ul&gt;
@@ -83,7 +83,7 @@ Docs have been taken from the &lt;a href="http://weewx.com/docs/usersguide.htm#b
 &lt;li&gt;Database (/var/lib/weewx/weewx.sdb)  ...do not make a copy of the SQLite database between in the middle of a transaction!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;Restore from backup:&lt;/h1&gt;
-&lt;p&gt;Install WeeWX and replace the default files with those from above.&lt;/p&gt;</content><category term="blog"></category><category term="Raspberry Pi"></category><category term="weather station"></category></entry><entry><title>Pflanzen App Tirol</title><link href="https://markus-site.at/pflanzen-app-tirol.html" rel="alternate"></link><published>2021-10-30T18:00:00+02:00</published><updated>2021-10-30T18:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2021-10-30:/pflanzen-app-tirol.html</id><summary type="html">&lt;h1&gt;What is the Pflanzen App Tirol?&lt;/h1&gt;
+&lt;p&gt;Install WeeWX and replace the default files with those from above.&lt;/p&gt;</content><category term="blog"></category><category term="Raspberry Pi"></category><category term="weather station"></category></entry><entry><title>Pflanzen App Tirol</title><link href="https://markusgoller.at/pflanzen-app-tirol.html" rel="alternate"></link><published>2021-10-30T18:00:00+02:00</published><updated>2021-10-30T18:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2021-10-30:/pflanzen-app-tirol.html</id><summary type="html">&lt;h1&gt;What is the Pflanzen App Tirol?&lt;/h1&gt;
 &lt;p&gt;It is a quiz app which has the benefit to give people again an awareness for the flora of Tyrol.
 It was initiated by Joseph Molyneux and his team.
 The app is available at the &lt;a href="https://play.google.com/store/apps/details?id=com.gurk.botanikapp&amp;amp;gl=AT"&gt;Google Playstore&lt;/a&gt;, and was supported by the Land Tirol …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;What is the Pflanzen App Tirol?&lt;/h1&gt;
@@ -96,7 +96,7 @@ The app is available at the &lt;a href="https://play.google.com/store/apps/detai
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://pflanzenapp.tirol/"&gt;Pflanzen App Tirol&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.austrianbiologist.at/aba/pflanzen-tirols/"&gt;https://www.austrianbiologist.at/aba/pflanzen-tirols/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="blog"></category></entry><entry><title>MasterSnippets</title><link href="https://markus-site.at/mastersnippets.html" rel="alternate"></link><published>2021-04-13T21:00:00+02:00</published><updated>2021-04-13T21:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2021-04-13:/mastersnippets.html</id><summary type="html">&lt;h1&gt;What is planned?&lt;/h1&gt;
+&lt;/ul&gt;</content><category term="blog"></category></entry><entry><title>MasterSnippets</title><link href="https://markusgoller.at/mastersnippets.html" rel="alternate"></link><published>2021-04-13T21:00:00+02:00</published><updated>2021-04-13T21:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2021-04-13:/mastersnippets.html</id><summary type="html">&lt;h1&gt;What is planned?&lt;/h1&gt;
 &lt;p&gt;Here I will present individual parts of my Masterthesis.
 The title was (Satellitenmessungen vonNiederschlag: Räumliche und Zeitliche Repräsentativität von Niederschlag).&lt;/p&gt;
 &lt;p&gt;At first a small notebook is already available.&lt;/p&gt;
@@ -112,7 +112,7 @@ The title was (Satellitenmessungen vonNiederschlag: Räumliche und Zeitliche Rep
 &lt;p&gt;&lt;a href="https://diglib.uibk.ac.at/urn:nbn:at:at-ubi:1-29018"&gt;Masterthesis&lt;/a&gt;
 &lt;a href="https://github.com/markusgoller/master_snippets"&gt;GitHub&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Will be be continued...&lt;/h3&gt;
-&lt;p&gt;Photo by &lt;a href="https://gpm.nasa.gov/missions/GPM"&gt;Global Precipitation Measurement Mission&lt;/a&gt;&lt;/p&gt;</content><category term="blog"></category><category term="Python"></category><category term="Notebooks"></category><category term="Science"></category></entry><entry><title>RuuviTags</title><link href="https://markus-site.at/ruuvitags.html" rel="alternate"></link><published>2020-09-13T20:00:00+02:00</published><updated>2020-09-13T20:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2020-09-13:/ruuvitags.html</id><summary type="html">&lt;h1&gt;What is a RuuviTag?&lt;/h1&gt;
+&lt;p&gt;Photo by &lt;a href="https://gpm.nasa.gov/missions/GPM"&gt;Global Precipitation Measurement Mission&lt;/a&gt;&lt;/p&gt;</content><category term="blog"></category><category term="Python"></category><category term="Notebooks"></category><category term="Science"></category></entry><entry><title>RuuviTags</title><link href="https://markusgoller.at/ruuvitags.html" rel="alternate"></link><published>2020-09-13T20:00:00+02:00</published><updated>2020-09-13T20:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2020-09-13:/ruuvitags.html</id><summary type="html">&lt;h1&gt;What is a RuuviTag?&lt;/h1&gt;
 &lt;p&gt;A RuuviTag is a Open-Source Bluetooth Sensor Beacon, it was a &lt;a href="https://www.kickstarter.com/projects/463050344/ruuvitag-open-source-bluetooth-sensor-beacon"&gt;Kickstarter&lt;/a&gt; project.  &lt;br&gt;
 The tag is about 5 cm in diameter and with it's sensors you can basically measure the following:&lt;/p&gt;
 &lt;ul&gt;
@@ -138,7 +138,7 @@ Since I live in the Alps and there are wonderful mountains around me, I would li
 &lt;h3&gt;Measurements of three RuuviTags transmitted via Bluetooth on my Phone&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="Photo" src="/images/RuuviTags/Screenshot_2020-09-13-18-53-25-224_com.ruuvi.station_resize.jpg"&gt;&lt;/p&gt;
 &lt;h3&gt;RuuviTag and it's enclosure&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Photo" src="/images/RuuviTags/IMG_20200914_183532_resize.jpg"&gt;&lt;/p&gt;</content><category term="blog"></category><category term="Arduino"></category><category term="Environment"></category></entry><entry><title>Bike tour Berlin (Jupyter Notebook)</title><link href="https://markus-site.at/bike-tour-berlin-jupyter-notebook.html" rel="alternate"></link><published>2020-08-26T16:00:00+02:00</published><updated>2020-08-26T16:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2020-08-26:/bike-tour-berlin-jupyter-notebook.html</id><summary type="html">&lt;h1&gt;Bike tour Berlin&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Photo" src="/images/RuuviTags/IMG_20200914_183532_resize.jpg"&gt;&lt;/p&gt;</content><category term="blog"></category><category term="Arduino"></category><category term="Environment"></category></entry><entry><title>Bike tour Berlin (Jupyter Notebook)</title><link href="https://markusgoller.at/bike-tour-berlin-jupyter-notebook.html" rel="alternate"></link><published>2020-08-26T16:00:00+02:00</published><updated>2020-08-26T16:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2020-08-26:/bike-tour-berlin-jupyter-notebook.html</id><summary type="html">&lt;h1&gt;Bike tour Berlin&lt;/h1&gt;
 &lt;p&gt;Since my brother and I belong more to the sporty guys, we thought, why shouldn't we explore Berlin by bike.
 So we grabbed a rental bike and went for a spin through Berlin.
 Since I personally haven't created a Jupyter Notebook for a while now, I think …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Bike tour Berlin&lt;/h1&gt;
@@ -162,7 +162,7 @@ Since I personally haven't created a Jupyter Notebook for a while now, I think t
 &lt;h3&gt;Parts of the Wall&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="Photo" src="/images/bike_tour_berlin_notebook/IMG_20200819_205230_resize.jpg"&gt;&lt;/p&gt;
 &lt;h3&gt;Abandoned Airport Tempelhof&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Photo" src="/images/bike_tour_berlin_notebook/IMG_20200817_134433_resize.jpg"&gt;&lt;/p&gt;</content><category term="blog"></category></entry><entry><title>My Personal Satellite</title><link href="https://markus-site.at/my-personal-satellite.html" rel="alternate"></link><published>2020-07-25T19:30:00+02:00</published><updated>2020-11-16T23:30:00+01:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2020-07-25:/my-personal-satellite.html</id><summary type="html">&lt;h1&gt;One project that I am especially looking forward to is following:&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Photo" src="/images/bike_tour_berlin_notebook/IMG_20200817_134433_resize.jpg"&gt;&lt;/p&gt;</content><category term="blog"></category></entry><entry><title>My Personal Satellite</title><link href="https://markusgoller.at/my-personal-satellite.html" rel="alternate"></link><published>2020-07-25T19:30:00+02:00</published><updated>2020-11-16T23:30:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2020-07-25:/my-personal-satellite.html</id><summary type="html">&lt;h1&gt;One project that I am especially looking forward to is following:&lt;/h1&gt;
 &lt;p&gt;I built my own satellite and launch it into space ;-).
 Well you will ask yourself, how is this possible?
 Short answer, crowdfunding via &lt;a href="https://www.kickstarter.com/projects/ambasat/ambasat-1-an-educational-space-satellite-kit?lang=de"&gt;Kickstarter&lt;/a&gt; make it possible.
@@ -193,7 +193,7 @@ The CubeSat should transport about 200 sprites.&lt;/p&gt;
 &lt;p&gt;AmbaSat has processed my Order from Febuary 2020.
 &lt;img alt="Photo" src="/images/my_personal_satellite/AmbaSat_processed_order_2020-11-16 20-56-30.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://ambasat.com/blog-2/"&gt;Link to AmbaSAT Blog&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Photos by &lt;a href="https://ambasat.com/"&gt;AmbaSAT-1&lt;/a&gt;&lt;/p&gt;</content><category term="blog"></category><category term="Arduino"></category><category term="Satellite"></category><category term="Space"></category><category term="Environment"></category><category term="LoRaWAN"></category><category term="TTN"></category></entry><entry><title>Weather Station</title><link href="https://markus-site.at/weather-station.html" rel="alternate"></link><published>2020-07-18T16:00:00+02:00</published><updated>2022-02-17T20:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2020-07-18:/weather-station.html</id><summary type="html">&lt;h1&gt;As a studied atmospheric scientist it is almost a duty to operate a personal weather station &lt;a href="https://www.wunderground.com/dashboard/pws/IPATSC2/"&gt;(PWS)&lt;/a&gt;.&lt;/h1&gt;
+&lt;p&gt;Photos by &lt;a href="https://ambasat.com/"&gt;AmbaSAT-1&lt;/a&gt;&lt;/p&gt;</content><category term="blog"></category><category term="Arduino"></category><category term="Satellite"></category><category term="Space"></category><category term="Environment"></category><category term="LoRaWAN"></category><category term="TTN"></category></entry><entry><title>Weather Station</title><link href="https://markusgoller.at/weather-station.html" rel="alternate"></link><published>2020-07-18T16:00:00+02:00</published><updated>2022-02-17T20:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2020-07-18:/weather-station.html</id><summary type="html">&lt;h1&gt;As a studied atmospheric scientist it is almost a duty to operate a personal weather station &lt;a href="https://www.wunderground.com/dashboard/pws/IPATSC2/"&gt;(PWS)&lt;/a&gt;.&lt;/h1&gt;
 &lt;p&gt;Here you can see the outside sensors.
 &lt;img alt="Photo" src="/images/weather_station/IMG_20200705_154307_resize.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;Below is a picture of the basis station.
@@ -375,7 +375,7 @@ dayrx.png         daywinddir.png   monthhumin.png      monthtempin.png     NOAA 
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Finally a link to &lt;a href="https://www.wunderground.com/dashboard/pws/IPATSC2/"&gt;live data of my PWS&lt;/a&gt;.&lt;/p&gt;</content><category term="blog"></category><category term="Raspberry Pi"></category><category term="Python"></category><category term="weather station"></category></entry><entry><title>Raspberry Pi Rail Slider</title><link href="https://markus-site.at/raspberry-pi-rail-slider.html" rel="alternate"></link><published>2020-06-29T21:00:00+02:00</published><updated>2020-07-25T19:30:00+02:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2020-06-29:/raspberry-pi-rail-slider.html</id><summary type="html">&lt;h1&gt;One project I did and currently do is the following.&lt;/h1&gt;
+&lt;p&gt;Finally a link to &lt;a href="https://www.wunderground.com/dashboard/pws/IPATSC2/"&gt;live data of my PWS&lt;/a&gt;.&lt;/p&gt;</content><category term="blog"></category><category term="Raspberry Pi"></category><category term="Python"></category><category term="weather station"></category></entry><entry><title>Raspberry Pi Rail Slider</title><link href="https://markusgoller.at/raspberry-pi-rail-slider.html" rel="alternate"></link><published>2020-06-29T21:00:00+02:00</published><updated>2020-07-25T19:30:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2020-06-29:/raspberry-pi-rail-slider.html</id><summary type="html">&lt;h1&gt;One project I did and currently do is the following.&lt;/h1&gt;
 &lt;p&gt;Here you can see the whole construction at a glance.
 &lt;img alt="Photo" src="/images/PIRailSlider/IMG_20200712_115919_compressed.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;Well, what's all this. As you can see, here is a Rasperry Pi (Pi) mounted on a metal sled. 
@@ -445,7 +445,7 @@ Basically the camera is pulled along the sled with the help of a motor. I was in
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h2&gt;Youtube Testvideo&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=-9EHdp1ynUU"&gt;&lt;img alt="Minions Banana Song Full Song" src="http://img.youtube.com/vi/-9EHdp1ynUU/0.jpg"&gt;&lt;/a&gt;&lt;/p&gt;</content><category term="blog"></category><category term="Raspberry Pi"></category><category term="Python"></category><category term="Time Lapse"></category></entry><entry><title>Travelling</title><link href="https://markus-site.at/travelling.html" rel="alternate"></link><published>2020-06-12T21:00:00+02:00</published><updated>2020-06-12T21:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markus-site.at,2020-06-12:/travelling.html</id><content type="html">&lt;h1&gt;In my spare time I like to be in the nature.&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=-9EHdp1ynUU"&gt;&lt;img alt="Minions Banana Song Full Song" src="http://img.youtube.com/vi/-9EHdp1ynUU/0.jpg"&gt;&lt;/a&gt;&lt;/p&gt;</content><category term="blog"></category><category term="Raspberry Pi"></category><category term="Python"></category><category term="Time Lapse"></category></entry><entry><title>Travelling</title><link href="https://markusgoller.at/travelling.html" rel="alternate"></link><published>2020-06-12T21:00:00+02:00</published><updated>2020-06-12T21:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2020-06-12:/travelling.html</id><content type="html">&lt;h1&gt;In my spare time I like to be in the nature.&lt;/h1&gt;
 &lt;h2&gt;Here are some places I have been lately.&lt;/h2&gt;
 &lt;h3&gt;Hiking above Innsbruck; Tyrol, Austria.&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="Photo" src="/images/travelling/IMG_20191110_170235_crop.jpg"&gt;&lt;/p&gt;
