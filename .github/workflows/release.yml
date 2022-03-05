@@ -6,7 +6,7 @@ on:
 
 jobs:
   gh-pages:
-    name: Build markus-site.at
+    name: Build markusgoller.at
     runs-on: ubuntu-latest
 
     steps:

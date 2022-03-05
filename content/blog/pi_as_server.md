@@ -11,7 +11,7 @@ This server workes with [nginx](http://nginx.org/) as webserver.
 Here you can see my setting (arrows define the connections).
 <img src="/images/pi_as_server/setting_with_server.svg" alt="setting_with_server">
 
-A detailed description can be seen in the main article [(Weather Station)](https://markus-site.at/weather-station.html).
+A detailed description can be seen in the main article [(Weather Station)](https://markusgoller.at/weather-station.html).
 
 
 

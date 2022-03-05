@@ -1,5 +1,5 @@
-# markus-site.at ![Release on GitHub Pages](https://github.com/markusgoller/markus-site/actions/workflows/release.yml/badge.svg)
-Here I want to describe how my [personal blog](https://markus-site.at) was created.
+# markusgoller.at ![Release on GitHub Pages](https://github.com/markusgoller/markusgoller/actions/workflows/release.yml/badge.svg)
+Here I want to describe how my [personal blog](https://markusgoller.at) was created.
 
 I build the blog with the help of the static site generator [Pelican](https://docs.getpelican.com/en/stable/) which is written in [Python](https://www.python.org/).
 To publish the site I used [GitHub](https://github.com/) and [GitHub Pages](https://pages.github.com/).
@@ -19,7 +19,7 @@ On netcup:
 * netcup > CCP  > Domains > DNS (Tab)
 
 At the end you will have a blog which is published at the GitHub own domain
-(markusgoller.github.io/markus-site).
+(markusgoller.github.io/markusgoller).
 
 Here you can see the DNS-settings on netcup:
 ![Photo](content/images/all_images/blog_netcup_dns_settings_Screenshot_from_2020-10-23_17-18-46.png)
@@ -39,7 +39,7 @@ Use [anaconda](https://www.anaconda.com/). Make a conda environment (python 3.6+
 conda install -c conda-forge pelican
 ```
 
-## Make a repo on GitHub (markus-site):
+## Make a repo on GitHub (markusgoller):
 Specifications:
 * Description: Blog
 * Add: 
@@ -50,16 +50,16 @@ Specifications:
 Clone locally:
 ```bash
 (base) unix@unix-TUXEDO:~$
-git clone https://github.com/markusgoller/markus-site.git
+git clone https://github.com/markusgoller/markusgoller.git
 ```
 
 ## Getting a first Pelican skeleton project:
 https://docs.getpelican.com/en/3.6.3/quickstart.html
 
-* Execute inside the folder (markus-site)
+* Execute inside the folder (markusgoller)
 ```bash
 (base) [unix@localhost test_github_io_domain]$ conda activate pelican
-(pelican) [unix@localhost markus-site]$ pelican-quickstart
+(pelican) [unix@localhost markusgoller]$ pelican-quickstart
 Welcome to pelican-quickstart v4.2.0.
 
 This script will help you create a new Pelican-based website.
@@ -73,7 +73,7 @@ needed by Pelican.
 > Who will be the author of this web site? Markus
 > What will be the default language of this web site? [en]
 > Do you want to specify a URL prefix? e.g., https://example.com   (Y/n) y
-> What is your URL prefix? (see above example; no trailing slash) https://markus-site.at
+> What is your URL prefix? (see above example; no trailing slash) https://markusgoller.at
 > Do you want to enable article pagination? (Y/n) n
 > What is your time zone? [Europe/Paris] Europe/Berlin
 > Do you want to generate a tasks.py/Makefile to automate generation and publishing? (Y/n) y
@@ -102,14 +102,14 @@ Add the basic structure (inside content-folder):
 
 First method:
 ```bash
-(pelican) [unix@localhost markus-site]$
+(pelican) [unix@localhost markusgoller]$
 pelican content
 pelican --listen
 ```
 
 Or use invoke (preferred) method:
 ```bash
-(pelican) [unix@localhost markus-site]$
+(pelican) [unix@localhost markusgoller]$
 invoke livereload
 ```
 
@@ -147,14 +147,14 @@ For example I find the automatic generation of the site and the browser live rel
 
 Install invoke livereload in the anaconda *pelican* environment:
 ```bash
-(pelican) [unix@localhost markus-site]$
+(pelican) [unix@localhost markusgoller]$
 python -m pip install invoke
 python -m pip install livereload
 ```
 
 Using invoke livereload:
 ```bash
-(pelican) [unix@localhost markus-site]$ 
+(pelican) [unix@localhost markusgoller]$ 
 invoke livereload
 ```
 
@@ -167,13 +167,13 @@ Change the *task.py* file:
 
 * Test it locally.
 ```bash
-(pelican) [unix@localhost markus-site]$
+(pelican) [unix@localhost markusgoller]$
 invoke livereload
 ```
 * Push it to GitHub.
 
-## Change the DNS settings on GitHub (for using your own domain markus-site.at):
-https://github.com/markusgoller/markus-site/settings
+## Change the DNS settings on GitHub (for using your own domain markusgoller.at):
+https://github.com/markusgoller/markusgoller/settings
 
 GitHub Pages > Source
   First step: * branch: gh-pages
@@ -227,5 +227,5 @@ The uploaded pictures are automatically resized by the [Imgbot App](https://gith
 After the pull request you can remove the old branch.
 The local Git repo must then only be synchronized with the remote one via ($ git fetch):
 ```bash
-(base) [unix@localhost markus-site]$ git fetch --prune
+(base) [unix@localhost markusgoller]$ git fetch --prune
 ```

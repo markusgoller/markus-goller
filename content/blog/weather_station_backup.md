@@ -5,7 +5,7 @@ Tags: Raspberry Pi, weather station
 
 # Weather Station Backup:
 Backup for the [WeeWX](http://www.weewx.com/)-configuration of the Renkfore WH2315 radio weather station:
-A detailed description can be seen in the main article [(Weather Station)](https://markus-site.at/weather-station.html).
+A detailed description can be seen in the main article [(Weather Station)](https://markusgoller.at/weather-station.html).
 Docs have been taken from the [WeeWX docs-site](http://weewx.com/docs/usersguide.htm#backup).
 
 
