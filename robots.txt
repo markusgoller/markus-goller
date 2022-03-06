@@ -3,6 +3,8 @@ Disallow: /static
 Disallow: /impressum
 
 Allow: /
+Allow: /archives
+Allow: /about
 
 User-agent: MSNBot
 Crawl-delay: 16
