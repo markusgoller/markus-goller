@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus</title><link href="https://markusgoller.at/" rel="alternate"></link><link href="https://markusgoller.at/feeds/all.atom.xml" rel="self"></link><id>https://markusgoller.at/</id><updated>2022-02-17T20:00:00+01:00</updated><entry><title>Pi as Server</title><link href="https://markusgoller.at/pi-as-server.html" rel="alternate"></link><published>2022-02-16T16:00:00+01:00</published><updated>2022-02-16T16:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2022-02-16:/pi-as-server.html</id><summary type="html">&lt;h1&gt;Pi as Server&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus</title><link href="https://markusgoller.at/" rel="alternate"></link><link href="https://markusgoller.at/feeds/all.atom.xml" rel="self"></link><id>https://markusgoller.at/</id><updated>2022-03-20T22:00:00+01:00</updated><entry><title>Pi as Server</title><link href="https://markusgoller.at/pi-as-server.html" rel="alternate"></link><published>2022-02-16T16:00:00+01:00</published><updated>2022-02-16T16:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2022-02-16:/pi-as-server.html</id><summary type="html">&lt;h1&gt;Pi as Server&lt;/h1&gt;
 &lt;p&gt;In order to publish the data of my weather station elsewhere as on &lt;a href="https://www.wunderground.com/"&gt;Weather Underground&lt;/a&gt; an external server has to be installed.
 I have bought a vServer on &lt;a href="https://www.netcup.de/"&gt;netcup&lt;/a&gt;. 
 This server workes with &lt;a href="http://nginx.org/"&gt;nginx&lt;/a&gt; as webserver.&lt;/p&gt;
@@ -64,15 +64,12 @@ sudo systemctl restart nginx
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;www&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;folder has only to be synced via a cronjob.&lt;/p&gt;</content><category term="blog"></category><category term="Raspberry Pi"></category><category term="weather station"></category></entry><entry><title>Weather Station Backup</title><link href="https://markusgoller.at/weather-station-backup.html" rel="alternate"></link><published>2022-02-16T13:00:00+01:00</published><updated>2022-02-16T13:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2022-02-16:/weather-station-backup.html</id><summary type="html">&lt;h1&gt;Weather Station Backup:&lt;/h1&gt;
-&lt;p&gt;Backup for the &lt;a href="http://www.weewx.com/"&gt;WeeWX&lt;/a&gt;-configuration of the Renkfore WH2315 radio weather station:
+&lt;p&gt;folder has only to be synced via a cronjob.&lt;/p&gt;</content><category term="blog"></category><category term="Raspberry Pi"></category><category term="weather station"></category></entry><entry><title>Weather Station Backup</title><link href="https://markusgoller.at/weather-station-backup.html" rel="alternate"></link><published>2022-02-16T13:00:00+01:00</published><updated>2022-03-20T22:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2022-02-16:/weather-station-backup.html</id><summary type="html">&lt;h1&gt;Weather Station Backup:&lt;/h1&gt;
+&lt;p&gt;Backup for any radio weather station which runs with the [WeeWX]((http://weewx.com/) open source weather software:
 A detailed description can be seen in the main article &lt;a href="https://markusgoller.at/weather-station.html"&gt;(Weather Station)&lt;/a&gt;.
 Docs have been taken from the &lt;a href="http://weewx.com/docs/usersguide.htm#backup"&gt;WeeWX docs-site&lt;/a&gt;.&lt;/p&gt;
-&lt;h1&gt;The following files and folders have to be copied:&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Configurations (/etc/weewx/weewx.conf)&lt;/li&gt;
-&lt;li&gt;Skins …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Weather Station Backup:&lt;/h1&gt;
-&lt;p&gt;Backup for the &lt;a href="http://www.weewx.com/"&gt;WeeWX&lt;/a&gt;-configuration of the Renkfore WH2315 radio weather station:
+&lt;h1&gt;The following files and folders have to be copied …&lt;/h1&gt;</summary><content type="html">&lt;h1&gt;Weather Station Backup:&lt;/h1&gt;
+&lt;p&gt;Backup for any radio weather station which runs with the [WeeWX]((http://weewx.com/) open source weather software:
 A detailed description can be seen in the main article &lt;a href="https://markusgoller.at/weather-station.html"&gt;(Weather Station)&lt;/a&gt;.
 Docs have been taken from the &lt;a href="http://weewx.com/docs/usersguide.htm#backup"&gt;WeeWX docs-site&lt;/a&gt;.&lt;/p&gt;
 &lt;h1&gt;The following files and folders have to be copied:&lt;/h1&gt;
