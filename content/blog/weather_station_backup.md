@@ -6,7 +6,7 @@ Tags: Raspberry Pi, weather station
 
 
 # Weather Station Backup:
-Backup for any radio weather station which runs with the [WeeWX]((http://weewx.com/) open source weather software:
+Backup for any radio weather station which runs with the [WeeWX](http://weewx.com/) open source weather software.
 A detailed description can be seen in the main article [(Weather Station)](https://markusgoller.at/weather-station.html).
 Docs have been taken from the [WeeWX docs-site](http://weewx.com/docs/usersguide.htm#backup).
 
