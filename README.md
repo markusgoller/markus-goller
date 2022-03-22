@@ -216,7 +216,7 @@ https://imagemagick.org/script/mogrify.php
   * Make for every blog content an own image-folder where the shrinked pictures are:
     E.g. (content/images/my_personal_satellite/)
 
-Shrink the images in that folder individually:
+Shrink all the images in that folder at once:
 ```bash
 mogrify -resize 933x700 *.jpg
 
