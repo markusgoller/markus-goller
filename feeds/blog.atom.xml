@@ -62,13 +62,13 @@ sudo systemctl restart nginx
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;www&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;folder has only to be synced via a cronjob.&lt;/p&gt;</content><category term="blog"></category><category term="Raspberry Pi"></category><category term="weather station"></category></entry><entry><title>Weather Station Backup</title><link href="https://markusgoller.at/weather-station-backup.html" rel="alternate"></link><published>2022-02-16T13:00:00+01:00</published><updated>2022-03-20T22:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2022-02-16:/weather-station-backup.html</id><summary type="html">&lt;h1&gt;Weather Station Backup:&lt;/h1&gt;
+&lt;p&gt;folder has only to be synced via a cronjob.&lt;/p&gt;</content><category term="blog"></category><category term="Raspberry Pi"></category><category term="weather station"></category></entry><entry><title>Weather Station Backup</title><link href="https://markusgoller.at/weather-station-backup.html" rel="alternate"></link><published>2022-02-16T13:00:00+01:00</published><updated>2022-03-20T22:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2022-02-16:/weather-station-backup.html</id><summary type="html">&lt;h1&gt;Weather Station Backup&lt;/h1&gt;
 &lt;p&gt;Backup for any radio weather station which runs with the &lt;a href="http://weewx.com/"&gt;WeeWX&lt;/a&gt; open source weather software.
 A detailed description can be seen in the main article &lt;a href="https://markusgoller.at/weather-station.html"&gt;(Weather Station)&lt;/a&gt;.
 Docs have been taken from the &lt;a href="http://weewx.com/docs/usersguide.htm#backup"&gt;WeeWX docs-site&lt;/a&gt;.&lt;/p&gt;
 &lt;h1&gt;The following files and folders have to be copied:&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;Configurations (/etc/weewx …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Weather Station Backup:&lt;/h1&gt;
+&lt;li&gt;Configurations (/etc/weewx …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Weather Station Backup&lt;/h1&gt;
 &lt;p&gt;Backup for any radio weather station which runs with the &lt;a href="http://weewx.com/"&gt;WeeWX&lt;/a&gt; open source weather software.
 A detailed description can be seen in the main article &lt;a href="https://markusgoller.at/weather-station.html"&gt;(Weather Station)&lt;/a&gt;.
 Docs have been taken from the &lt;a href="http://weewx.com/docs/usersguide.htm#backup"&gt;WeeWX docs-site&lt;/a&gt;.&lt;/p&gt;
