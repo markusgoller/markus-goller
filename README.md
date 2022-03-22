@@ -212,7 +212,7 @@ STATIC_PATHS = [
 #### Mogrify:
 https://imagemagick.org/script/mogrify.php
 
-* Make new a new folder in images (all_images_orig_properties) there are all original sized images.
+* Make new a new folder in images (all_images) there are all original sized images.
   * Make for every blog content an own image-folder where the shrinked pictures are:
     E.g. (content/images/my_personal_satellite/)
 
