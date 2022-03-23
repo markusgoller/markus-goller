@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+  <title>New Weather Station</title>
+
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="origin" />
+  <meta name="generator" content="Pelican" />
+<link href="https://markusgoller.at/new-weather-station.html" rel="canonical" />
+  <!-- Feed -->
+        <link href="https://markusgoller.at/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Blog of Markus Full Atom Feed" />
+          <link href="https://markusgoller.at/feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="Blog of Markus Categories Atom Feed" />
+
+  <link href="https://markusgoller.at/theme/css/style.css" type="text/css" rel="stylesheet" />
+
+  <!-- Code highlight color scheme -->
+      <link href="https://markusgoller.at/theme/css/code_blocks/github.css" rel="stylesheet">
+
+
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+
+    <meta name="description" content="New Weather Station Since my old Renkfore WH2315 weather station unfortunately no longer worked properly (connection problems) I had to...">
+
+    <meta name="author" content="Markus">
+
+    <meta name="tags" content="Raspberry Pi">
+    <meta name="tags" content="Python">
+    <meta name="tags" content="weather station">
+
+
+
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="Blog of Markus"/>
+<meta property="og:title" content="New Weather Station"/>
+<meta property="og:description" content="New Weather Station Since my old Renkfore WH2315 weather station unfortunately no longer worked properly (connection problems) I had to..."/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="https://markusgoller.at/new-weather-station.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2022-03-23 23:00:00+01:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="https://markusgoller.at/author/markus.html">
+<meta property="article:section" content="blog"/>
+<meta property="article:tag" content="Raspberry Pi"/>
+<meta property="article:tag" content="Python"/>
+<meta property="article:tag" content="weather station"/>
+<meta property="og:image" content="https://markusgoller.at/../images/new-weather_station/IMG_20220322_180231.jpg">
+
+<!-- Twitter Card -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "New Weather Station",
+  "headline": "New Weather Station",
+  "datePublished": "2022-03-23 23:00:00+01:00",
+  "dateModified": "",
+  "author": {
+    "@type": "Person",
+    "name": "Markus",
+    "url": "https://markusgoller.at/author/markus.html"
+  },
+  "image": "https://markusgoller.at/../images/new-weather_station/IMG_20220322_180231.jpg",
+  "url": "https://markusgoller.at/new-weather-station.html",
+  "description": "New Weather Station Since my old Renkfore WH2315 weather station unfortunately no longer worked properly (connection problems) I had to..."
+}
+</script>
+</head>
+<!-- TODO : Body class -->
+<body class="home-template">
+
+<nav id="menu">
+  <a class="close-button">Close</a>
+  <div class="nav-wrapper">
+    <p class="nav-label">Menu</p>
+    <ul>
+          <li><a href="/" role="presentation">Home</a></li>
+          <li><a href="/archives.html" role="presentation">Archives</a></li>
+
+              <li role="presentation"><a href="https://markusgoller.at/pages/about.html">About</a></li>
+
+    </ul>
+  </div>
+</nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header id="post-header" class="has-cover">
+      <div class="inner">
+        <nav id="navigation">
+            <span id="home-button" class="nav-button">
+                <a class="home-button" href="https://markusgoller.at/" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+            </span>
+          <span id="menu-button" class="nav-button">
+            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
+          </span>
+        </nav>
+        <h1 class="post-title">New Weather Station</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="https://markusgoller.at/author/markus.html">Markus</a>
+            | <time datetime="Wed 23 March 2022">Wed 23 March 2022</time>
+        </span>
+        <!-- TODO : Modified check -->
+            <div class="post-cover cover" style="background-image: url('https://markusgoller.at/../images/new-weather_station/IMG_20220322_180231.jpg')">
+      </div>
+    </header>
+
+  <section id="wrapper">
+    <a class="hidden-close"></a>
+
+    <!-- Post content -->
+    <main class="content" role="main">
+        <article class="post">
+        <div class="inner">
+            <section class="post-content">
+                <h1>New Weather Station</h1>
+<p>Since my old <a href="https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139">Renkfore WH2315</a> weather station unfortunately no longer worked properly (connection problems) I had to organize a new one. 
+I decided to buy a semi-professional weather station from the provider <a href="https://www.dnt.de/Produkte/WiFi-Wetterstation-WeatherScreen-PRO/">dnt</a>.
+The WeatherScreen PRO station is a WiFi weather station, so e.g. you can directly send your data to <a href="https://www.wunderground.com/">Weather Underground</a>, <a href="https://www.ecowitt.net/">Ecowitt Weather</a>, <a href="https://weathercloud.net/en">Weathercloud</a> or another weather provider.</p>
+<p>Here you can see the outside sensors and the basis station:
+<img alt="Photo" src="/images/new-weather_station/IMG_20220307_181250_cropped.png"></p>
+<p>Below is a picture with the weather station in action.
+By the way, the yellow spots are quite valuable dirt (Sahara dust) which was transported from North Africa to Central Europe by a favorable air current at the beginning of March 2022.
+<img alt="Photo" src="/images/new-weather_station/IMG_20220322_180242.jpg"></p>
+<h2>Changes compared to the old <a href="https://markusgoller.at/weather-station.html">(Renkforce Weather Station)</a>:</h2>
+<p>A big advantage of the new weather station is  a built-in memory by means of a sd-card.
+So if there are connection problems with the station and the WiFi you have no data loss.</p>
+<p>Here you can see the new setting:
+<img src="/images/new-weather_station/settings_subnails.svg" alt="settings_subnails.svg">
+Photo taken from <a href="https://www.netcup.de/">https://www.netcup.de/</a></p>
+<h2>Publication of the weather station take place in two ways:</h2>
+<ul>
+<li>Sending data to Weather Underground automatically </li>
+<li>Sending data to a private webserver (<a href="https://www.raspberrypi.org/">Raspberry Pi</a> - <a href="https://www.weewx.com/">WeeWX</a> - webserver)</li>
+</ul>
+<h3>Sending data to Weather Underground automatically:</h3>
+<p>Only the below setting on the basis station have to be made (sensitive data is marked as XXX)
+<img alt="Photo" src="/images/new-weather_station/IMG_20220322_200607_cropped.png"></p>
+<h3>Sending private webserver:</h3>
+<p>First the weather data is send to the Raspberry Pi on which an open source software for weather stations WeeWX is installed. In a second step this data is send to a webserver.
+Because the WeatherScreen PRO station has no USB-connection I had to install an extra driver. The driver is available on GitHub via the following link 
+<a href="https://github.com/matthewwall/weewx-interceptor">(matthewwall / weewx-interceptor)</a>.
+For the installation I followed basically the GitHub documentation and another documenation which is unfortunately only available in German <a href="https://www.dl1nux.de/erfahrungen-mit-dnt-wetterstation-weatherscreen-pro-und-weewx/">(https://www.dl1nux.de/erfahrungen-mit-dnt-wetterstation-weatherscreen-pro-und-weewx/)</a>.</p>
+<p>Below is an excerpt of the weewx.conf-file with the settings of the interceptor-driver (192.168.0.164 is the internal IP address of the Pi):</p>
+<div class="highlight"><pre><span></span><code>pi@raspberrypi:~ $ cat /etc/weewx/weewx.conf
+<span class="c1">##############################################################################</span>
+
+<span class="o">[</span>Interceptor<span class="o">]</span>
+    <span class="c1"># This section is for the network traffic interceptor driver.</span>
+
+    <span class="c1"># The driver to use:</span>
+    <span class="nv">driver</span> <span class="o">=</span> user.interceptor
+
+    <span class="c1"># Specify the hardware device to capture.  Options include:</span>
+    <span class="c1">#   acurite-bridge - acurite internet bridge, smarthub, or access</span>
+    <span class="c1">#   observer - fine offset WH2600/HP1000/HP1003, ambient WS2902</span>
+    <span class="c1">#   lw30x - oregon scientific LW301/LW302</span>
+    <span class="c1">#   lacrosse-bridge - lacrosse GW1000U/C84612 internet bridge</span>
+    <span class="c1">#   ecowitt-client - any hardware that uses the ecowitt protocol</span>
+    <span class="c1">#   wu-client - any hardware that uses the weather underground protocol</span>
+    <span class="nv">device_type</span> <span class="o">=</span> ecowitt-client
+    <span class="nv">port</span> <span class="o">=</span> <span class="m">40080</span>
+    <span class="nv">address</span> <span class="o">=</span> <span class="m">192</span>.168.0.164 
+
+<span class="c1">##############################################################################</span>
+</code></pre></div>
+
+<p>Finally at the basis station a customized server with the Ecowitt protocol has to be installed:
+<img alt="Photo" src="/images/new-weather_station/IMG_20220322_200647_cropped.png"></p>
+<h4>Rsync via crontab:</h4>
+<p>By default, the WeeWX software on the Pi runs with root access. Unfortunately, this also creates all folders as root. In order to store these files on the webserver and make them generally accessible, it is advisable not to grant root access on the server. So in a first step I changed the user of the folder and the group (it is the same user). Then these folders can be copied and stored on the server without any problem with this non-root user.
+See also <a href="https://www.pluralsight.com/blog/it-ops/linux-file-permissions">https://www.pluralsight.com/blog/it-ops/linux-file-permissions</a></p>
+<p>I did everthing via a crontab:</p>
+<div class="highlight"><pre><span></span><code>pi@raspberrypi:~ $ crontab -e
+
+*/1 * * * * sudo chown -R xyuser:xyuser /var/www/html/weewx
+*/2 * * * * rsync --numeric-ids -avz /var/www/html/weewx  xyuser@somehost.example.com:/var/www/html 
+</code></pre></div>
+
+<h2>Finally two links to the weather station:</h2>
+<p><a href="http://v2202112116254172535.hotsrv.de/index.html">webserver (smartphone skin)</a></p>
+<p><a href="https://www.wunderground.com/dashboard/pws/IPATSC5">IPATSC5-Wunderground</a></p>
+<h2>Technical Data (WeatherScreen PRO station):</h2>
+<p>Below is screenshot taken from the <a href="https://m.media-amazon.com/images/I/91D93jzNt3L.pdf">WeatherScreen PRO Data Sheet</a>.
+The data sheet  is unfortunately only available in German.
+<img alt="Photo" src="/images/new-weather_station/technische_daten_Screenshot_from_2022-03-21 13-57-25.png"></p>
+            </section>
+
+            <section class="post-info">
+                <div class="post-share">
+                    <a class="twitter" href="https://twitter.com/share?text=New Weather Station&amp;url=https://markusgoller.at/new-weather-station.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
+                    </a>
+                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://markusgoller.at/new-weather-station.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
+                    </a>
+                    <a class="googleplus" href="https://plus.google.com/share?url=https://markusgoller.at/new-weather-station.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <i class="ic ic-googleplus"></i><span class="hidden">Google+</span>
+                    </a>
+                    <div class="clear"></div>
+                </div>
+
+                <aside class="post-tags">
+<a href="https://markusgoller.at/tag/raspberry-pi.html">Raspberry Pi</a><a href="https://markusgoller.at/tag/python.html">Python</a><a href="https://markusgoller.at/tag/weather-station.html">weather station</a>                </aside>
+
+                <div class="clear"></div>
+
+
+                </section>
+
+
+                <aside class="post-nav">
+                    <div class="clear"></div>
+                </aside>
+
+            </div>
+        </article>
+    </main>
+      <!-- TODO : Body class -->
+    <div id="body-class" style="display: none;" class=""></div>
+
+    <footer id="footer">
+      <div class="inner">
+        <section class="credits">
+
+
+          <span class="credits-theme">Theme <a href="https://github.com/arulrajnet/attila" rel="nofollow">Attila</a></span>
+          <span class="credits-software">Published with <a href="https://github.com/getpelican/pelican" rel="nofollow">Pelican</a></span>
+        </section>
+      </div>
+    </footer>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://markusgoller.at/theme/js/script.js"></script>
+
+</body>
+</html>
