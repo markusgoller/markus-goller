@@ -38,7 +38,6 @@ I used than later WH23xx as the driver.
 
 
 ## Status of the weather station:
-
 ```bash
 pi@raspberrypi:~ $
 sudo tail -f /var/log/syslog
