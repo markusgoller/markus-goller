@@ -4,7 +4,7 @@ og_image:../images/new-weather_station/IMG_20220322_180231.jpg
 Tags: Raspberry Pi, Python, weather station
 
 # New Weather Station
-Since my old [Renkfore WH2315](https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139) weather station unfortunately no longer worked properly (connection problems) I had to organize a new one. 
+Since my old [Renkfore WH2315](https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139) weather station unfortunately no longer worked properly (connection problems), I had to organize a new one. 
 I decided to buy a semi-professional weather station from the provider [dnt](https://www.dnt.de/Produkte/WiFi-Wetterstation-WeatherScreen-PRO/).
 The WeatherScreen PRO station is a WiFi weather station, so e.g. you can directly send your data to [Weather Underground](https://www.wunderground.com/), [Ecowitt Weather](https://www.ecowitt.net/), [Weathercloud](https://weathercloud.net/en) or another weather provider.
 
@@ -25,15 +25,15 @@ Photo taken from [https://www.netcup.de/](https://www.netcup.de/)
 
 
 ## Publication of the weather station take place in two ways:
-* Sending data to Weather Underground automatically 
+* Sending data to Weather Underground (automatically via the weather station) 
 * Sending data to a private webserver ([Raspberry Pi](https://www.raspberrypi.org/) - [WeeWX](https://www.weewx.com/) - webserver)
 
 
-### Sending data to Weather Underground automatically:
+### Sending data to Weather Underground (automatically via the weather station):
 Only the below setting on the basis station have to be made (sensitive data is marked as XXX)
 ![Photo](/images/new-weather_station/IMG_20220322_200607_cropped.png)
 
-### Sending private webserver:
+### Sending to a private webserver:
 First the weather data is send to the Raspberry Pi on which an open source software for weather stations WeeWX is installed. In a second step this data is send to a webserver.
 Because the WeatherScreen PRO station has no USB-connection I had to install an extra driver. The driver is available on GitHub via the following link 
 [(matthewwall / weewx-interceptor)](https://github.com/matthewwall/weewx-interceptor).
