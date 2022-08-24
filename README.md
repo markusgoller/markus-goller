@@ -22,7 +22,7 @@ At the end you will have a blog which is published at the GitHub own domain
 (markusgoller.github.io/markusgoller).
 
 Here you can see the DNS-settings on netcup:
-![](images/all_images/blog_netcup_dns_settings_Screenshot_from_2020-10-23_17-18-46.png)
+![Photo](images/all_images/blog_netcup_dns_settings_Screenshot_from_2020-10-23_17-18-46.png)
 
 
 ## To install *pelican* you have two options:
