@@ -23,7 +23,7 @@ Photo taken from &lt;a href="https://www.netcup.de/"&gt;https://www.netcup.de/&l
 &lt;li&gt;Sending data to a private webserver (&lt;a href="https://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt; - &lt;a href="https://www.weewx.com/"&gt;WeeWX&lt;/a&gt; - webserver)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Sending data to Weather Underground (automatically via the weather station):&lt;/h3&gt;
-&lt;p&gt;Only the below setting on the basis station have to be made (sensitive data is marked as XXX)
+&lt;p&gt;Only the below settings on the basis station have to be made (sensitive data is marked as XXX)
 &lt;img alt="Photo" src="/images/new-weather_station/IMG_20220322_200607_cropped.png"&gt;&lt;/p&gt;
 &lt;h3&gt;Sending to a private webserver:&lt;/h3&gt;
 &lt;p&gt;First the weather data is send to the Raspberry Pi on which an open source software for weather stations WeeWX is installed. In a second step this data is send to a webserver.
