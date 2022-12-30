@@ -5,8 +5,8 @@ Tags: Raspberry Pi, Python, weather station
 
 # New Weather Station
 Since my old [Renkfore WH2315](https://www.amazon.de/Renkforce-WH2315-Funk-WETTERSTATION/dp/B01N4DK6TG#ace-g6772571139) weather station unfortunately no longer worked properly (connection problems), I had to organize a new one. 
-I decided to buy a semi-professional weather station from the provider [dnt](https://www.dnt.de/Produkte/WiFi-Wetterstation-WeatherScreen-PRO/).
-The WeatherScreen PRO station is a WiFi weather station, so e.g. you can directly send your data to [Weather Underground](https://www.wunderground.com/), [Ecowitt Weather](https://www.ecowitt.net/), [Weathercloud](https://weathercloud.net/en) or another weather provider.
+I decided to buy a semi-professional weather station from the provider dnt.
+The [WeatherScreen PRO](https://www.dnt.de/Produkte/WiFi-Wetterstation-WeatherScreen-PRO/) station is a WiFi weather station, so e.g. you can directly send your data to [Weather Underground](https://www.wunderground.com/), [Ecowitt Weather](https://www.ecowitt.net/), [Weathercloud](https://weathercloud.net/en) or another weather provider.
 
 Here you can see the outside sensors and the basis station:
 ![Photo](/images/new-weather_station/IMG_20220307_181250_cropped.png)
