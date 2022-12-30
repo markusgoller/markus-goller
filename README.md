@@ -1,7 +1,7 @@
 # markusgoller.at ![Release on GitHub Pages](https://github.com/markusgoller/markusgoller/actions/workflows/release.yml/badge.svg)
 Here I want to describe how my [personal blog](https://markusgoller.at) was created.
 
-I build the blog with the help of the static site generator [Pelican](https://docs.getpelican.com/en/stable/) which is written in [Python](https://www.python.org/).
+The blog is build with the help of the static site generator [Pelican](https://docs.getpelican.com/en/stable/) which is written in [Python](https://www.python.org/).
 To publish the site I used [GitHub](https://github.com/) and [GitHub Pages](https://pages.github.com/).
 The order is mostly the same as the GitHub commits, but not always. Have fun creating your own blog, I hope my notes will help you!
 
