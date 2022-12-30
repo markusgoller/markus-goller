@@ -30,7 +30,7 @@ Photo taken from [https://www.netcup.de/](https://www.netcup.de/)
 
 
 ### Sending data to Weather Underground (automatically via the weather station):
-Only the below setting on the basis station have to be made (sensitive data is marked as XXX)
+Only the below settings on the basis station have to be made (sensitive data is marked as XXX)
 ![Photo](/images/new-weather_station/IMG_20220322_200607_cropped.png)
 
 ### Sending to a private webserver:
