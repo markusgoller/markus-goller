@@ -147,29 +147,29 @@ This server workes with <a href="http://nginx.org/">nginx</a> as webserver.</p>
 <p>Following links give good overviews:
 <a href="https://tonyteaches.tech/nginx-raspberry-pi/">How to Install Nginx on Raspberry Pi (Tony Teaches Tech)</a> with including <a href="https://www.youtube.com/watch?v=ECsQ8jbpMow&amp;t=35s">video</a>.</p>
 <p>First I have installed nginx:</p>
-<div class="highlight"><pre><span></span><code>pi@raspberrypi:~ $
-sudo apt update
-sudo apt upgrade
-sudo apt install nginx
+<div class="highlight"><pre><span></span><code>pi@raspberrypi:~<span class="w"> </span>$
+sudo<span class="w"> </span>apt<span class="w"> </span>update
+sudo<span class="w"> </span>apt<span class="w"> </span>upgrade
+sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>nginx
 </code></pre></div>
 
 <h2>I have basically worked through the following steps in the <a href="http://weewx.com/docs/usersguide.htm#integrating_with_webserver">WeeWX</a> documentation:</h2>
 <p>Verify that nginx is running:</p>
-<div class="highlight"><pre><span></span><code>pi@raspberrypi:~ $
-systemctl status nginx
+<div class="highlight"><pre><span></span><code>pi@raspberrypi:~<span class="w"> </span>$
+systemctl<span class="w"> </span>status<span class="w"> </span>nginx
 </code></pre></div>
 
 <p>WeeWx does host the files here:</p>
-<div class="highlight"><pre><span></span><code><span class="n">pi</span><span class="err">@</span><span class="n">raspberrypi</span><span class="p">:</span><span class="o">~</span><span class="w"> </span><span class="o">$</span><span class="w"> </span><span class="n">ls</span><span class="w"> </span><span class="o">/</span><span class="k">var</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="n">html</span><span class="o">/</span><span class="w"></span>
-<span class="n">index</span><span class="o">.</span><span class="n">nginx</span><span class="o">-</span><span class="n">debian</span><span class="o">.</span><span class="n">html</span><span class="w">  </span><span class="n">weewx</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="n">pi</span><span class="err">@</span><span class="n">raspberrypi</span><span class="p">:</span><span class="o">~</span><span class="w"> </span><span class="o">$</span><span class="w"> </span><span class="n">ls</span><span class="w"> </span><span class="o">/</span><span class="k">var</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="n">html</span><span class="o">/</span>
+<span class="n">index</span><span class="o">.</span><span class="n">nginx</span><span class="o">-</span><span class="n">debian</span><span class="o">.</span><span class="n">html</span><span class="w">  </span><span class="n">weewx</span>
 </code></pre></div>
 
 <p>So Nginx should contain the following configuration:</p>
-<div class="highlight"><pre><span></span><code>pi@raspberrypi:~ $ vim /etc/nginx/sites-available/default
+<div class="highlight"><pre><span></span><code>pi@raspberrypi:~<span class="w"> </span>$<span class="w"> </span>vim<span class="w"> </span>/etc/nginx/sites-available/default
 ...
 <span class="c1"># include snippets/snakeoil.conf;</span>
 
-root /var/www/html<span class="p">;</span>
+root<span class="w"> </span>/var/www/html<span class="p">;</span>
 
 ...
 </code></pre></div>
@@ -184,10 +184,10 @@ root /var/www/html<span class="p">;</span>
 
 <p><img alt="Photo" src="/images/pi_as_server/weewx_index.png"></p>
 <h3><a href="(https://www.cyberciti.biz/faq/nginx-restart-ubuntu-linux-command/)">Commands</a>:</h3>
-<div class="highlight"><pre><span></span><code>pi@raspberrypi:~ $
-sudo systemctl start nginx 
-sudo systemctl stop nginx 
-sudo systemctl restart nginx
+<div class="highlight"><pre><span></span><code>pi@raspberrypi:~<span class="w"> </span>$
+sudo<span class="w"> </span>systemctl<span class="w"> </span>start<span class="w"> </span>nginx<span class="w"> </span>
+sudo<span class="w"> </span>systemctl<span class="w"> </span>stop<span class="w"> </span>nginx<span class="w"> </span>
+sudo<span class="w"> </span>systemctl<span class="w"> </span>restart<span class="w"> </span>nginx
 </code></pre></div>
 
 <h3>Integrating the webserver:</h3>

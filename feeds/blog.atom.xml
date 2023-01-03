@@ -9,13 +9,17 @@ The &lt;a href="https://www.dnt.de/Produkte/WiFi-Wetterstation-WeatherScreen-PRO
 &lt;p&gt;Here you can see the outside sensors and the basis station:
 &lt;img alt="Photo" src="/images/new-weather_station/IMG_20220307_181250_cropped.png"&gt;&lt;/p&gt;
 &lt;p&gt;Below is a picture with the weather station in action.
+The first spot was at the back terrace, in the north of the property. 
 By the way, the yellow spots are quite valuable dirt (Sahara dust) which was transported from North Africa to Central Europe by a favorable air current at the beginning of March 2022.
 &lt;img alt="Photo" src="/images/new-weather_station/IMG_20220322_180242.jpg"&gt;&lt;/p&gt;
+&lt;h2&gt;New spot:&lt;/h2&gt;
+&lt;p&gt;The weather station is mounted since fall 2022 at the south side of the property, so the spot is now very suitable to measure the Foehn-winds.
+&lt;img alt="Photo" src="/images/new-weather_station/IMG_20221208_073143.jpg"&gt;&lt;/p&gt;
 &lt;h2&gt;Changes compared to the old &lt;a href="https://markusgoller.at/weather-station.html"&gt;(Renkforce Weather Station)&lt;/a&gt;:&lt;/h2&gt;
 &lt;p&gt;A big advantage of the new weather station is  a built-in memory by means of a sd-card.
 So if there are connection problems with the station and the WiFi you have no data loss.&lt;/p&gt;
-&lt;p&gt;Here you can see the new setting:
-&lt;img src="/images/new-weather_station/settings_subnails.svg" alt="settings_subnails.svg"&gt;
+&lt;p&gt;Here you can see the new construction:
+&lt;img src="/images/new-weather_station/construction_weather_station_not_splitted_in_two_subnails.svg" alt="construction_weather_station_not_splitted_in_two_subnails.svg"&gt;
 Photo taken from &lt;a href="https://www.netcup.de/"&gt;https://www.netcup.de/&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Publication of the weather station take place in two ways:&lt;/h2&gt;
 &lt;ul&gt;
@@ -31,25 +35,25 @@ Because the WeatherScreen PRO station has no USB-connection I had to install an 
 &lt;a href="https://github.com/matthewwall/weewx-interceptor"&gt;(matthewwall / weewx-interceptor)&lt;/a&gt;.
 For the installation I followed basically the GitHub documentation and another documenation which is unfortunately only available in German &lt;a href="https://www.dl1nux.de/erfahrungen-mit-dnt-wetterstation-weatherscreen-pro-und-weewx/"&gt;(https://www.dl1nux.de/erfahrungen-mit-dnt-wetterstation-weatherscreen-pro-und-weewx/)&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Below is an excerpt of the weewx.conf-file with the settings of the interceptor-driver (192.168.0.164 is the internal IP address of the Pi):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~ $ cat /etc/weewx/weewx.conf
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~&lt;span class="w"&gt; &lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;cat&lt;span class="w"&gt; &lt;/span&gt;/etc/weewx/weewx.conf
 &lt;span class="c1"&gt;##############################################################################&lt;/span&gt;
 
 &lt;span class="o"&gt;[&lt;/span&gt;Interceptor&lt;span class="o"&gt;]&lt;/span&gt;
-    &lt;span class="c1"&gt;# This section is for the network traffic interceptor driver.&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;# This section is for the network traffic interceptor driver.&lt;/span&gt;
 
-    &lt;span class="c1"&gt;# The driver to use:&lt;/span&gt;
-    &lt;span class="nv"&gt;driver&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; user.interceptor
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;# The driver to use:&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nv"&gt;driver&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;user.interceptor
 
-    &lt;span class="c1"&gt;# Specify the hardware device to capture.  Options include:&lt;/span&gt;
-    &lt;span class="c1"&gt;#   acurite-bridge - acurite internet bridge, smarthub, or access&lt;/span&gt;
-    &lt;span class="c1"&gt;#   observer - fine offset WH2600/HP1000/HP1003, ambient WS2902&lt;/span&gt;
-    &lt;span class="c1"&gt;#   lw30x - oregon scientific LW301/LW302&lt;/span&gt;
-    &lt;span class="c1"&gt;#   lacrosse-bridge - lacrosse GW1000U/C84612 internet bridge&lt;/span&gt;
-    &lt;span class="c1"&gt;#   ecowitt-client - any hardware that uses the ecowitt protocol&lt;/span&gt;
-    &lt;span class="c1"&gt;#   wu-client - any hardware that uses the weather underground protocol&lt;/span&gt;
-    &lt;span class="nv"&gt;device_type&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; ecowitt-client
-    &lt;span class="nv"&gt;port&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;40080&lt;/span&gt;
-    &lt;span class="nv"&gt;address&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="m"&gt;192&lt;/span&gt;.168.0.164 
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;# Specify the hardware device to capture.  Options include:&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;#   acurite-bridge - acurite internet bridge, smarthub, or access&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;#   observer - fine offset WH2600/HP1000/HP1003, ambient WS2902&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;#   lw30x - oregon scientific LW301/LW302&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;#   lacrosse-bridge - lacrosse GW1000U/C84612 internet bridge&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;#   ecowitt-client - any hardware that uses the ecowitt protocol&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;#   wu-client - any hardware that uses the weather underground protocol&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nv"&gt;device_type&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;ecowitt-client
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nv"&gt;port&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;40080&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nv"&gt;address&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;192&lt;/span&gt;.168.0.164&lt;span class="w"&gt; &lt;/span&gt;
 
 &lt;span class="c1"&gt;##############################################################################&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -60,10 +64,10 @@ For the installation I followed basically the GitHub documentation and another d
 &lt;p&gt;By default, the WeeWX software on the Pi runs with root access. Unfortunately, this also creates all folders as root. In order to store these files on the webserver and make them generally accessible, it is advisable not to grant root access on the server. So in a first step I changed the user of the folder and the group (it is the same user). Then these folders can be copied and stored on the server without any problem with this non-root user.
 See also &lt;a href="https://www.pluralsight.com/blog/it-ops/linux-file-permissions"&gt;https://www.pluralsight.com/blog/it-ops/linux-file-permissions&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I did everthing via a crontab:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~ $ crontab -e
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~&lt;span class="w"&gt; &lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;crontab&lt;span class="w"&gt; &lt;/span&gt;-e
 
-*/1 * * * * sudo chown -R xyuser:xyuser /var/www/html/weewx
-*/2 * * * * rsync --numeric-ids -avz /var/www/html/weewx  xyuser@somehost.example.com:/var/www/html 
+*/1&lt;span class="w"&gt; &lt;/span&gt;*&lt;span class="w"&gt; &lt;/span&gt;*&lt;span class="w"&gt; &lt;/span&gt;*&lt;span class="w"&gt; &lt;/span&gt;*&lt;span class="w"&gt; &lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;chown&lt;span class="w"&gt; &lt;/span&gt;-R&lt;span class="w"&gt; &lt;/span&gt;xyuser:xyuser&lt;span class="w"&gt; &lt;/span&gt;/var/www/html/weewx
+*/2&lt;span class="w"&gt; &lt;/span&gt;*&lt;span class="w"&gt; &lt;/span&gt;*&lt;span class="w"&gt; &lt;/span&gt;*&lt;span class="w"&gt; &lt;/span&gt;*&lt;span class="w"&gt; &lt;/span&gt;rsync&lt;span class="w"&gt; &lt;/span&gt;--numeric-ids&lt;span class="w"&gt; &lt;/span&gt;-avz&lt;span class="w"&gt; &lt;/span&gt;/var/www/html/weewx&lt;span class="w"&gt;  &lt;/span&gt;xyuser@somehost.example.com:/var/www/html&lt;span class="w"&gt; &lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h2&gt;Finally two links to the weather station:&lt;/h2&gt;
@@ -87,29 +91,29 @@ This server workes with &lt;a href="http://nginx.org/"&gt;nginx&lt;/a&gt; as web
 &lt;p&gt;Following links give good overviews:
 &lt;a href="https://tonyteaches.tech/nginx-raspberry-pi/"&gt;How to Install Nginx on Raspberry Pi (Tony Teaches Tech)&lt;/a&gt; with including &lt;a href="https://www.youtube.com/watch?v=ECsQ8jbpMow&amp;amp;t=35s"&gt;video&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;First I have installed nginx:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~ $
-sudo apt update
-sudo apt upgrade
-sudo apt install nginx
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~&lt;span class="w"&gt; &lt;/span&gt;$
+sudo&lt;span class="w"&gt; &lt;/span&gt;apt&lt;span class="w"&gt; &lt;/span&gt;update
+sudo&lt;span class="w"&gt; &lt;/span&gt;apt&lt;span class="w"&gt; &lt;/span&gt;upgrade
+sudo&lt;span class="w"&gt; &lt;/span&gt;apt&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;nginx
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h2&gt;I have basically worked through the following steps in the &lt;a href="http://weewx.com/docs/usersguide.htm#integrating_with_webserver"&gt;WeeWX&lt;/a&gt; documentation:&lt;/h2&gt;
 &lt;p&gt;Verify that nginx is running:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~ $
-systemctl status nginx
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~&lt;span class="w"&gt; &lt;/span&gt;$
+systemctl&lt;span class="w"&gt; &lt;/span&gt;status&lt;span class="w"&gt; &lt;/span&gt;nginx
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;WeeWx does host the files here:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;pi&lt;/span&gt;&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;raspberrypi&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;~&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;$&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;ls&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;www&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
-&lt;span class="n"&gt;index&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;nginx&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;debian&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;weewx&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;pi&lt;/span&gt;&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;raspberrypi&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;~&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;$&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;ls&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;www&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+&lt;span class="n"&gt;index&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;nginx&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;debian&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;weewx&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;So Nginx should contain the following configuration:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~ $ vim /etc/nginx/sites-available/default
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~&lt;span class="w"&gt; &lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;vim&lt;span class="w"&gt; &lt;/span&gt;/etc/nginx/sites-available/default
 ...
 &lt;span class="c1"&gt;# include snippets/snakeoil.conf;&lt;/span&gt;
 
-root /var/www/html&lt;span class="p"&gt;;&lt;/span&gt;
+root&lt;span class="w"&gt; &lt;/span&gt;/var/www/html&lt;span class="p"&gt;;&lt;/span&gt;
 
 ...
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -124,10 +128,10 @@ root /var/www/html&lt;span class="p"&gt;;&lt;/span&gt;
 
 &lt;p&gt;&lt;img alt="Photo" src="/images/pi_as_server/weewx_index.png"&gt;&lt;/p&gt;
 &lt;h3&gt;&lt;a href="(https://www.cyberciti.biz/faq/nginx-restart-ubuntu-linux-command/)"&gt;Commands&lt;/a&gt;:&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~ $
-sudo systemctl start nginx 
-sudo systemctl stop nginx 
-sudo systemctl restart nginx
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~&lt;span class="w"&gt; &lt;/span&gt;$
+sudo&lt;span class="w"&gt; &lt;/span&gt;systemctl&lt;span class="w"&gt; &lt;/span&gt;start&lt;span class="w"&gt; &lt;/span&gt;nginx&lt;span class="w"&gt; &lt;/span&gt;
+sudo&lt;span class="w"&gt; &lt;/span&gt;systemctl&lt;span class="w"&gt; &lt;/span&gt;stop&lt;span class="w"&gt; &lt;/span&gt;nginx&lt;span class="w"&gt; &lt;/span&gt;
+sudo&lt;span class="w"&gt; &lt;/span&gt;systemctl&lt;span class="w"&gt; &lt;/span&gt;restart&lt;span class="w"&gt; &lt;/span&gt;nginx
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3&gt;Integrating the webserver:&lt;/h3&gt;
@@ -284,74 +288,74 @@ Via the open source software &lt;a href="http://weewx.com/"&gt;WeeWX&lt;/a&gt; t
 &lt;img alt="Photo" src="/images/weather_station/renkforce_weather_history_ipatsc2_Screenshot from 2020-07-27 21-01-11.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Installation of WeeWX and hosting via Weather Underground:&lt;/h2&gt;
 &lt;p&gt;I followed basically the &lt;a href="http://weewx.com/docs/debian.htm"&gt;WeeWX debian documentation&lt;/a&gt;. &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~ $
-wget -qO - https://weewx.com/apt/weewx-python3.list &lt;span class="p"&gt;|&lt;/span&gt; sudo tee /etc/apt/sources.list.d/weewx.list
-sudo apt-get update
-sudo apt-get install weewx
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~&lt;span class="w"&gt; &lt;/span&gt;$
+wget&lt;span class="w"&gt; &lt;/span&gt;-qO&lt;span class="w"&gt; &lt;/span&gt;-&lt;span class="w"&gt; &lt;/span&gt;https://weewx.com/apt/weewx-python3.list&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;|&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;tee&lt;span class="w"&gt; &lt;/span&gt;/etc/apt/sources.list.d/weewx.list
+sudo&lt;span class="w"&gt; &lt;/span&gt;apt-get&lt;span class="w"&gt; &lt;/span&gt;update
+sudo&lt;span class="w"&gt; &lt;/span&gt;apt-get&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;weewx
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Because the driver for the Renkforce WH2315 station is not available in WeeWX it has to be installed seperatly see &lt;a href="https://github.com/EdwinGH/weewx-wh23xx/"&gt;https://github.com/EdwinGH/weewx-wh23xx/)&lt;/a&gt;.
 I used than later WH23xx as the driver.&lt;/p&gt;
 &lt;h2&gt;Status of the weather station:&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~ $
-sudo tail -f /var/log/syslog
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~&lt;span class="w"&gt; &lt;/span&gt;$
+sudo&lt;span class="w"&gt; &lt;/span&gt;tail&lt;span class="w"&gt; &lt;/span&gt;-f&lt;span class="w"&gt; &lt;/span&gt;/var/log/syslog
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;or&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~ $
-sudo /etc/init.d/weewx status 
-● weewx.service - LSB: weewx weather system
-   Loaded: loaded &lt;span class="o"&gt;(&lt;/span&gt;/etc/init.d/weewx&lt;span class="p"&gt;;&lt;/span&gt; generated&lt;span class="p"&gt;;&lt;/span&gt; vendor preset: enabled&lt;span class="o"&gt;)&lt;/span&gt;
-   Active: active &lt;span class="o"&gt;(&lt;/span&gt;running&lt;span class="o"&gt;)&lt;/span&gt; since Sun &lt;span class="m"&gt;2020&lt;/span&gt;-11-15 &lt;span class="m"&gt;14&lt;/span&gt;:21:41 CET&lt;span class="p"&gt;;&lt;/span&gt; 52min ago
-     Docs: man:systemd-sysv-generator&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;8&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
-  Process: &lt;span class="m"&gt;612&lt;/span&gt; &lt;span class="nv"&gt;ExecStop&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/etc/init.d/weewx stop &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;code&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;exited, &lt;span class="nv"&gt;status&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;/SUCCESS&lt;span class="o"&gt;)&lt;/span&gt;
-  Process: &lt;span class="m"&gt;714&lt;/span&gt; &lt;span class="nv"&gt;ExecStart&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/etc/init.d/weewx start &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;code&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;exited, &lt;span class="nv"&gt;status&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;/SUCCESS&lt;span class="o"&gt;)&lt;/span&gt;
-   CGroup: /system.slice/weewx.service
-           └─729 python /usr/bin/weewxd --daemon --pidfile&lt;span class="o"&gt;=&lt;/span&gt;/var/run/weewx.pid /etc/weewx/weewx.conf
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~&lt;span class="w"&gt; &lt;/span&gt;$
+sudo&lt;span class="w"&gt; &lt;/span&gt;/etc/init.d/weewx&lt;span class="w"&gt; &lt;/span&gt;status&lt;span class="w"&gt; &lt;/span&gt;
+●&lt;span class="w"&gt; &lt;/span&gt;weewx.service&lt;span class="w"&gt; &lt;/span&gt;-&lt;span class="w"&gt; &lt;/span&gt;LSB:&lt;span class="w"&gt; &lt;/span&gt;weewx&lt;span class="w"&gt; &lt;/span&gt;weather&lt;span class="w"&gt; &lt;/span&gt;system
+&lt;span class="w"&gt;   &lt;/span&gt;Loaded:&lt;span class="w"&gt; &lt;/span&gt;loaded&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;/etc/init.d/weewx&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;generated&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;vendor&lt;span class="w"&gt; &lt;/span&gt;preset:&lt;span class="w"&gt; &lt;/span&gt;enabled&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;   &lt;/span&gt;Active:&lt;span class="w"&gt; &lt;/span&gt;active&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;running&lt;span class="o"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;since&lt;span class="w"&gt; &lt;/span&gt;Sun&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;2020&lt;/span&gt;-11-15&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;14&lt;/span&gt;:21:41&lt;span class="w"&gt; &lt;/span&gt;CET&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;52min&lt;span class="w"&gt; &lt;/span&gt;ago
+&lt;span class="w"&gt;     &lt;/span&gt;Docs:&lt;span class="w"&gt; &lt;/span&gt;man:systemd-sysv-generator&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;8&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;Process:&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;612&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;ExecStop&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/etc/init.d/weewx&lt;span class="w"&gt; &lt;/span&gt;stop&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;code&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;exited,&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;status&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;/SUCCESS&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;Process:&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;714&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;ExecStart&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/etc/init.d/weewx&lt;span class="w"&gt; &lt;/span&gt;start&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;code&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;exited,&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;status&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;/SUCCESS&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;   &lt;/span&gt;CGroup:&lt;span class="w"&gt; &lt;/span&gt;/system.slice/weewx.service
+&lt;span class="w"&gt;           &lt;/span&gt;└─729&lt;span class="w"&gt; &lt;/span&gt;python&lt;span class="w"&gt; &lt;/span&gt;/usr/bin/weewxd&lt;span class="w"&gt; &lt;/span&gt;--daemon&lt;span class="w"&gt; &lt;/span&gt;--pidfile&lt;span class="o"&gt;=&lt;/span&gt;/var/run/weewx.pid&lt;span class="w"&gt; &lt;/span&gt;/etc/weewx/weewx.conf
 
-Nov &lt;span class="m"&gt;15&lt;/span&gt; &lt;span class="m"&gt;15&lt;/span&gt;:05:19 raspberrypi weewx&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="m"&gt;729&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;: restx: Wunderground-PWS: Published record &lt;span class="m"&gt;2020&lt;/span&gt;-11-15 &lt;span class="m"&gt;15&lt;/span&gt;:05:00 CET &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1605449100&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
-Nov &lt;span class="m"&gt;15&lt;/span&gt; &lt;span class="m"&gt;15&lt;/span&gt;:05:32 raspberrypi weewx&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="m"&gt;729&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;: cheetahgenerator: Generated &lt;span class="m"&gt;8&lt;/span&gt; files &lt;span class="k"&gt;for&lt;/span&gt; report SeasonsReport &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="m"&gt;12&lt;/span&gt;.61 seconds
-Nov &lt;span class="m"&gt;15&lt;/span&gt; &lt;span class="m"&gt;15&lt;/span&gt;:05:38 raspberrypi weewx&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="m"&gt;729&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;: imagegenerator: Generated &lt;span class="m"&gt;14&lt;/span&gt; images &lt;span class="k"&gt;for&lt;/span&gt; SeasonsReport &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="m"&gt;6&lt;/span&gt;.01 seconds
-Nov &lt;span class="m"&gt;15&lt;/span&gt; &lt;span class="m"&gt;15&lt;/span&gt;:05:38 raspberrypi weewx&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="m"&gt;729&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;: copygenerator: copied &lt;span class="m"&gt;0&lt;/span&gt; files to /var/www/html/weewx
-Nov &lt;span class="m"&gt;15&lt;/span&gt; &lt;span class="m"&gt;15&lt;/span&gt;:10:30 raspberrypi weewx&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="m"&gt;729&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;: manager: Added record &lt;span class="m"&gt;2020&lt;/span&gt;-11-15 &lt;span class="m"&gt;15&lt;/span&gt;:10:00 CET &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1605449400&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; to database &lt;span class="s1"&gt;&amp;#39;weewx.sdb&amp;#39;&lt;/span&gt;
-Nov &lt;span class="m"&gt;15&lt;/span&gt; &lt;span class="m"&gt;15&lt;/span&gt;:10:30 raspberrypi weewx&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="m"&gt;729&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;: manager: Added record &lt;span class="m"&gt;2020&lt;/span&gt;-11-15 &lt;span class="m"&gt;15&lt;/span&gt;:10:00 CET &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1605449400&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; to daily summary &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;weewx.sdb&amp;#39;&lt;/span&gt;
-Nov &lt;span class="m"&gt;15&lt;/span&gt; &lt;span class="m"&gt;15&lt;/span&gt;:10:31 raspberrypi weewx&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="m"&gt;729&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;: restx: Wunderground-PWS: Published record &lt;span class="m"&gt;2020&lt;/span&gt;-11-15 &lt;span class="m"&gt;15&lt;/span&gt;:10:00 CET &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1605449400&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
-Nov &lt;span class="m"&gt;15&lt;/span&gt; &lt;span class="m"&gt;15&lt;/span&gt;:10:44 raspberrypi weewx&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="m"&gt;729&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;: cheetahgenerator: Generated &lt;span class="m"&gt;8&lt;/span&gt; files &lt;span class="k"&gt;for&lt;/span&gt; report SeasonsReport &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="m"&gt;12&lt;/span&gt;.67 seconds
-Nov &lt;span class="m"&gt;15&lt;/span&gt; &lt;span class="m"&gt;15&lt;/span&gt;:10:50 raspberrypi weewx&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="m"&gt;729&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;: imagegenerator: Generated &lt;span class="m"&gt;14&lt;/span&gt; images &lt;span class="k"&gt;for&lt;/span&gt; SeasonsReport &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="m"&gt;5&lt;/span&gt;.98 seconds
-Nov &lt;span class="m"&gt;15&lt;/span&gt; &lt;span class="m"&gt;15&lt;/span&gt;:10:50 raspberrypi weewx&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="m"&gt;729&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;: copygenerator: copied &lt;span class="m"&gt;0&lt;/span&gt; files to /var/www/html/weewx
-pi@raspberrypi:~ $ 
+Nov&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;:05:19&lt;span class="w"&gt; &lt;/span&gt;raspberrypi&lt;span class="w"&gt; &lt;/span&gt;weewx&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="m"&gt;729&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;:&lt;span class="w"&gt; &lt;/span&gt;restx:&lt;span class="w"&gt; &lt;/span&gt;Wunderground-PWS:&lt;span class="w"&gt; &lt;/span&gt;Published&lt;span class="w"&gt; &lt;/span&gt;record&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;2020&lt;/span&gt;-11-15&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;:05:00&lt;span class="w"&gt; &lt;/span&gt;CET&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1605449100&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+Nov&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;:05:32&lt;span class="w"&gt; &lt;/span&gt;raspberrypi&lt;span class="w"&gt; &lt;/span&gt;weewx&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="m"&gt;729&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;:&lt;span class="w"&gt; &lt;/span&gt;cheetahgenerator:&lt;span class="w"&gt; &lt;/span&gt;Generated&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;8&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;files&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;report&lt;span class="w"&gt; &lt;/span&gt;SeasonsReport&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;in&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;12&lt;/span&gt;.61&lt;span class="w"&gt; &lt;/span&gt;seconds
+Nov&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;:05:38&lt;span class="w"&gt; &lt;/span&gt;raspberrypi&lt;span class="w"&gt; &lt;/span&gt;weewx&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="m"&gt;729&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;:&lt;span class="w"&gt; &lt;/span&gt;imagegenerator:&lt;span class="w"&gt; &lt;/span&gt;Generated&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;14&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;images&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;SeasonsReport&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;in&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;6&lt;/span&gt;.01&lt;span class="w"&gt; &lt;/span&gt;seconds
+Nov&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;:05:38&lt;span class="w"&gt; &lt;/span&gt;raspberrypi&lt;span class="w"&gt; &lt;/span&gt;weewx&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="m"&gt;729&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;:&lt;span class="w"&gt; &lt;/span&gt;copygenerator:&lt;span class="w"&gt; &lt;/span&gt;copied&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;files&lt;span class="w"&gt; &lt;/span&gt;to&lt;span class="w"&gt; &lt;/span&gt;/var/www/html/weewx
+Nov&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;:10:30&lt;span class="w"&gt; &lt;/span&gt;raspberrypi&lt;span class="w"&gt; &lt;/span&gt;weewx&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="m"&gt;729&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;:&lt;span class="w"&gt; &lt;/span&gt;manager:&lt;span class="w"&gt; &lt;/span&gt;Added&lt;span class="w"&gt; &lt;/span&gt;record&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;2020&lt;/span&gt;-11-15&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;:10:00&lt;span class="w"&gt; &lt;/span&gt;CET&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1605449400&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;to&lt;span class="w"&gt; &lt;/span&gt;database&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;weewx.sdb&amp;#39;&lt;/span&gt;
+Nov&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;:10:30&lt;span class="w"&gt; &lt;/span&gt;raspberrypi&lt;span class="w"&gt; &lt;/span&gt;weewx&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="m"&gt;729&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;:&lt;span class="w"&gt; &lt;/span&gt;manager:&lt;span class="w"&gt; &lt;/span&gt;Added&lt;span class="w"&gt; &lt;/span&gt;record&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;2020&lt;/span&gt;-11-15&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;:10:00&lt;span class="w"&gt; &lt;/span&gt;CET&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1605449400&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;to&lt;span class="w"&gt; &lt;/span&gt;daily&lt;span class="w"&gt; &lt;/span&gt;summary&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;in&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;weewx.sdb&amp;#39;&lt;/span&gt;
+Nov&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;:10:31&lt;span class="w"&gt; &lt;/span&gt;raspberrypi&lt;span class="w"&gt; &lt;/span&gt;weewx&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="m"&gt;729&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;:&lt;span class="w"&gt; &lt;/span&gt;restx:&lt;span class="w"&gt; &lt;/span&gt;Wunderground-PWS:&lt;span class="w"&gt; &lt;/span&gt;Published&lt;span class="w"&gt; &lt;/span&gt;record&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;2020&lt;/span&gt;-11-15&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;:10:00&lt;span class="w"&gt; &lt;/span&gt;CET&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1605449400&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+Nov&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;:10:44&lt;span class="w"&gt; &lt;/span&gt;raspberrypi&lt;span class="w"&gt; &lt;/span&gt;weewx&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="m"&gt;729&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;:&lt;span class="w"&gt; &lt;/span&gt;cheetahgenerator:&lt;span class="w"&gt; &lt;/span&gt;Generated&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;8&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;files&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;report&lt;span class="w"&gt; &lt;/span&gt;SeasonsReport&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;in&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;12&lt;/span&gt;.67&lt;span class="w"&gt; &lt;/span&gt;seconds
+Nov&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;:10:50&lt;span class="w"&gt; &lt;/span&gt;raspberrypi&lt;span class="w"&gt; &lt;/span&gt;weewx&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="m"&gt;729&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;:&lt;span class="w"&gt; &lt;/span&gt;imagegenerator:&lt;span class="w"&gt; &lt;/span&gt;Generated&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;14&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;images&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;SeasonsReport&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;in&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;5&lt;/span&gt;.98&lt;span class="w"&gt; &lt;/span&gt;seconds
+Nov&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;15&lt;/span&gt;:10:50&lt;span class="w"&gt; &lt;/span&gt;raspberrypi&lt;span class="w"&gt; &lt;/span&gt;weewx&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="m"&gt;729&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;:&lt;span class="w"&gt; &lt;/span&gt;copygenerator:&lt;span class="w"&gt; &lt;/span&gt;copied&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;files&lt;span class="w"&gt; &lt;/span&gt;to&lt;span class="w"&gt; &lt;/span&gt;/var/www/html/weewx
+pi@raspberrypi:~&lt;span class="w"&gt; &lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h2&gt;Basics of WeeWX:&lt;/h2&gt;
 &lt;p&gt;Configurations are saved here:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~ $
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~&lt;span class="w"&gt; &lt;/span&gt;$
 /etc/weewx/weewx.conf
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Quick change / initial setup in weewx.conf:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~ $ 
-wee_config --reconfigure
-wee_config --help
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~&lt;span class="w"&gt; &lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;
+wee_config&lt;span class="w"&gt; &lt;/span&gt;--reconfigure
+wee_config&lt;span class="w"&gt; &lt;/span&gt;--help
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Commands:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~ $ 
-sudo weewxd
-sudo /etc/init.d/weewx status
-sudo /etc/init.d/weewx restart
-sudo /etc/init.d/weewx stop
-sudo /etc/init.d/weewx start
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~&lt;span class="w"&gt; &lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;
+sudo&lt;span class="w"&gt; &lt;/span&gt;weewxd
+sudo&lt;span class="w"&gt; &lt;/span&gt;/etc/init.d/weewx&lt;span class="w"&gt; &lt;/span&gt;status
+sudo&lt;span class="w"&gt; &lt;/span&gt;/etc/init.d/weewx&lt;span class="w"&gt; &lt;/span&gt;restart
+sudo&lt;span class="w"&gt; &lt;/span&gt;/etc/init.d/weewx&lt;span class="w"&gt; &lt;/span&gt;stop
+sudo&lt;span class="w"&gt; &lt;/span&gt;/etc/init.d/weewx&lt;span class="w"&gt; &lt;/span&gt;start
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Some files are saved here:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:/var/www/html/weewx $ ls
-celestial.html    daytempdew.png   daywind.png         monthhum.png        monthtemp.png     rss.xml            weekhumin.png      weektempin.png   yearbarometer.png  yeartempfeel.png  yearwindvec.png
-daybarometer.png  daytempfeel.png  daywindvec.png      monthradiation.png  monthuv.png       seasons.css        weekhum.png        weektemp.png     yearhumin.png      yeartempin.png
-dayhumin.png      daytempin.png    favicon.ico         monthrain.png       monthvolt.png     seasons.js         weekradiation.png  weekuv.png       yearhum.png        yeartemp.png
-dayhum.png        daytemp.png      font                monthrx.png         monthwinddir.png  statistics.html    weekrain.png       weekvolt.png     yearradiation.png  yearuv.png
-dayradiation.png  dayuv.png        index.html          monthtempdew.png    monthwind.png     tabular.html       weekrx.png         weekwinddir.png  yearrain.png       yearvolt.png
-dayrain.png       dayvolt.png      monthbarometer.png  monthtempfeel.png   monthwindvec.png  telemetry.html     weektempdew.png    weekwind.png     yearrx.png         yearwinddir.png
-dayrx.png         daywinddir.png   monthhumin.png      monthtempin.png     NOAA              weekbarometer.png  weektempfeel.png   weekwindvec.png  yeartempdew.png    yearwind.png
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:/var/www/html/weewx&lt;span class="w"&gt; &lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;ls
+celestial.html&lt;span class="w"&gt;    &lt;/span&gt;daytempdew.png&lt;span class="w"&gt;   &lt;/span&gt;daywind.png&lt;span class="w"&gt;         &lt;/span&gt;monthhum.png&lt;span class="w"&gt;        &lt;/span&gt;monthtemp.png&lt;span class="w"&gt;     &lt;/span&gt;rss.xml&lt;span class="w"&gt;            &lt;/span&gt;weekhumin.png&lt;span class="w"&gt;      &lt;/span&gt;weektempin.png&lt;span class="w"&gt;   &lt;/span&gt;yearbarometer.png&lt;span class="w"&gt;  &lt;/span&gt;yeartempfeel.png&lt;span class="w"&gt;  &lt;/span&gt;yearwindvec.png
+daybarometer.png&lt;span class="w"&gt;  &lt;/span&gt;daytempfeel.png&lt;span class="w"&gt;  &lt;/span&gt;daywindvec.png&lt;span class="w"&gt;      &lt;/span&gt;monthradiation.png&lt;span class="w"&gt;  &lt;/span&gt;monthuv.png&lt;span class="w"&gt;       &lt;/span&gt;seasons.css&lt;span class="w"&gt;        &lt;/span&gt;weekhum.png&lt;span class="w"&gt;        &lt;/span&gt;weektemp.png&lt;span class="w"&gt;     &lt;/span&gt;yearhumin.png&lt;span class="w"&gt;      &lt;/span&gt;yeartempin.png
+dayhumin.png&lt;span class="w"&gt;      &lt;/span&gt;daytempin.png&lt;span class="w"&gt;    &lt;/span&gt;favicon.ico&lt;span class="w"&gt;         &lt;/span&gt;monthrain.png&lt;span class="w"&gt;       &lt;/span&gt;monthvolt.png&lt;span class="w"&gt;     &lt;/span&gt;seasons.js&lt;span class="w"&gt;         &lt;/span&gt;weekradiation.png&lt;span class="w"&gt;  &lt;/span&gt;weekuv.png&lt;span class="w"&gt;       &lt;/span&gt;yearhum.png&lt;span class="w"&gt;        &lt;/span&gt;yeartemp.png
+dayhum.png&lt;span class="w"&gt;        &lt;/span&gt;daytemp.png&lt;span class="w"&gt;      &lt;/span&gt;font&lt;span class="w"&gt;                &lt;/span&gt;monthrx.png&lt;span class="w"&gt;         &lt;/span&gt;monthwinddir.png&lt;span class="w"&gt;  &lt;/span&gt;statistics.html&lt;span class="w"&gt;    &lt;/span&gt;weekrain.png&lt;span class="w"&gt;       &lt;/span&gt;weekvolt.png&lt;span class="w"&gt;     &lt;/span&gt;yearradiation.png&lt;span class="w"&gt;  &lt;/span&gt;yearuv.png
+dayradiation.png&lt;span class="w"&gt;  &lt;/span&gt;dayuv.png&lt;span class="w"&gt;        &lt;/span&gt;index.html&lt;span class="w"&gt;          &lt;/span&gt;monthtempdew.png&lt;span class="w"&gt;    &lt;/span&gt;monthwind.png&lt;span class="w"&gt;     &lt;/span&gt;tabular.html&lt;span class="w"&gt;       &lt;/span&gt;weekrx.png&lt;span class="w"&gt;         &lt;/span&gt;weekwinddir.png&lt;span class="w"&gt;  &lt;/span&gt;yearrain.png&lt;span class="w"&gt;       &lt;/span&gt;yearvolt.png
+dayrain.png&lt;span class="w"&gt;       &lt;/span&gt;dayvolt.png&lt;span class="w"&gt;      &lt;/span&gt;monthbarometer.png&lt;span class="w"&gt;  &lt;/span&gt;monthtempfeel.png&lt;span class="w"&gt;   &lt;/span&gt;monthwindvec.png&lt;span class="w"&gt;  &lt;/span&gt;telemetry.html&lt;span class="w"&gt;     &lt;/span&gt;weektempdew.png&lt;span class="w"&gt;    &lt;/span&gt;weekwind.png&lt;span class="w"&gt;     &lt;/span&gt;yearrx.png&lt;span class="w"&gt;         &lt;/span&gt;yearwinddir.png
+dayrx.png&lt;span class="w"&gt;         &lt;/span&gt;daywinddir.png&lt;span class="w"&gt;   &lt;/span&gt;monthhumin.png&lt;span class="w"&gt;      &lt;/span&gt;monthtempin.png&lt;span class="w"&gt;     &lt;/span&gt;NOAA&lt;span class="w"&gt;              &lt;/span&gt;weekbarometer.png&lt;span class="w"&gt;  &lt;/span&gt;weektempfeel.png&lt;span class="w"&gt;   &lt;/span&gt;weekwindvec.png&lt;span class="w"&gt;  &lt;/span&gt;yeartempdew.png&lt;span class="w"&gt;    &lt;/span&gt;yearwind.png
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h2&gt;Technical Data (Renkfore WH2315):&lt;/h2&gt;

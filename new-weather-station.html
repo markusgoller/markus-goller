@@ -63,7 +63,7 @@
 <meta property="article:tag" content="Raspberry Pi"/>
 <meta property="article:tag" content="Python"/>
 <meta property="article:tag" content="weather station"/>
-<meta property="og:image" content="https://markusgoller.at/../images/new-weather_station/IMG_20220322_180231.jpg">
+<meta property="og:image" content="https://markusgoller.at/../images/new-weather_station/IMG_20221208_073143.jpg">
 
 <!-- Twitter Card -->
 
@@ -80,7 +80,7 @@
     "name": "Markus",
     "url": "https://markusgoller.at/author/markus.html"
   },
-  "image": "https://markusgoller.at/../images/new-weather_station/IMG_20220322_180231.jpg",
+  "image": "https://markusgoller.at/../images/new-weather_station/IMG_20221208_073143.jpg",
   "url": "https://markusgoller.at/new-weather-station.html",
   "description": "New Weather Station Since my old Renkfore WH2315 weather station unfortunately no longer worked properly (connection problems), I had to..."
 }
@@ -126,7 +126,7 @@
             | <time datetime="Wed 23 March 2022">Wed 23 March 2022</time>
         </span>
         <!-- TODO : Modified check -->
-            <div class="post-cover cover" style="background-image: url('https://markusgoller.at/../images/new-weather_station/IMG_20220322_180231.jpg')">
+            <div class="post-cover cover" style="background-image: url('https://markusgoller.at/../images/new-weather_station/IMG_20221208_073143.jpg')">
       </div>
     </header>
 
@@ -145,13 +145,17 @@ The <a href="https://www.dnt.de/Produkte/WiFi-Wetterstation-WeatherScreen-PRO/">
 <p>Here you can see the outside sensors and the basis station:
 <img alt="Photo" src="/images/new-weather_station/IMG_20220307_181250_cropped.png"></p>
 <p>Below is a picture with the weather station in action.
+The first spot was at the back terrace, in the north of the property. 
 By the way, the yellow spots are quite valuable dirt (Sahara dust) which was transported from North Africa to Central Europe by a favorable air current at the beginning of March 2022.
 <img alt="Photo" src="/images/new-weather_station/IMG_20220322_180242.jpg"></p>
+<h2>New spot:</h2>
+<p>The weather station is mounted since fall 2022 at the south side of the property, so the spot is now very suitable to measure the Foehn-winds.
+<img alt="Photo" src="/images/new-weather_station/IMG_20221208_073143.jpg"></p>
 <h2>Changes compared to the old <a href="https://markusgoller.at/weather-station.html">(Renkforce Weather Station)</a>:</h2>
 <p>A big advantage of the new weather station is  a built-in memory by means of a sd-card.
 So if there are connection problems with the station and the WiFi you have no data loss.</p>
-<p>Here you can see the new setting:
-<img src="/images/new-weather_station/settings_subnails.svg" alt="settings_subnails.svg">
+<p>Here you can see the new construction:
+<img src="/images/new-weather_station/construction_weather_station_not_splitted_in_two_subnails.svg" alt="construction_weather_station_not_splitted_in_two_subnails.svg">
 Photo taken from <a href="https://www.netcup.de/">https://www.netcup.de/</a></p>
 <h2>Publication of the weather station take place in two ways:</h2>
 <ul>
@@ -167,25 +171,25 @@ Because the WeatherScreen PRO station has no USB-connection I had to install an 
 <a href="https://github.com/matthewwall/weewx-interceptor">(matthewwall / weewx-interceptor)</a>.
 For the installation I followed basically the GitHub documentation and another documenation which is unfortunately only available in German <a href="https://www.dl1nux.de/erfahrungen-mit-dnt-wetterstation-weatherscreen-pro-und-weewx/">(https://www.dl1nux.de/erfahrungen-mit-dnt-wetterstation-weatherscreen-pro-und-weewx/)</a>.</p>
 <p>Below is an excerpt of the weewx.conf-file with the settings of the interceptor-driver (192.168.0.164 is the internal IP address of the Pi):</p>
-<div class="highlight"><pre><span></span><code>pi@raspberrypi:~ $ cat /etc/weewx/weewx.conf
+<div class="highlight"><pre><span></span><code>pi@raspberrypi:~<span class="w"> </span>$<span class="w"> </span>cat<span class="w"> </span>/etc/weewx/weewx.conf
 <span class="c1">##############################################################################</span>
 
 <span class="o">[</span>Interceptor<span class="o">]</span>
-    <span class="c1"># This section is for the network traffic interceptor driver.</span>
+<span class="w">    </span><span class="c1"># This section is for the network traffic interceptor driver.</span>
 
-    <span class="c1"># The driver to use:</span>
-    <span class="nv">driver</span> <span class="o">=</span> user.interceptor
+<span class="w">    </span><span class="c1"># The driver to use:</span>
+<span class="w">    </span><span class="nv">driver</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>user.interceptor
 
-    <span class="c1"># Specify the hardware device to capture.  Options include:</span>
-    <span class="c1">#   acurite-bridge - acurite internet bridge, smarthub, or access</span>
-    <span class="c1">#   observer - fine offset WH2600/HP1000/HP1003, ambient WS2902</span>
-    <span class="c1">#   lw30x - oregon scientific LW301/LW302</span>
-    <span class="c1">#   lacrosse-bridge - lacrosse GW1000U/C84612 internet bridge</span>
-    <span class="c1">#   ecowitt-client - any hardware that uses the ecowitt protocol</span>
-    <span class="c1">#   wu-client - any hardware that uses the weather underground protocol</span>
-    <span class="nv">device_type</span> <span class="o">=</span> ecowitt-client
-    <span class="nv">port</span> <span class="o">=</span> <span class="m">40080</span>
-    <span class="nv">address</span> <span class="o">=</span> <span class="m">192</span>.168.0.164 
+<span class="w">    </span><span class="c1"># Specify the hardware device to capture.  Options include:</span>
+<span class="w">    </span><span class="c1">#   acurite-bridge - acurite internet bridge, smarthub, or access</span>
+<span class="w">    </span><span class="c1">#   observer - fine offset WH2600/HP1000/HP1003, ambient WS2902</span>
+<span class="w">    </span><span class="c1">#   lw30x - oregon scientific LW301/LW302</span>
+<span class="w">    </span><span class="c1">#   lacrosse-bridge - lacrosse GW1000U/C84612 internet bridge</span>
+<span class="w">    </span><span class="c1">#   ecowitt-client - any hardware that uses the ecowitt protocol</span>
+<span class="w">    </span><span class="c1">#   wu-client - any hardware that uses the weather underground protocol</span>
+<span class="w">    </span><span class="nv">device_type</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>ecowitt-client
+<span class="w">    </span><span class="nv">port</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">40080</span>
+<span class="w">    </span><span class="nv">address</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">192</span>.168.0.164<span class="w"> </span>
 
 <span class="c1">##############################################################################</span>
 </code></pre></div>
@@ -196,10 +200,10 @@ For the installation I followed basically the GitHub documentation and another d
 <p>By default, the WeeWX software on the Pi runs with root access. Unfortunately, this also creates all folders as root. In order to store these files on the webserver and make them generally accessible, it is advisable not to grant root access on the server. So in a first step I changed the user of the folder and the group (it is the same user). Then these folders can be copied and stored on the server without any problem with this non-root user.
 See also <a href="https://www.pluralsight.com/blog/it-ops/linux-file-permissions">https://www.pluralsight.com/blog/it-ops/linux-file-permissions</a></p>
 <p>I did everthing via a crontab:</p>
-<div class="highlight"><pre><span></span><code>pi@raspberrypi:~ $ crontab -e
+<div class="highlight"><pre><span></span><code>pi@raspberrypi:~<span class="w"> </span>$<span class="w"> </span>crontab<span class="w"> </span>-e
 
-*/1 * * * * sudo chown -R xyuser:xyuser /var/www/html/weewx
-*/2 * * * * rsync --numeric-ids -avz /var/www/html/weewx  xyuser@somehost.example.com:/var/www/html 
+*/1<span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>sudo<span class="w"> </span>chown<span class="w"> </span>-R<span class="w"> </span>xyuser:xyuser<span class="w"> </span>/var/www/html/weewx
+*/2<span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>rsync<span class="w"> </span>--numeric-ids<span class="w"> </span>-avz<span class="w"> </span>/var/www/html/weewx<span class="w">  </span>xyuser@somehost.example.com:/var/www/html<span class="w"> </span>
 </code></pre></div>
 
 <h2>Finally two links to the weather station:</h2>
