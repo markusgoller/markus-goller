@@ -228,3 +228,10 @@ The local Git repo must then only be synchronized with the remote one via ($ git
 ```bash
 (base) [unix@localhost markusgoller]$ git fetch --prune
 ```
+
+### drafts-folder:
+This is a folder where e.g. the following task are saved (not pushed to github):
+* drafts.md ...thoughts about the homepage, or future constructions
+* construction_and_settings.odg ...LibreOffice drawings how the station is set up
+
+
