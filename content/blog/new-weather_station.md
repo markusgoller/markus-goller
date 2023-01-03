@@ -1,6 +1,6 @@
 Title: New Weather Station
 Date: 2022-03-23 23:00
-og_image:../images/new-weather_station/IMG_20220322_180231.jpg
+og_image:../images/new-weather_station/IMG_20221208_073143.jpg
 Tags: Raspberry Pi, Python, weather station
 
 # New Weather Station
@@ -12,15 +12,20 @@ Here you can see the outside sensors and the basis station:
 ![Photo](/images/new-weather_station/IMG_20220307_181250_cropped.png)
 
 Below is a picture with the weather station in action.
+The first spot was at the back terrace, in the north of the property. 
 By the way, the yellow spots are quite valuable dirt (Sahara dust) which was transported from North Africa to Central Europe by a favorable air current at the beginning of March 2022.
 ![Photo](/images/new-weather_station/IMG_20220322_180242.jpg)
+
+## New spot:
+The weather station is mounted since fall 2022 at the south side of the property, so the spot is now very suitable to measure the Foehn-winds.
+![Photo](/images/new-weather_station/IMG_20221208_073143.jpg)
 
 ## Changes compared to the old [(Renkforce Weather Station)](https://markusgoller.at/weather-station.html):
 A big advantage of the new weather station is  a built-in memory by means of a sd-card.
 So if there are connection problems with the station and the WiFi you have no data loss.
 
-Here you can see the new setting:
-<img src="/images/new-weather_station/settings_subnails.svg" alt="settings_subnails.svg">
+Here you can see the new construction:
+<img src="/images/new-weather_station/construction_weather_station_not_splitted_in_two_subnails.svg" alt="construction_weather_station_not_splitted_in_two_subnails.svg">
 Photo taken from [https://www.netcup.de/](https://www.netcup.de/)
 
 
