@@ -1,5 +1,5 @@
 Title: New Weather Station
-Date: 2022-03-23 23:00
+Date: 2023-01-03 20:00
 og_image:../images/new-weather_station/IMG_20221208_073143.jpg
 Tags: Raspberry Pi, Python, weather station
 
