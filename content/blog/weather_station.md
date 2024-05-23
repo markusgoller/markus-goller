@@ -33,7 +33,7 @@ sudo apt-get update
 sudo apt-get install weewx
 ```
 
-Because the driver for the Renkforce WH2315 station is not available in WeeWX it has to be installed seperatly see [https://github.com/EdwinGH/weewx-wh23xx/)](https://github.com/EdwinGH/weewx-wh23xx/).
+Because the driver for the Renkforce WH2315 station is not available in WeeWX it has to be installed separately see [https://github.com/EdwinGH/weewx-wh23xx/)](https://github.com/EdwinGH/weewx-wh23xx/).
 I used than later WH23xx as the driver.
 
 
