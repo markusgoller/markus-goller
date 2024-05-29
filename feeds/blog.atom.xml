@@ -294,7 +294,7 @@ sudo&lt;span class="w"&gt; &lt;/span&gt;apt-get&lt;span class="w"&gt; &lt;/span&
 sudo&lt;span class="w"&gt; &lt;/span&gt;apt-get&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;weewx
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Because the driver for the Renkforce WH2315 station is not available in WeeWX it has to be installed seperatly see &lt;a href="https://github.com/EdwinGH/weewx-wh23xx/"&gt;https://github.com/EdwinGH/weewx-wh23xx/)&lt;/a&gt;.
+&lt;p&gt;Because the driver for the Renkforce WH2315 station is not available in WeeWX it has to be installed separately see &lt;a href="https://github.com/EdwinGH/weewx-wh23xx/"&gt;https://github.com/EdwinGH/weewx-wh23xx/)&lt;/a&gt;.
 I used than later WH23xx as the driver.&lt;/p&gt;
 &lt;h2&gt;Status of the weather station:&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pi@raspberrypi:~&lt;span class="w"&gt; &lt;/span&gt;$
