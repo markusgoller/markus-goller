@@ -1,6 +1,6 @@
 #File: .github/workflows/cronjob.yml
 
-name: cronjob
+name: Does a cronjob
 
 on:
   schedule:
