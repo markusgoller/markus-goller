@@ -2,9 +2,7 @@ name: cronjob
 
 on:
   schedule:
-    - cron: '20 19 * * *'
-    #branches: [ master ]
-
+    - cron: '30 19 * * *'
 
 jobs:
   gh-pages:
