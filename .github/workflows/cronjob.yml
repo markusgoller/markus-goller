@@ -1,8 +1,10 @@
-name: release on GH-Pages
+name: cronjob
 
 on:
-  push:
+  schedule:
+    - cron: '20 19 * * *'
     branches: [ master ]
+
 
 jobs:
   gh-pages:
