@@ -1,8 +1,10 @@
+#File: .github/workflows/cronjob.yml
+
 name: cronjob
 
 on:
   schedule:
-    - cron: '30 19 * * *'
+    - cron: '55 18 * * *'   # UTC time?
 
 jobs:
   gh-pages:
