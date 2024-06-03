@@ -3,7 +3,7 @@ name: cronjob
 on:
   schedule:
     - cron: '20 19 * * *'
-    branches: [ master ]
+    #branches: [ master ]
 
 
 jobs:
