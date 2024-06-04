@@ -4,7 +4,7 @@ name: Does a cronjob
 
 on:
   schedule:
-    - cron: '22 19 * * *'   # UTC time?
+    - cron: '20 11 * * *'   # UTC time?
 
 jobs:
   gh-pages:
