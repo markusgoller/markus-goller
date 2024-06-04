@@ -1,7 +1,7 @@
-Title: test
-Date: 2024-06-03 18:00
-Tags: test
+Title: maps
+Date: 2024-06-04 16:00
+Tags: maps, leaflet, folium
 
 
 # test.
-Test...
+Integrate the first map via https://markusgoller.at/first_map.html
