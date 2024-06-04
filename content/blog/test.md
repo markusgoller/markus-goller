@@ -4,4 +4,5 @@ Tags: maps, leaflet, folium
 
 
 # test.
-Integrate the first map via https://markusgoller.at/first_map.html
+Integrate the first map directly in output-folder as html 
+Available via https://markusgoller.at/first_map.html
