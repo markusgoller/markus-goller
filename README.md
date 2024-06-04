@@ -164,7 +164,7 @@ invoke livereload
 Change the *task.py* file:
 
 
-* Test it locally.
+* Test it locally via browser and adress e.g. http://127.0.0.1:8000 .
 ```bash
 (pelican) [unix@localhost markusgoller]$
 invoke livereload
