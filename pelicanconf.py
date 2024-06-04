@@ -51,7 +51,7 @@ MENUITEMS = [('Home', '/'), ('Archives', '/archives.html')]
 # https://stackoverflow.com/questions/51072113/pelican-how-can-i-render-html-pages-instead-of-markup
 DIRECT_TEMPLATES = [
     'index', 'categories', 'authors', 'archives',  # (default)
-    'first_map', 'map_with_luba2.html'  # other HTML template to render
+    'first_map', 'map_with_luba2'  # other HTML template to render
     ]
 
 # pelican-themes
