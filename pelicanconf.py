@@ -52,8 +52,7 @@ MENUITEMS = [('Home', '/'), ('Archives', '/archives.html')]
 # But files into /markus-goller/themes/attila/templates
 DIRECT_TEMPLATES = [
     'index', 'categories', 'authors', 'archives',  # (default)
-    'first_map', 'map_with_luba2', 'map_ext',   # Other HTML template to render
-    'bike_tour_berlin_map',   
+    'first_map', 'map_with_luba2', 'map_ext',   # Other HTML template to render 
     ]
 
 # pelican-themes
