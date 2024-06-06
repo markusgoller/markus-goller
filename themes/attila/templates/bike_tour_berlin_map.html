@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3638cdbf86e94e74903634df883364dc {
+                    position: relative;
+                    width: 750.0px;
+                    height: 500.0px;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_3638cdbf86e94e74903634df883364dc" ></div>
+        
+</body>
+<script>    
+    
+            var map_3638cdbf86e94e74903634df883364dc = L.map(
+                "map_3638cdbf86e94e74903634df883364dc",
+                {
+                    center: [52.5125147, 13.3735438],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_3638cdbf86e94e74903634df883364dc);
+
+            
+
+        
+    
+            var tile_layer_1b127d58fbe34fbbbd951ab718f780b9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3638cdbf86e94e74903634df883364dc);
+        
+    
+            var marker_c027eeef8b4645d2875c5ca6477766bb = L.marker(
+                [52.5219751, 13.4135357],
+                {}
+            ).addTo(map_3638cdbf86e94e74903634df883364dc);
+        
+    
+            var icon_18e3034d149c4d8cba43b6ce3d13edc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c027eeef8b4645d2875c5ca6477766bb.setIcon(icon_18e3034d149c4d8cba43b6ce3d13edc6);
+        
+    
+        var popup_392785bc7d264c2b8334d6bdd062c13f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d3f7775fd154c2d8a302b4e0ce01dd5 = $(`<div id="html_8d3f7775fd154c2d8a302b4e0ce01dd5" style="width: 100.0%; height: 100.0%;">Alexanderplatz!</div>`)[0];
+            popup_392785bc7d264c2b8334d6bdd062c13f.setContent(html_8d3f7775fd154c2d8a302b4e0ce01dd5);
+        
+
+        marker_c027eeef8b4645d2875c5ca6477766bb.bindPopup(popup_392785bc7d264c2b8334d6bdd062c13f)
+        ;
+
+        
+    
+    
+            marker_c027eeef8b4645d2875c5ca6477766bb.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9efeea6cc8a643f3b9952eb000b68c39 = L.marker(
+                [52.4821183, 13.3866162],
+                {}
+            ).addTo(map_3638cdbf86e94e74903634df883364dc);
+        
+    
+            var icon_5068f545d2ea40c883986d8c1788d8db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9efeea6cc8a643f3b9952eb000b68c39.setIcon(icon_5068f545d2ea40c883986d8c1788d8db);
+        
+    
+        var popup_ee68576e2d1a4ac4a738ed95d2a0b52b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d27da2ec93e4797a3dd658d6671857a = $(`<div id="html_5d27da2ec93e4797a3dd658d6671857a" style="width: 100.0%; height: 100.0%;">Flughafen Tempelhof!</div>`)[0];
+            popup_ee68576e2d1a4ac4a738ed95d2a0b52b.setContent(html_5d27da2ec93e4797a3dd658d6671857a);
+        
+
+        marker_9efeea6cc8a643f3b9952eb000b68c39.bindPopup(popup_ee68576e2d1a4ac4a738ed95d2a0b52b)
+        ;
+
+        
+    
+    
+            marker_9efeea6cc8a643f3b9952eb000b68c39.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_077a9d39e167486790eae8b043eea6aa = L.marker(
+                [52.4821183, 13.3866162],
+                {}
+            ).addTo(map_3638cdbf86e94e74903634df883364dc);
+        
+    
+            var icon_01646824b6ea42bcb9fdb776385c4d90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_077a9d39e167486790eae8b043eea6aa.setIcon(icon_01646824b6ea42bcb9fdb776385c4d90);
+        
+    
+        var popup_ea1eb5240ec245618ff5d1721015d391 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60541e6767744d65af4f6590ccccc7b9 = $(`<div id="html_60541e6767744d65af4f6590ccccc7b9" style="width: 100.0%; height: 100.0%;">Flughafen Tempelhof!</div>`)[0];
+            popup_ea1eb5240ec245618ff5d1721015d391.setContent(html_60541e6767744d65af4f6590ccccc7b9);
+        
+
+        marker_077a9d39e167486790eae8b043eea6aa.bindPopup(popup_ea1eb5240ec245618ff5d1721015d391)
+        ;
+
+        
+    
+    
+            marker_077a9d39e167486790eae8b043eea6aa.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4933fed09f4e4cfc8c908c1db3030d90 = L.marker(
+                [52.5048212, 13.3325071],
+                {}
+            ).addTo(map_3638cdbf86e94e74903634df883364dc);
+        
+    
+            var icon_8969613680ee4e16aaf3e2901908efe0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4933fed09f4e4cfc8c908c1db3030d90.setIcon(icon_8969613680ee4e16aaf3e2901908efe0);
+        
+    
+        var popup_f8643f4742634c51b3197dd4c6ffc175 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1a8d08d38c14a02b98fa681229d477c = $(`<div id="html_b1a8d08d38c14a02b98fa681229d477c" style="width: 100.0%; height: 100.0%;">Gedächtniskirche!</div>`)[0];
+            popup_f8643f4742634c51b3197dd4c6ffc175.setContent(html_b1a8d08d38c14a02b98fa681229d477c);
+        
+
+        marker_4933fed09f4e4cfc8c908c1db3030d90.bindPopup(popup_f8643f4742634c51b3197dd4c6ffc175)
+        ;
+
+        
+    
+    
+            marker_4933fed09f4e4cfc8c908c1db3030d90.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a03280d2bc544acab9f75722843b891 = L.marker(
+                [52.5164069, 13.3784162],
+                {}
+            ).addTo(map_3638cdbf86e94e74903634df883364dc);
+        
+    
+            var icon_e5e59ffa054e43ef8b5772218f82b02a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0a03280d2bc544acab9f75722843b891.setIcon(icon_e5e59ffa054e43ef8b5772218f82b02a);
+        
+    
+        var popup_94cf089074a34809a0bd01b5874ad155 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9da6a93a3ff445f5862c6a2c51ab5cce = $(`<div id="html_9da6a93a3ff445f5862c6a2c51ab5cce" style="width: 100.0%; height: 100.0%;">Brandenburger Tor</div>`)[0];
+            popup_94cf089074a34809a0bd01b5874ad155.setContent(html_9da6a93a3ff445f5862c6a2c51ab5cce);
+        
+
+        marker_0a03280d2bc544acab9f75722843b891.bindPopup(popup_94cf089074a34809a0bd01b5874ad155)
+        ;
+
+        
+    
+    
+            marker_0a03280d2bc544acab9f75722843b891.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ae75f66505948b78765b3df5d44b955 = L.marker(
+                [52.50689774, 13.43692025],
+                {}
+            ).addTo(map_3638cdbf86e94e74903634df883364dc);
+        
+    
+            var icon_7e21cd19502f4eaaaf20c813b2a8d29b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8ae75f66505948b78765b3df5d44b955.setIcon(icon_7e21cd19502f4eaaaf20c813b2a8d29b);
+        
+    
+        var popup_660a6c94d214472487016f1733755bb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83ba03564d0b491ea296779a21ef6225 = $(`<div id="html_83ba03564d0b491ea296779a21ef6225" style="width: 100.0%; height: 100.0%;">Berliner Mauer</div>`)[0];
+            popup_660a6c94d214472487016f1733755bb8.setContent(html_83ba03564d0b491ea296779a21ef6225);
+        
+
+        marker_8ae75f66505948b78765b3df5d44b955.bindPopup(popup_660a6c94d214472487016f1733755bb8)
+        ;
+
+        
+    
+    
+            marker_8ae75f66505948b78765b3df5d44b955.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97fdf48c04bb4a8fbe3472e0191ff2cf = L.marker(
+                [52.5528899, 13.2910508],
+                {}
+            ).addTo(map_3638cdbf86e94e74903634df883364dc);
+        
+    
+            var icon_db503392430641eabd24e80d61eeb513 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_97fdf48c04bb4a8fbe3472e0191ff2cf.setIcon(icon_db503392430641eabd24e80d61eeb513);
+        
+    
+        var popup_64a249d7ef00438e983939716b3d7e84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db73a328cca6446b852f0e3794a7acb1 = $(`<div id="html_db73a328cca6446b852f0e3794a7acb1" style="width: 100.0%; height: 100.0%;">Flughafen Berlin Tegel</div>`)[0];
+            popup_64a249d7ef00438e983939716b3d7e84.setContent(html_db73a328cca6446b852f0e3794a7acb1);
+        
+
+        marker_97fdf48c04bb4a8fbe3472e0191ff2cf.bindPopup(popup_64a249d7ef00438e983939716b3d7e84)
+        ;
+
+        
+    
+    
+            marker_97fdf48c04bb4a8fbe3472e0191ff2cf.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

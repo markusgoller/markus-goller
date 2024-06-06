@@ -48,13 +48,6 @@ STATIC_PATHS = [
 
 MENUITEMS = [('Home', '/'), ('Archives', '/archives.html')]
 
-# https://stackoverflow.com/questions/51072113/pelican-how-can-i-render-html-pages-instead-of-markup
-# But files into /markus-goller/themes/attila/templates
-DIRECT_TEMPLATES = [
-    'index', 'categories', 'authors', 'archives',  # (default)
-    'first_map', 'map_with_luba2', 'map_ext',   # Other HTML template to render 
-    ]
-
 # pelican-themes
 THEME = "themes/attila"
 
@@ -65,3 +58,15 @@ HOME_COVER = 'images/home_cover/PSX_20200814_222941.jpg'   #PSX_20200814_222941.
 #
 #HOME_COVER = 'https://casper.ghost.org/v1.0.0/images/welcome.jpg'
 #HOME_COLOR = 'green'
+
+# https://stackoverflow.com/questions/51072113/pelican-how-can-i-render-html-pages-instead-of-markup
+# But files into /markus-goller/themes/attila/templates
+DIRECT_TEMPLATES = [
+    'index', 'categories', 'authors', 'archives',  # (default)
+    'first_map', 'map_with_luba2', 'map_ext', 'bike_tour_berlin_map'   # Other HTML template to render 
+    ]
+
+# https://stackoverflow.com/questions/18520046/how-can-i-control-the-order-of-pages-from-within-a-pelican-article-category
+# https://docs.getpelican.com/en/latest/settings.html#ordering-content
+ARTICLE_ORDER_BY = 'attribute'
+PAGE_ORDER_BY = 'attribute'
