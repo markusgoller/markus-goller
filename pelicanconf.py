@@ -49,9 +49,11 @@ STATIC_PATHS = [
 MENUITEMS = [('Home', '/'), ('Archives', '/archives.html')]
 
 # https://stackoverflow.com/questions/51072113/pelican-how-can-i-render-html-pages-instead-of-markup
+# But files into /markus-goller/themes/attila/templates
 DIRECT_TEMPLATES = [
     'index', 'categories', 'authors', 'archives',  # (default)
-    'first_map', 'map_with_luba2'  # other HTML template to render
+    'first_map', 'map_with_luba2', 'map_ext',   # Other HTML template to render
+    'bike_tour_berlin_map',   
     ]
 
 # pelican-themes
