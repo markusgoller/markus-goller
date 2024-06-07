@@ -9,8 +9,10 @@ So we grabbed a rental bike and went for a spin through Berlin.
 
 ### Finally a map constructed in [Jupyter Notebook](https://jupyter.org/) and [Google Colab](https://colab.google/)  via [Folium](https://python-visualization.github.io/folium/latest/)
 
-</br>
+[comment]: <> (https://stackoverflow.com/questions/44810511/how-to-add-empty-spaces-into-md-markdown-readme-on-github)
+</br> 
 
+[comment]: <> (https://stackoverflow.com/questions/35140283/how-to-embed-google-maps-in-github-markdown-files)
 <iframe src="https://markusgoller.at/bike_tour_berlin_map.html" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 All in all we were really quite sporty and cycled a good 100 kilometers across Berlin, here are a few impressions from Berlin,
