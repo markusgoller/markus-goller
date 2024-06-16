@@ -68,5 +68,5 @@ DIRECT_TEMPLATES = [
 
 # https://stackoverflow.com/questions/18520046/how-can-i-control-the-order-of-pages-from-within-a-pelican-article-category
 # https://docs.getpelican.com/en/latest/settings.html#ordering-content
-ARTICLE_ORDER_BY = 'attribute'
-PAGE_ORDER_BY = 'attribute'
+#ARTICLE_ORDER_BY = 'attribute'
+#PAGE_ORDER_BY = 'attribute'
