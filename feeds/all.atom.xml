@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus</title><link href="https://markusgoller.at/" rel="alternate"></link><link href="https://markusgoller.at/feeds/all.atom.xml" rel="self"></link><id>https://markusgoller.at/</id><updated>2024-06-06T00:00:00+02:00</updated><entry><title>Bike tour Berlin</title><link href="https://markusgoller.at/bike-tour-berlin.html" rel="alternate"></link><published>2024-06-06T00:00:00+02:00</published><updated>2024-06-06T00:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2024-06-06:/bike-tour-berlin.html</id><summary type="html">&lt;h1&gt;Bike tour Berlin (2020 updated 2024)&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus</title><link href="https://markusgoller.at/" rel="alternate"></link><link href="https://markusgoller.at/feeds/all.atom.xml" rel="self"></link><id>https://markusgoller.at/</id><updated>2024-06-16T00:00:00+02:00</updated><entry><title>Bike tour Berlin</title><link href="https://markusgoller.at/bike-tour-berlin.html" rel="alternate"></link><published>2024-06-06T00:00:00+02:00</published><updated>2024-06-06T00:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2024-06-06:/bike-tour-berlin.html</id><summary type="html">&lt;h1&gt;Bike tour Berlin (2020 updated 2024)&lt;/h1&gt;
 &lt;p&gt;Since my brother and I belong more to the sporty guys, we thought, why shouldn't we explore Berlin by bike.
 So we grabbed a rental bike and went for a spin through Berlin.&lt;/p&gt;
 &lt;h3&gt;Finally a map constructed in &lt;a href="https://jupyter.org/"&gt;Jupyter Notebook&lt;/a&gt; and &lt;a href="https://colab.google/"&gt;Google Colab&lt;/a&gt;  via …&lt;/h3&gt;</summary><content type="html">&lt;h1&gt;Bike tour Berlin (2020 updated 2024)&lt;/h1&gt;
 &lt;p&gt;Since my brother and I belong more to the sporty guys, we thought, why shouldn't we explore Berlin by bike.
 So we grabbed a rental bike and went for a spin through Berlin.&lt;/p&gt;
 &lt;h3&gt;Finally a map constructed in &lt;a href="https://jupyter.org/"&gt;Jupyter Notebook&lt;/a&gt; and &lt;a href="https://colab.google/"&gt;Google Colab&lt;/a&gt;  via &lt;a href="https://python-visualization.github.io/folium/latest/"&gt;Folium&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt; &lt;/p&gt;
 &lt;iframe src="https://markusgoller.at/bike_tour_berlin_map.html" width="600" height="450" frameborder="0" style="border:0" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;All in all we were really quite sporty and cycled a good 100 kilometers across Berlin, here are a few impressions from Berlin,&lt;/p&gt;
@@ -17,7 +17,49 @@ So we grabbed a rental bike and went for a spin through Berlin.&lt;/p&gt;
 &lt;h3&gt;Parts of the Wall&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="Photo" src="/images/bike_tour_berlin_notebook/IMG_20200819_205230_resize.jpg"&gt;&lt;/p&gt;
 &lt;h3&gt;Abandoned Airport Tempelhof&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Photo" src="/images/bike_tour_berlin_notebook/IMG_20200817_134433_resize.jpg"&gt;&lt;/p&gt;</content><category term="blog"></category><category term="Folium"></category><category term="Leaflet"></category><category term="Jupyter Notebook"></category><category term="Google Colab"></category></entry><entry><title>maps</title><link href="https://markusgoller.at/maps.html" rel="alternate"></link><published>2024-06-04T16:00:00+02:00</published><updated>2024-06-04T16:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2024-06-04:/maps.html</id><content type="html">&lt;h1&gt;test.&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Photo" src="/images/bike_tour_berlin_notebook/IMG_20200817_134433_resize.jpg"&gt;&lt;/p&gt;</content><category term="blog"></category><category term="Folium"></category><category term="Leaflet"></category><category term="Jupyter Notebook"></category><category term="Google Colab"></category></entry><entry><title>Isartour</title><link href="https://markusgoller.at/isartour.html" rel="alternate"></link><published>2024-06-16T00:00:00+02:00</published><updated>2024-06-16T00:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2024-06-16:/isartour.html</id><summary type="html">&lt;h1&gt;Bootstouren entlang der Isar&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Photo" src="https://gebietsbetreuung.bayern/files/gebietsbetreuer/Gebiete/Obere%20Isar%20und%20Karwendel/Isar%20mit%20Alp-%20und%20Zugspitze.jpg"&gt;
+(Quelle: gebietsbetreuung.bayern)&lt;/p&gt;
+&lt;p&gt;Die Isar ist wohl eine der schönsten Alpenflüsse in Europa. Große Teile sind noch der Natur überlassen und deswegen besonders reizvoll.
+Eine Kajak- oder Kanutour bietet sich also an.
+Bis jetzt bin ich zwei Abschnitte entlang der Isar mit dem Paddelboot gefahren:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Scharnitz …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Bootstouren entlang der Isar&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Photo" src="https://gebietsbetreuung.bayern/files/gebietsbetreuer/Gebiete/Obere%20Isar%20und%20Karwendel/Isar%20mit%20Alp-%20und%20Zugspitze.jpg"&gt;
+(Quelle: gebietsbetreuung.bayern)&lt;/p&gt;
+&lt;p&gt;Die Isar ist wohl eine der schönsten Alpenflüsse in Europa. Große Teile sind noch der Natur überlassen und deswegen besonders reizvoll.
+Eine Kajak- oder Kanutour bietet sich also an.
+Bis jetzt bin ich zwei Abschnitte entlang der Isar mit dem Paddelboot gefahren:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Scharnitz - Krün&lt;/li&gt;
+&lt;li&gt;Sylvensteinstausee - Lenggries&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ich konnte herrliche Natureindrücke sammeln. Das Projekt Isar besteht also. Weiter Abschnitte müssen unbedingt erkundigt werden 😅! Ein Abschnitt ist "Bayrisch-Kanada", hier geht es von Wallgau bis nach Vorderriss. Die Landschaft ist wildromantisch. Der Fluss schlängelt sich entlang des Naturpark Karwendel, in einem natürlich belassenen Tal, mit vielen Flussbänken und Verzweigungen. Die Natur ähnelt hier eben sehr stark an "the northamerican Canada", wie es übrigens richtig geschrieben wird.&lt;/p&gt;
+&lt;p&gt;Die nächste Etappe wird also von Wallgau nach Vorderriss sein.&lt;/p&gt;
+&lt;p&gt;Die Tour sollte gut geplant werden. Entscheidend ist dabei natürlich das &lt;strong&gt;Wetter&lt;/strong&gt;. Das ist für mich als studierter Meteorologe schnell erledigt.
+Im Folgenden die eingebettete &lt;a href="https://www.windy.com/?49.895,15.293,3,i:pressure"&gt;Windy-App&lt;/a&gt;. Eine sehr umfangreiche, aber auch praktische App mit vielen Wettermodellen, Satellitendaten, Regenradar und vieles mehr.&lt;/p&gt;
+&lt;iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=mm&amp;metricTemp=°C&amp;metricWind=km/h&amp;zoom=9&amp;overlay=wind&amp;product=ecmwf&amp;level=surface&amp;lat=47.513&amp;lon=11.481" frameborder="0"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Dann sollte man natürlich die &lt;strong&gt;Zeit&lt;/strong&gt; dazu haben. Ein ganzer Tag muss schon einkalkuliert werden. Als Meteorologe
+in der Wettervorhersage im Schichtdienst mit Headquarter in Wien ist das manchmal schwierig!&lt;/p&gt;
+&lt;p&gt;Auch der &lt;strong&gt;Wasserstand&lt;/strong&gt; muss passen. Leider wird an der Einsetzstelle ein Großteil des Wassers für ein Wasserkraftwerk abgezweigt. Lohnenswert ist das Vorhaben erst bei einem Wasserstand von rund 40 cm. Dazu kann der Pegel Rißbachdüker (Werte werden laufend aktualisiert) abgelesen werden.
+&lt;a href="https://www.hnd.bayern.de/pegel/isar/rissbachdueker-16001303"&gt; &lt;img src="https://www.hnd.bayern.de/webservices/graphik.php?cache=hnd&amp;statnr=16001303&amp;thema=hochwasser.meldestufen&amp;wert=wasserstand&amp;vhs=false&amp;geber=0" alt="no data hnd.bayern.de" title="hnd.bayern.de"&gt;&lt;/a&gt;
+(Quelle: &lt;a href="https://www.hnd.bayern.de/pegel/isar/rissbachdueker-16001303"&gt;Pegel Rißbachdüker abrufbar via Hochwassernachrichtendienst Bayern&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Alle drei Parameter müssen also passen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wetter&lt;/li&gt;
+&lt;li&gt;Zeit&lt;/li&gt;
+&lt;li&gt;Wasserstand&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Es bleibt also abzuwarten, wann sich das nächste Zeitfenster für die "Tour de Isar" auftut 😄!&lt;/p&gt;
+&lt;h2&gt;Weiterführende Links:&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://www.kajaktour.de/isar.htm"&gt;kajaktour.de&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.bergwelten.com/t/so/42676"&gt;Bergwelten&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.karwendel.org/bergsport/wassersport/"&gt;karwendel.org&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://gebietsbetreuung.bayern/"&gt;gebietsbetreuung.bayern&lt;/a&gt;&lt;/p&gt;</content><category term="blog"></category></entry><entry><title>maps</title><link href="https://markusgoller.at/maps.html" rel="alternate"></link><published>2024-06-04T16:00:00+02:00</published><updated>2024-06-04T16:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2024-06-04:/maps.html</id><content type="html">&lt;h1&gt;test.&lt;/h1&gt;
 &lt;p&gt;Integrate the first map directly in output-folder as html 
 Available via https://markusgoller.at/first_map.html&lt;/p&gt;</content><category term="blog"></category><category term="maps"></category><category term="leaflet"></category><category term="folium"></category></entry><entry><title>MasterSnippets</title><link href="https://markusgoller.at/mastersnippets.html" rel="alternate"></link><published>2021-04-13T21:00:00+02:00</published><updated>2021-04-13T21:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2021-04-13:/mastersnippets.html</id><summary type="html">&lt;h1&gt;What is planned?&lt;/h1&gt;
 &lt;p&gt;Here I will present individual parts of my Masterthesis.
