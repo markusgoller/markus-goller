@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus</title><link href="https://markusgoller.at/" rel="alternate"></link><link href="https://markusgoller.at/feeds/all.atom.xml" rel="self"></link><id>https://markusgoller.at/</id><updated>2024-06-16T00:00:00+02:00</updated><entry><title>Bike tour Berlin</title><link href="https://markusgoller.at/bike-tour-berlin.html" rel="alternate"></link><published>2024-06-06T00:00:00+02:00</published><updated>2024-06-06T00:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2024-06-06:/bike-tour-berlin.html</id><summary type="html">&lt;h1&gt;Bike tour Berlin (2020 updated 2024)&lt;/h1&gt;
-&lt;p&gt;Since my brother and I belong more to the sporty guys, we thought, why shouldn't we explore Berlin by bike.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus</title><link href="https://markusgoller.at/" rel="alternate"></link><link href="https://markusgoller.at/feeds/all.atom.xml" rel="self"></link><id>https://markusgoller.at/</id><updated>2024-06-16T00:00:00+02:00</updated><entry><title>Bike tour Berlin</title><link href="https://markusgoller.at/bike-tour-berlin.html" rel="alternate"></link><published>2024-06-06T00:00:00+02:00</published><updated>2024-06-06T00:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2024-06-06:/bike-tour-berlin.html</id><summary type="html">&lt;h1&gt;Bike tour Berlin 2020 (updated 2024)&lt;/h1&gt;
+&lt;p&gt;Since my brother and I belong more to the sporty guys, we thought, why shouldn't we explore Berlin during our four-day stay by bike.
 So we grabbed a rental bike and went for a spin through Berlin.&lt;/p&gt;
-&lt;h3&gt;Finally a map constructed in &lt;a href="https://jupyter.org/"&gt;Jupyter Notebook&lt;/a&gt; and &lt;a href="https://colab.google/"&gt;Google Colab&lt;/a&gt;  via …&lt;/h3&gt;</summary><content type="html">&lt;h1&gt;Bike tour Berlin (2020 updated 2024)&lt;/h1&gt;
-&lt;p&gt;Since my brother and I belong more to the sporty guys, we thought, why shouldn't we explore Berlin by bike.
+&lt;h3&gt;Tourmap constructed via &lt;a href="https://python-visualization.github.io/folium/latest/"&gt;Folium&lt;/a&gt; in &lt;a href="https://jupyter.org/"&gt;Jupyter Notebook …&lt;/a&gt;&lt;/h3&gt;</summary><content type="html">&lt;h1&gt;Bike tour Berlin 2020 (updated 2024)&lt;/h1&gt;
+&lt;p&gt;Since my brother and I belong more to the sporty guys, we thought, why shouldn't we explore Berlin during our four-day stay by bike.
 So we grabbed a rental bike and went for a spin through Berlin.&lt;/p&gt;
-&lt;h3&gt;Finally a map constructed in &lt;a href="https://jupyter.org/"&gt;Jupyter Notebook&lt;/a&gt; and &lt;a href="https://colab.google/"&gt;Google Colab&lt;/a&gt;  via &lt;a href="https://python-visualization.github.io/folium/latest/"&gt;Folium&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;Tourmap constructed via &lt;a href="https://python-visualization.github.io/folium/latest/"&gt;Folium&lt;/a&gt; in &lt;a href="https://jupyter.org/"&gt;Jupyter Notebook&lt;/a&gt; and &lt;a href="https://colab.google/"&gt;Google Colab&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;(explore it via klicking an zooming)&lt;/p&gt;
 &lt;p&gt;&lt;/br&gt; &lt;/p&gt;
 &lt;iframe src="https://markusgoller.at/bike_tour_berlin_map.html" width="600" height="450" frameborder="0" style="border:0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;All in all we were really quite sporty and cycled a good 100 kilometers across Berlin, here are a few impressions from Berlin,&lt;/p&gt;
+&lt;p&gt;All in all we were really quite sporty and cycled a good 100 kilometers across Berlin, within 4 days. Here are a few impressions from Berlin:&lt;/p&gt;
 &lt;h3&gt;Alexanderplatz&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="Photo" src="/images/bike_tour_berlin_notebook/IMG_20200815_114145_resize.jpg"&gt;&lt;/p&gt;
 &lt;h3&gt;Gedächtniskirche&lt;/h3&gt;
