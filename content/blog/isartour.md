@@ -1,5 +1,6 @@
 Title: Isartour
 Date: 2024-06-16
+Modified: 2020-11-16 23:30
 og_image:
 Tags:
 
@@ -25,10 +26,9 @@ Im Folgenden die eingebettete [Windy-App](https://www.windy.com/?49.895,15.293,3
 Dann sollte man natürlich die **Zeit** dazu haben. Ein ganzer Tag muss schon einkalkuliert werden. Als Meteorologe
 in der Wettervorhersage im Schichtdienst mit Headquarter in Wien ist das manchmal schwierig!
 
-Auch der **Wasserstand** muss passen. Leider wird an der Einsetzstelle ein Großteil des Wassers für ein Wasserkraftwerk abgezweigt. Lohnenswert ist das Vorhaben erst bei einem Wasserstand von rund 40 cm. Dazu kann der Pegel Rißbachdüker (Werte werden laufend aktualisiert) abgelesen werden.
+Auch der **Wasserstand** muss passen. Leider wird an der Einsetzstelle ein Großteil des Wassers für ein Wasserkraftwerk abgezweigt. Lohnenswert ist das Vorhaben erst bei einem Wasserstand von rund 40 cm. Dazu kann der Pegel Rißbachdüker (Werte werden laufend aktualisiert) abgelesen werden. 
 <a href="https://www.hnd.bayern.de/pegel/isar/rissbachdueker-16001303"> <img src="https://www.hnd.bayern.de/webservices/graphik.php?cache=hnd&statnr=16001303&thema=hochwasser.meldestufen&wert=wasserstand&vhs=false&geber=0" alt="no data hnd.bayern.de" title="hnd.bayern.de"></a>
-(Quelle: [Pegel Rißbachdüker abrufbar via Hochwassernachrichtendienst Bayern](https://www.hnd.bayern.de/pegel/isar/rissbachdueker-16001303))
-
+(Quelle: [Pegel Rißbachdüker, mit noch vielen Infos direkt via Hochwassernachrichtendienst Bayern](https://www.hnd.bayern.de/pegel/isar/rissbachdueker-16001303))
 
 
 Alle drei Parameter müssen also passen:
