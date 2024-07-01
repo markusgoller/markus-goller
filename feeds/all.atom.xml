@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus</title><link href="https://markusgoller.at/" rel="alternate"></link><link href="https://markusgoller.at/feeds/all.atom.xml" rel="self"></link><id>https://markusgoller.at/</id><updated>2024-06-16T00:00:00+02:00</updated><entry><title>Isartour</title><link href="https://markusgoller.at/isartour.html" rel="alternate"></link><published>2024-06-16T00:00:00+02:00</published><updated>2020-11-16T23:30:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2024-06-16:/isartour.html</id><summary type="html">&lt;h1&gt;Bootstouren entlang der Isar&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus</title><link href="https://markusgoller.at/" rel="alternate"></link><link href="https://markusgoller.at/feeds/all.atom.xml" rel="self"></link><id>https://markusgoller.at/</id><updated>2024-06-30T11:00:00+02:00</updated><entry><title>Isartour</title><link href="https://markusgoller.at/isartour.html" rel="alternate"></link><published>2024-06-16T00:00:00+02:00</published><updated>2024-06-30T11:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2024-06-16:/isartour.html</id><summary type="html">&lt;h1&gt;Bootstouren entlang der Isar&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="Photo" src="https://gebietsbetreuung.bayern/files/gebietsbetreuer/Gebiete/Obere%20Isar%20und%20Karwendel/Isar%20mit%20Alp-%20und%20Zugspitze.jpg"&gt;
 (Quelle: gebietsbetreuung.bayern)&lt;/p&gt;
 &lt;p&gt;Die Isar ist wohl eine der schönsten Alpenflüsse in Europa. Große Teile sind noch der Natur überlassen und deswegen besonders reizvoll.
@@ -16,15 +16,23 @@ Bis jetzt bin ich zwei Abschnitte entlang der Isar mit dem Paddelboot gefahren:&
 &lt;li&gt;Scharnitz - Krün&lt;/li&gt;
 &lt;li&gt;Sylvensteinstausee - Lenggries&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Ich konnte herrliche Natureindrücke sammeln. Das Projekt Isar besteht also. Weiter Abschnitte müssen unbedingt erkundigt werden 😅! Ein Abschnitt ist "Bayrisch-Kanada", hier geht es von Wallgau bis nach Vorderriss. Die Landschaft ist wildromantisch. Der Fluss schlängelt sich entlang des Naturpark Karwendel, in einem natürlich belassenen Tal, mit vielen Flussbänken und Verzweigungen. Die Natur ähnelt hier eben sehr stark an "the northamerican Canada", wie es übrigens richtig geschrieben wird.&lt;/p&gt;
+&lt;p&gt;Ich konnte herrliche Natureindrücke sammeln. Das Projekt Isar besteht also. Weiter Abschnitte müssen unbedingt weiter erkundet werden 😅! &lt;/p&gt;
+&lt;p&gt;Ein Abschnitt ist "Bayrisch-Kanada", hier geht es von Wallgau bis nach Vorderriss. Die Landschaft ist wildromantisch. Die Isar schlängelt sich entlang des Naturpark Karwendel, in einem natürlich belassenen Tal, mit vielen Flussbänken und Verzweigungen. Die Natur ähnelt hier eben sehr stark an "The Northamerican Canada", wie es übrigens richtig geschrieben wird!&lt;/p&gt;
 &lt;p&gt;Die nächste Etappe wird also von Wallgau nach Vorderriss sein.&lt;/p&gt;
 &lt;p&gt;Die Tour sollte gut geplant werden. Entscheidend ist dabei natürlich das &lt;strong&gt;Wetter&lt;/strong&gt;. Das ist für mich als studierter Meteorologe schnell erledigt.
-Im Folgenden die eingebettete &lt;a href="https://www.windy.com/?49.895,15.293,3,i:pressure"&gt;Windy-App&lt;/a&gt;. Eine sehr umfangreiche, aber auch praktische App mit vielen Wettermodellen, Satellitendaten, Regenradar und vieles mehr.&lt;/p&gt;
+Im Folgenden zwei hilfreiche, erste Tools dazu:&lt;/p&gt;
+&lt;p&gt;Ein eingebettetes HTML-Wetter-Widget (&lt;a href="https://wetter.tv/"&gt;wetter.tv&lt;/a&gt;) vom nähesten Startpunkt sowie Endpunkt.
+&lt;br&gt;&lt;/p&gt;
+&lt;iframe width="300" height="150" src="https://wetter.tv/widget/default/wallgau" scrolling="no" style="outline: none; border: none; overflow: hidden;"&gt;&lt;/iframe&gt;
+&lt;iframe width="300" height="150" src="https://wetter.tv/widget/default/lenggries" scrolling="no" style="outline: none; border: none; overflow: hidden;"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Und die eingebettete, sehr umfangreiche, aber auch sehr praktische &lt;a href="https://www.windy.com/?49.895,15.293,3,i:pressure"&gt;Windy-App&lt;/a&gt;.
+Die App beinhaltet viele Wettermodelle, Satellitendaten, Regenradar und vieles mehr.&lt;/p&gt;
 &lt;iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=mm&amp;metricTemp=°C&amp;metricWind=km/h&amp;zoom=9&amp;overlay=wind&amp;product=ecmwf&amp;level=surface&amp;lat=47.513&amp;lon=11.481" frameborder="0"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Dann sollte man natürlich die &lt;strong&gt;Zeit&lt;/strong&gt; dazu haben. Ein ganzer Tag muss schon einkalkuliert werden. Als Meteorologe
 in der Wettervorhersage im Schichtdienst mit Headquarter in Wien ist das manchmal schwierig!&lt;/p&gt;
-&lt;p&gt;Auch der &lt;strong&gt;Wasserstand&lt;/strong&gt; muss passen. Leider wird an der Einsetzstelle ein Großteil des Wassers für ein Wasserkraftwerk abgezweigt. Lohnenswert ist das Vorhaben erst bei einem Wasserstand von rund 40 cm. Dazu kann der Pegel Rißbachdüker (Werte werden laufend aktualisiert) abgelesen werden. 
+&lt;p&gt;Auch der &lt;strong&gt;Wasserstand&lt;/strong&gt; muss passen. Leider wird an der Einsetzstelle ein Großteil des Wassers für ein Wasserkraftwerk abgezweigt. Lohnenswert ist das Vorhaben erst bei ab einem Wasserstand von rund 40 cm. Dazu kann der Pegel Rißbachdüker (Werte werden laufend aktualisiert) abgelesen werden. 
 &lt;a href="https://www.hnd.bayern.de/pegel/isar/rissbachdueker-16001303"&gt; &lt;img src="https://www.hnd.bayern.de/webservices/graphik.php?cache=hnd&amp;statnr=16001303&amp;thema=hochwasser.meldestufen&amp;wert=wasserstand&amp;vhs=false&amp;geber=0" alt="no data hnd.bayern.de" title="hnd.bayern.de"&gt;&lt;/a&gt;
 (Quelle: &lt;a href="https://www.hnd.bayern.de/pegel/isar/rissbachdueker-16001303"&gt;Pegel Rißbachdüker, mit noch vielen Infos direkt via Hochwassernachrichtendienst Bayern&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;Alle drei Parameter müssen also passen:&lt;/p&gt;
