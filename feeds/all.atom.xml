@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus</title><link href="https://markusgoller.at/" rel="alternate"></link><link href="https://markusgoller.at/feeds/all.atom.xml" rel="self"></link><id>https://markusgoller.at/</id><updated>2024-06-30T11:00:00+02:00</updated><entry><title>Isartour</title><link href="https://markusgoller.at/isartour.html" rel="alternate"></link><published>2024-06-16T00:00:00+02:00</published><updated>2024-06-30T11:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2024-06-16:/isartour.html</id><summary type="html">&lt;h1&gt;Bootstouren entlang der Isar&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus</title><link href="https://markusgoller.at/" rel="alternate"></link><link href="https://markusgoller.at/feeds/all.atom.xml" rel="self"></link><id>https://markusgoller.at/</id><updated>2024-07-07T00:00:00+02:00</updated><entry><title>Inn Pegelstände</title><link href="https://markusgoller.at/inn-pegelstande.html" rel="alternate"></link><published>2024-07-07T00:00:00+02:00</published><updated>2024-07-07T00:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2024-07-07:/inn-pegelstande.html</id><summary type="html">&lt;p&gt;Ganze 517 km lang ist der Inn. Er entspringt am Malojapass in der Schweiz und fließt dann durch Österreich und Deutschland, bevor er bei Passau in die Donau mündet.&lt;/p&gt;
+&lt;h2&gt;Wie viel Wasser verträgt der Inn?&lt;/h2&gt;
+&lt;p&gt;Im Folgenden soll gezeigt werden, wie drei Tiroler Pegel des Inns auf Niederschläge reagieren.&lt;/p&gt;
+&lt;h2&gt;Übersicht …&lt;/h2&gt;</summary><content type="html">&lt;p&gt;Ganze 517 km lang ist der Inn. Er entspringt am Malojapass in der Schweiz und fließt dann durch Österreich und Deutschland, bevor er bei Passau in die Donau mündet.&lt;/p&gt;
+&lt;h2&gt;Wie viel Wasser verträgt der Inn?&lt;/h2&gt;
+&lt;p&gt;Im Folgenden soll gezeigt werden, wie drei Tiroler Pegel des Inns auf Niederschläge reagieren.&lt;/p&gt;
+&lt;h2&gt;Übersicht&lt;/h2&gt;
+&lt;iframe src="https://markusgoller.at/inn_pegel_map.html" width="600" height="450" frameborder="0" style="border:0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;Wetterlage&lt;/h2&gt;
+&lt;h4&gt;DWD&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/bwk_bodendruck_na_ana.png" title="ana"&gt;&lt;img src="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/bwk_bodendruck_na_ana.png" alt="no data ana" width="30%" /&gt;&lt;/a&gt;
+&lt;a href="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_036.png" title="+36"&gt;&lt;img src="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_036.png" alt="no data +36" width="30%" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;a href="https://uwz.at/de/a/warnlagebericht"&gt;Warnlagebericht Unwetterzentrale (uwz.at)&lt;/a&gt;&lt;/h4&gt;
+&lt;h2&gt;SAT und ICON-D2-Wettermodell&lt;/h2&gt;
+&lt;iframe src="https://www.meteoblue.com/en/weather/maps/widget/innsbruck_austria_2775220?windAnimation=0&amp;gust=0&amp;satellite=0&amp;cloudsAndPrecipitation=0&amp;cloudsAndPrecipitation=1&amp;temperature=0&amp;sunshine=0&amp;extremeForecastIndex=0&amp;extremeForecastIndex=1&amp;geoloc=fixed&amp;tempunit=C&amp;windunit=km%252Fh&amp;lengthunit=metric&amp;zoom=5&amp;autowidth=auto"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 100%; height: 720px"&gt;&lt;/iframe&gt;
+&lt;div&gt;&lt;!-- DO NOT REMOVE THIS LINK --&gt;&lt;a href="https://www.meteoblue.com/en/weather/maps/innsbruck_austria_2775220?utm_source=map_widget&amp;utm_medium=linkus&amp;utm_content=map&amp;utm_campaign=Weather%2BWidget" target="_blank" rel="noopener"&gt;&lt;/div&gt;
+
+&lt;h2&gt;Pegelstände&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://hydro.tirol.gv.at/stations/201293/Parameter/W/201293_W_1100.png?1720287157918"&gt; &lt;img src="https://hydro.tirol.gv.at/stations/201293/Parameter/W/201293_W_1100.png?1720287157918" alt="no data Inn (Landeck Perjen) hydro.tirol.gv.at" title="hydro.tirol.gv.at"&gt;&lt;/a&gt;
+&lt;a href="https://hydro.tirol.gv.at/stations/201525/Parameter/W/201525_W_1100.png?1719112565448"&gt;&lt;img src="https://hydro.tirol.gv.at/stations/201525/Parameter/W/201525_W_1100.png?1719112565448" alt="no data Inn (Innsbruck) hydro.tirol.gv.at" title="hydro.tirol.gv.at"&gt;&lt;/a&gt;
+&lt;a href="https://hydro.tirol.gv.at/stations/230102/Parameter/W/230102_W_1100.png?1720296135019"&gt; &lt;img src="https://hydro.tirol.gv.at/stations/230102/Parameter/W/230102_W_1100.png?1720296135019" alt="no data Inn (Oberaudorf) hydro.tirol.gv.at" title="hydro.tirol.gv.at"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Weiterführende Links:&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://de.wikipedia.org/wiki/Inn"&gt;Wikipedia Inn&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.dwd.de/DE/Home/home_node.html"&gt;DWD&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://uwz.at/de/"&gt;uwz.at&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.meteoblue.com/"&gt;meteoblue&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://python-visualization.github.io/folium/latest/index.html"&gt;Folium&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://ehyd.gv.at/#"&gt;ehyd.gv.at&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://hydro.tirol.gv.at/#/Hochwasserinfo"&gt;hydro.tirol.gv.at Hochwasserinfo&lt;/a&gt;&lt;/p&gt;</content><category term="blog"></category><category term="Hydrologie"></category><category term="Wetter"></category><category term="Python"></category><category term="HTML"></category></entry><entry><title>Isartour</title><link href="https://markusgoller.at/isartour.html" rel="alternate"></link><published>2024-06-16T00:00:00+02:00</published><updated>2024-06-30T11:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2024-06-16:/isartour.html</id><summary type="html">&lt;h1&gt;Bootstouren entlang der Isar&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="Photo" src="https://gebietsbetreuung.bayern/files/gebietsbetreuer/Gebiete/Obere%20Isar%20und%20Karwendel/Isar%20mit%20Alp-%20und%20Zugspitze.jpg"&gt;
 (Quelle: gebietsbetreuung.bayern)&lt;/p&gt;
 &lt;p&gt;Die Isar ist wohl eine der schönsten Alpenflüsse in Europa. Große Teile sind noch der Natur überlassen und deswegen besonders reizvoll.
