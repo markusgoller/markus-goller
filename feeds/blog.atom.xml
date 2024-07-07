@@ -6,6 +6,7 @@
 &lt;h2&gt;Wie viel Wasser verträgt der Inn?&lt;/h2&gt;
 &lt;p&gt;Im Folgenden soll gezeigt werden, wie drei Tiroler Pegel des Inns auf Niederschläge reagieren.&lt;/p&gt;
 &lt;h2&gt;Übersicht&lt;/h2&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;iframe src="https://markusgoller.at/inn_pegel_map.html" width="600" height="450" frameborder="0" style="border:0" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;h2&gt;Wetterlage&lt;/h2&gt;
@@ -14,6 +15,7 @@
 &lt;a href="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_036.png" title="+36"&gt;&lt;img src="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_036.png" alt="no data +36" width="30%" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;&lt;a href="https://uwz.at/de/a/warnlagebericht"&gt;Warnlagebericht Unwetterzentrale (uwz.at)&lt;/a&gt;&lt;/h4&gt;
 &lt;h2&gt;SAT und ICON-D2-Wettermodell&lt;/h2&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;iframe src="https://www.meteoblue.com/en/weather/maps/widget/innsbruck_austria_2775220?windAnimation=0&amp;gust=0&amp;satellite=0&amp;cloudsAndPrecipitation=0&amp;cloudsAndPrecipitation=1&amp;temperature=0&amp;sunshine=0&amp;extremeForecastIndex=0&amp;extremeForecastIndex=1&amp;geoloc=fixed&amp;tempunit=C&amp;windunit=km%252Fh&amp;lengthunit=metric&amp;zoom=5&amp;autowidth=auto"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 100%; height: 720px"&gt;&lt;/iframe&gt;
 &lt;div&gt;&lt;!-- DO NOT REMOVE THIS LINK --&gt;&lt;a href="https://www.meteoblue.com/en/weather/maps/innsbruck_austria_2775220?utm_source=map_widget&amp;utm_medium=linkus&amp;utm_content=map&amp;utm_campaign=Weather%2BWidget" target="_blank" rel="noopener"&gt;&lt;/div&gt;
 
