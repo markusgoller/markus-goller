@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6f3867633fa847a1accbafa8a580c0ef {
+                    position: relative;
+                    width: 750.0px;
+                    height: 500.0px;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6f3867633fa847a1accbafa8a580c0ef" ></div>
+        
+</body>
+<script>    
+    
+            var map_6f3867633fa847a1accbafa8a580c0ef = L.map(
+                "map_6f3867633fa847a1accbafa8a580c0ef",
+                {
+                    center: [47.3551558, 11.2597937],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_6f3867633fa847a1accbafa8a580c0ef);
+
+            
+
+        
+    
+            var tile_layer_48de85eed5f5460ca951eb32e390cdf2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6f3867633fa847a1accbafa8a580c0ef);
+        
+    
+            var marker_15c893bdfd14485886eaf0cb84e7dd46 = L.marker(
+                [47.147044, 10.5710939],
+                {}
+            ).addTo(map_6f3867633fa847a1accbafa8a580c0ef);
+        
+    
+        var popup_d9ef60d974524846b68863c1476508d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5792886eba004521a2297955832bb724 = $(`<div id="html_5792886eba004521a2297955832bb724" style="width: 100.0%; height: 100.0%;">Landeck Perjen!</div>`)[0];
+            popup_d9ef60d974524846b68863c1476508d5.setContent(html_5792886eba004521a2297955832bb724);
+        
+
+        marker_15c893bdfd14485886eaf0cb84e7dd46.bindPopup(popup_d9ef60d974524846b68863c1476508d5)
+        ;
+
+        
+    
+    
+            marker_15c893bdfd14485886eaf0cb84e7dd46.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acafa0c3f2434609b91bf6b8b1b4d0fb = L.marker(
+                [47.2625725, 11.3813736],
+                {}
+            ).addTo(map_6f3867633fa847a1accbafa8a580c0ef);
+        
+    
+        var popup_78374876be48490ebd92db3e79f9bc9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e0f77b5473e4dbea71fe626e06e7f75 = $(`<div id="html_9e0f77b5473e4dbea71fe626e06e7f75" style="width: 100.0%; height: 100.0%;">Innsbruck!</div>`)[0];
+            popup_78374876be48490ebd92db3e79f9bc9d.setContent(html_9e0f77b5473e4dbea71fe626e06e7f75);
+        
+
+        marker_acafa0c3f2434609b91bf6b8b1b4d0fb.bindPopup(popup_78374876be48490ebd92db3e79f9bc9d)
+        ;
+
+        
+    
+    
+            marker_acafa0c3f2434609b91bf6b8b1b4d0fb.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32abcd5b6c874eb3accf9167483b15cb = L.marker(
+                [47.6422175, 12.1970506],
+                {}
+            ).addTo(map_6f3867633fa847a1accbafa8a580c0ef);
+        
+    
+        var popup_5b5b7ed8d22e4e83a3a03709e3eafba8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4dc3dce96d2406a9b8d3f348ddd08c5 = $(`<div id="html_d4dc3dce96d2406a9b8d3f348ddd08c5" style="width: 100.0%; height: 100.0%;">Oberaudorf!</div>`)[0];
+            popup_5b5b7ed8d22e4e83a3a03709e3eafba8.setContent(html_d4dc3dce96d2406a9b8d3f348ddd08c5);
+        
+
+        marker_32abcd5b6c874eb3accf9167483b15cb.bindPopup(popup_5b5b7ed8d22e4e83a3a03709e3eafba8)
+        ;
+
+        
+    
+    
+            marker_32abcd5b6c874eb3accf9167483b15cb.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

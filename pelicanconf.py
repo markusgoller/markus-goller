@@ -63,7 +63,7 @@ HOME_COVER = 'images/home_cover/PSX_20200814_222941.jpg'   #PSX_20200814_222941.
 # But files into /markus-goller/themes/attila/templates
 DIRECT_TEMPLATES = [
     'index', 'categories', 'authors', 'archives',  # (default)
-    'first_map', 'map_with_luba2', 'map_ext', 'bike_tour_berlin_map'   # Other HTML template to render 
+    'first_map', 'map_with_luba2', 'map_ext', 'bike_tour_berlin_map', 'inn_pegel_map'   # Other HTML template to render 
     ]
 
 # https://stackoverflow.com/questions/18520046/how-can-i-control-the-order-of-pages-from-within-a-pelican-article-category
