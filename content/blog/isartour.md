@@ -8,6 +8,7 @@ Tags:
 ![Photo](https://gebietsbetreuung.bayern/files/gebietsbetreuer/Gebiete/Obere%20Isar%20und%20Karwendel/Isar%20mit%20Alp-%20und%20Zugspitze.jpg)
 (Quelle: gebietsbetreuung.bayern)
 
+
 Die Isar ist wohl eine der schönsten Alpenflüsse in Europa. Große Teile sind noch der Natur überlassen und deswegen besonders reizvoll.
 Eine Kajak- oder Kanutour bietet sich also an.
 Bis jetzt bin ich zwei Abschnitte entlang der Isar mit dem Paddelboot gefahren:
@@ -19,7 +20,10 @@ Ich konnte herrliche Natureindrücke sammeln. Das Projekt Isar besteht also. Wei
 
 Ein Abschnitt ist "Bayrisch-Kanada", hier geht es von Wallgau bis nach Vorderriss. Die Landschaft ist wildromantisch. Die Isar schlängelt sich entlang des Naturpark Karwendel, in einem natürlich belassenen Tal, mit vielen Flussbänken und Verzweigungen. Die Natur ähnelt hier eben sehr stark an "The Northamerican Canada", wie es übrigens richtig geschrieben wird!
 
-Die nächste Etappe wird also von Wallgau nach Vorderriss sein.
+Die nächste Etappe wird also von Wallgau nach Vorderriss sein. Im Folgenden die Einstiegsstelle an der Brücke am Gweih, gleich nach dem Wanderparkplatz Isarsteg.
+![Photo](/images/isartour/IMG_20240826_133519.jpg)
+![Photo](/images/isartour/IMG_20240826_133525.jpg)
+(Quelle: Privat)
 
 Die Tour sollte gut geplant werden. Entscheidend ist dabei natürlich das **Wetter**. Das ist für mich als studierter Meteorologe schnell erledigt.
 Im Folgenden zwei hilfreiche, erste Tools dazu:
