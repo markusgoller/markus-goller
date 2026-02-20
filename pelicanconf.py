@@ -56,7 +56,7 @@ THEME = "themes/attila"
 # See site index.html (SITEURL has to be defined)
 HOME_COVER = 'images/home_cover/PSX_20200814_222941.jpg'   #PSX_20200814_222941.jpg   #IMG_20211009_173919.jpg
 #
-#HOME_COVER = 'https://casper.ghost.org/v1.0.0/images/welcome.jpg'
+#HOME_COVER = 'https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/bwk_bodendruck_na_ana.png'
 #HOME_COLOR = 'green'
 
 # https://stackoverflow.com/questions/51072113/pelican-how-can-i-render-html-pages-instead-of-markup
