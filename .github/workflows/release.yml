@@ -16,19 +16,16 @@ jobs:
         uses: actions/checkout@v2
 
 
-      - name: Set up Python 3.14.3
+      - name: Set up Python 3.7
         uses: actions/setup-python@v2
         with:
-          python-version: 3.14.3
+          python-version: 3.7
 
       
       - name: Install dependencies
         run:
           python -m pip install --upgrade pip
-
-      - name: install requirements.txt    
-        run:
-          python -m pip install -r requirements.txt
+          pip install -r requirements.txt
       
 
       - name: Build Pelican Page for Production 
