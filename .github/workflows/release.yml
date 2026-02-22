@@ -32,11 +32,11 @@ jobs:
       
 
       - name: Build Pelican Page for Production 
-        run: python invoke publish
+        run: invoke publish
       
 
       - name: Clean up output directory
-        run: python invoke delete-unused-template-files
+        run: invoke delete-unused-template-files
 
 
       - name: Deploy on GH-Pages
