@@ -28,7 +28,7 @@ jobs:
 
       - name: install requirements.txt    
         run:
-          python pip install -r requirements.txt
+          python -m pip install -r requirements.txt
       
 
       - name: Build Pelican Page for Production 
