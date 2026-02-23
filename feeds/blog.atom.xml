@@ -5,7 +5,7 @@
 &lt;a href="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_036.png" title="+36"&gt;&lt;img src="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_036.png" alt="no data +36" width="30%" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Models&lt;/h2&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
-&lt;iframe width="350" height="550" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=radar&amp;product=radar&amp;level=surface&amp;lat=44.434&amp;lon=20.083&amp;detailLat=47.2675&amp;detailLon=11.3910&amp;detail=true&amp;pressure=true" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;iframe width="350" height="550" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=wind&amp;product=ecmwf&amp;level=surface&amp;lat=47.205&amp;lon=11.412&amp;detailLat=47.205&amp;detailLon=11.412000000000035&amp;marker=true" frameborder="0"&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;iframe frameborder="0" scrolling="NO" width="100%" src="https://www.meteoblue.com/en/weather/maps/widget/vienna_austria_2761369?windAnimation=1&amp;amp;gust=1&amp;amp;satellite=1&amp;amp;cloudsAndPrecipitation=1&amp;amp;temperature=1&amp;amp;sunshine=1&amp;amp;extremeForecastIndex=1&amp;amp;geoloc=fixed&amp;amp;tempunit=C&amp;amp;lengthunit=metric&amp;amp;windunit=km%252Fh&amp;amp;zoom=5&amp;amp;autowidth=auto" style="width: 100%; height: 700px;"&gt;&lt;/iframe&gt;
