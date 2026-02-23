@@ -14,7 +14,7 @@ Tags: Hydrologie, Wetter, Python, HTML
 </br>
 
 <br>
-<iframe src="https://www.meteoblue.com/en/weather/maps/widget/innsbruck_austria_2775220?windAnimation=0&gust=0&satellite=0&cloudsAndPrecipitation=0&cloudsAndPrecipitation=1&temperature=0&sunshine=0&extremeForecastIndex=0&extremeForecastIndex=1&geoloc=fixed&tempunit=C&windunit=km%252Fh&lengthunit=metric&zoom=5&autowidth=auto"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 100%; height: 720px"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/en/weather/maps/innsbruck_austria_2775220?utm_source=map_widget&utm_medium=linkus&utm_content=map&utm_campaign=Weather%2BWidget" target="_blank" rel="noopener"></div>
+<iframe frameborder="0" scrolling="NO" width="100%" src="https://www.meteoblue.com/en/weather/maps/widget/vienna_austria_2761369?windAnimation=1&amp;gust=1&amp;satellite=1&amp;cloudsAndPrecipitation=1&amp;temperature=1&amp;sunshine=1&amp;extremeForecastIndex=1&amp;geoloc=fixed&amp;tempunit=C&amp;lengthunit=metric&amp;windunit=km%252Fh&amp;zoom=5&amp;autowidth=auto" style="width: 100%; height: 700px;"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/en/weather/maps/innsbruck_austria_2775220?utm_source=map_widget&utm_medium=linkus&utm_content=map&utm_campaign=Weather%2BWidget" target="_blank" rel="noopener"></div>
 
 ## Link to my private weather station:
 [IPATSC5-Wunderground](https://www.wunderground.com/dashboard/pws/IPATSC5)
