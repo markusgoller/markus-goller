@@ -10,7 +10,7 @@ Tags: Hydrologie, Wetter, Python, HTML
 
 ## Models
 </br>
-<iframe width="350" height="550" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=default&metricTemp=default&metricWind=default&zoom=5&overlay=radar&product=radar&level=surface&lat=44.434&lon=20.083&detailLat=47.2675&detailLon=11.3910&detail=true&pressure=true" frameborder="0"></iframe>
+<iframe width="350" height="550" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=default&metricTemp=default&metricWind=default&zoom=5&overlay=wind&product=ecmwf&level=surface&lat=47.205&lon=11.412&detailLat=47.205&detailLon=11.412000000000035&marker=true" frameborder="0"></iframe>
 </br>
 
 <br>
