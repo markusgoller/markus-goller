@@ -54,8 +54,9 @@ THEME = "themes/attila"
 # Can set individual COVERS
 #
 # See site index.html (SITEURL has to be defined)
-HOME_COVER = 'images/home_cover/PSX_20200814_222941.jpg'   #PSX_20200814_222941.jpg   #IMG_20211009_173919.jpg
-#
+#HOME_COVER = 'images/home_cover/PSX_20200814_222941.jpg'   #PSX_20200814_222941.jpg   #IMG_20211009_173919.jpg
+HOME_COVER = "https://www.muttereralm.at/media/muttereralm/webcam_1.jpg"
+#HOME_COVER = "https://vcdn.bergfex.at/webcams/archive.new/downsized/4/9384/2026/02/27/9384_2026-02-27_1700_688d47e0ed941b8b.jpg"
 #HOME_COVER = 'https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/bwk_bodendruck_na_ana.png'
 #HOME_COLOR = 'green'
 
