@@ -1,10 +1,29 @@
-Title: Weather Update 
-Date: 2026-02-20
-Tags: Hydrologie, Wetter, Python, HTML 
+Title: Daily Weather Update
+Date: 2026-02-28
+og_image:https://www.muttereralm.at/media/muttereralm/webcam_1.jpg
+Tags: Weather, Python, HTML 
 
+
+<!-- <iframe src="https://ehrwald.panomax.com/zugspitze" style="width: 100%; height: 650px; border: none;" allowfullscreen></iframe> -->
+
+</br>
+<div id="date"></div>
+
+<script>
+  document.getElementById("date").textContent = new Date().toDateString();
+</script>
+
+<style>
+  #date {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Arial, sans-serif;
+  }
+</style>
+</br>
 
 ## DWD
-<p><a href="https://page.met.fu-berlin.de/wetterpate/static/anabwkna.gif" title="Wetterkarte" target="_blank"><img src="https://www.met.fu-berlin.de/de/wetter/maps/anabwkna.gif" alt="" width="100%" /></a></p>
+<p><a href="https://page.met.fu-berlin.de/wetterpate/static/anabwkna.gif" title="Wetterkarte" target="_blank"><img src="https://www.met.fu-berlin.de/de/wetter/maps/anabwkna.gif" alt="no data anabwkna" width="100%" /></a></p>
 <a href="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/bwk_bodendruck_na_ana.png" title="ana"><img src="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/bwk_bodendruck_na_ana.png" alt="no data ana" width="30%" /></a>
 <a href="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_036.png" title="+36"><img src="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_036.png" alt="no data +36" width="30%" /></a>
 
