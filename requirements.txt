@@ -2,4 +2,3 @@ pelican
 markdown
 invoke
 livereload
-jinja2
