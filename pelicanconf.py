@@ -46,7 +46,7 @@ STATIC_PATHS = [
     'static',
     ]
 
-MENUITEMS = [('Archives', '/archives.html')]
+MENUITEMS = [('Home', '/'), ('Archives', '/archives.html')]
 
 # pelican-themes
 THEME = "themes/attila"
