@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus - blog</title><link href="https://markusgoller.at/" rel="alternate"/><link href="https://markusgoller.at/feeds/blog.atom.xml" rel="self"/><id>https://markusgoller.at/</id><updated>2026-02-20T00:00:00+01:00</updated><entry><title>Weather Update</title><link href="https://markusgoller.at/weather-update.html" rel="alternate"/><published>2026-02-20T00:00:00+01:00</published><updated>2026-02-20T00:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2026-02-20:/weather-update.html</id><content type="html">&lt;h2&gt;DWD&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://page.met.fu-berlin.de/wetterpate/static/anabwkna.gif" title="Wetterkarte" target="_blank"&gt;&lt;img src="https://www.met.fu-berlin.de/de/wetter/maps/anabwkna.gif" alt="" width="100%" /&gt;&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus - blog</title><link href="https://markusgoller.at/" rel="alternate"/><link href="https://markusgoller.at/feeds/blog.atom.xml" rel="self"/><id>https://markusgoller.at/</id><updated>2026-03-10T00:00:00+01:00</updated><entry><title>Daily Weather Update</title><link href="https://markusgoller.at/daily-weather-update.html" rel="alternate"/><published>2026-03-10T00:00:00+01:00</published><updated>2026-03-10T00:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2026-03-10:/daily-weather-update.html</id><content type="html">&lt;!-- &lt;iframe src="https://ehrwald.panomax.com/zugspitze" style="width: 100%; height: 650px; border: none;" allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;div id="date"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+  document.getElementById("date").textContent = new Date().toDateString();
+&lt;/script&gt;
+
+&lt;style&gt;
+  #date {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Arial, sans-serif;
+  }
+&lt;/style&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;h2&gt;DWD&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://page.met.fu-berlin.de/wetterpate/static/anabwkna.gif" title="Wetterkarte" target="_blank"&gt;&lt;img src="https://www.met.fu-berlin.de/de/wetter/maps/anabwkna.gif" alt="no data anabwkna" width="100%" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/bwk_bodendruck_na_ana.png" title="ana"&gt;&lt;img src="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/bwk_bodendruck_na_ana.png" alt="no data ana" width="30%" /&gt;&lt;/a&gt;
 &lt;a href="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_036.png" title="+36"&gt;&lt;img src="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_036.png" alt="no data +36" width="30%" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Models&lt;/h2&gt;
@@ -12,7 +29,7 @@
 &lt;div&gt;&lt;!-- DO NOT REMOVE THIS LINK --&gt;&lt;a href="https://www.meteoblue.com/en/weather/maps/innsbruck_austria_2775220?utm_source=map_widget&amp;utm_medium=linkus&amp;utm_content=map&amp;utm_campaign=Weather%2BWidget" target="_blank" rel="noopener"&gt;&lt;/div&gt;
 
 &lt;h2&gt;Link to my private weather station:&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://www.wunderground.com/dashboard/pws/IPATSC5"&gt;IPATSC5-Wunderground&lt;/a&gt;&lt;/p&gt;</content><category term="blog"/><category term="Hydrologie"/><category term="Wetter"/><category term="Python"/><category term="HTML"/></entry><entry><title>Inn Pegelstände</title><link href="https://markusgoller.at/inn-pegelstande.html" rel="alternate"/><published>2024-07-07T00:00:00+02:00</published><updated>2024-07-07T00:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2024-07-07:/inn-pegelstande.html</id><summary type="html">&lt;p&gt;Ganze 517 km lang ist der Inn. Er entspringt am Malojapass in der Schweiz und fließt dann durch Österreich und Deutschland, bevor er bei Passau in die Donau mündet.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.wunderground.com/dashboard/pws/IPATSC5"&gt;IPATSC5-Wunderground&lt;/a&gt;&lt;/p&gt;</content><category term="blog"/><category term="Weather"/><category term="Python"/><category term="HTML"/></entry><entry><title>Inn Pegelstände</title><link href="https://markusgoller.at/inn-pegelstande.html" rel="alternate"/><published>2024-07-07T00:00:00+02:00</published><updated>2024-07-07T00:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2024-07-07:/inn-pegelstande.html</id><summary type="html">&lt;p&gt;Ganze 517 km lang ist der Inn. Er entspringt am Malojapass in der Schweiz und fließt dann durch Österreich und Deutschland, bevor er bei Passau in die Donau mündet.&lt;/p&gt;
 &lt;h2&gt;Wie viel Wasser verträgt der Inn?&lt;/h2&gt;
 &lt;p&gt;Im Folgenden soll gezeigt werden, wie drei Tiroler Pegel des Inns auf Niederschläge reagieren.&lt;/p&gt;
 &lt;h2&gt;Übersicht …&lt;/h2&gt;</summary><content type="html">&lt;p&gt;Ganze 517 km lang ist der Inn. Er entspringt am Malojapass in der Schweiz und fließt dann durch Österreich und Deutschland, bevor er bei Passau in die Donau mündet.&lt;/p&gt;
