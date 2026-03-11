@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus - blog</title><link href="https://markusgoller.at/" rel="alternate"/><link href="https://markusgoller.at/feeds/blog.atom.xml" rel="self"/><id>https://markusgoller.at/</id><updated>2026-03-10T00:00:00+01:00</updated><entry><title>Daily Weather Update</title><link href="https://markusgoller.at/daily-weather-update.html" rel="alternate"/><published>2026-03-10T00:00:00+01:00</published><updated>2026-03-10T00:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2026-03-10:/daily-weather-update.html</id><content type="html">&lt;!-- &lt;iframe src="https://ehrwald.panomax.com/zugspitze" style="width: 100%; height: 650px; border: none;" allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus - blog</title><link href="https://markusgoller.at/" rel="alternate"/><link href="https://markusgoller.at/feeds/blog.atom.xml" rel="self"/><id>https://markusgoller.at/</id><updated>2026-03-11T00:00:00+01:00</updated><entry><title>Daily Weather Update</title><link href="https://markusgoller.at/daily-weather-update.html" rel="alternate"/><published>2026-03-11T00:00:00+01:00</published><updated>2026-03-11T00:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2026-03-11:/daily-weather-update.html</id><content type="html">&lt;!-- &lt;iframe src="https://ehrwald.panomax.com/zugspitze" style="width: 100%; height: 650px; border: none;" allowfullscreen&gt;&lt;/iframe&gt; --&gt;
 
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;div id="date"&gt;&lt;/div&gt;
@@ -29,7 +29,28 @@
 &lt;div&gt;&lt;!-- DO NOT REMOVE THIS LINK --&gt;&lt;a href="https://www.meteoblue.com/en/weather/maps/innsbruck_austria_2775220?utm_source=map_widget&amp;utm_medium=linkus&amp;utm_content=map&amp;utm_campaign=Weather%2BWidget" target="_blank" rel="noopener"&gt;&lt;/div&gt;
 
 &lt;h2&gt;Link to my private weather station:&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://www.wunderground.com/dashboard/pws/IPATSC5"&gt;IPATSC5-Wunderground&lt;/a&gt;&lt;/p&gt;</content><category term="blog"/><category term="Weather"/><category term="Python"/><category term="HTML"/></entry><entry><title>Inn Pegelstände</title><link href="https://markusgoller.at/inn-pegelstande.html" rel="alternate"/><published>2024-07-07T00:00:00+02:00</published><updated>2024-07-07T00:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2024-07-07:/inn-pegelstande.html</id><summary type="html">&lt;p&gt;Ganze 517 km lang ist der Inn. Er entspringt am Malojapass in der Schweiz und fließt dann durch Österreich und Deutschland, bevor er bei Passau in die Donau mündet.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.wunderground.com/dashboard/pws/IPATSC5"&gt;IPATSC5-Wunderground&lt;/a&gt;&lt;/p&gt;</content><category term="blog"/><category term="Weather"/><category term="Python"/><category term="HTML"/></entry><entry><title>Australia Flood in early 2026</title><link href="https://markusgoller.at/australia-flood-in-early-2026.html" rel="alternate"/><published>2026-03-10T00:00:00+01:00</published><updated>2026-03-10T00:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2026-03-10:/australia-flood-in-early-2026.html</id><summary type="html">&lt;p&gt;In early 2026, southern and central parts of Australia experienced significant flooding after weeks of heavy rainfall. A slow-moving tropical low-pressure system brought intense rain across large inland areas and eventually moved toward the southeastern states. The storms produced flash floods, road closures, and disruptions to travel and local communities …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In early 2026, southern and central parts of Australia experienced significant flooding after weeks of heavy rainfall. A slow-moving tropical low-pressure system brought intense rain across large inland areas and eventually moved toward the southeastern states. The storms produced flash floods, road closures, and disruptions to travel and local communities.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/australia_flood_2026/storm_image.png" alt="no storm_image"&gt;
+Satellite image acquired at 06:10 UTC on February 25, 2026. Credit: JMA/Himawari-9, Zoom Earth, The Watchers&lt;/p&gt;
+&lt;h1&gt;Southern Australia&lt;/h1&gt;
+&lt;p&gt;Next, we will take a look at Southern Australia around the city of Adelaide.
+&lt;br&gt;&lt;/p&gt;
+&lt;iframe src="https://markusgoller.at/australia_overview_map.html" width="600" height="450" frameborder="0" style="border:0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h1&gt;Flooded areas March 10 2026&lt;/h1&gt;
+&lt;p&gt;With the help of a &lt;a href="https://www.earthdata.nasa.gov/data/catalog/lancemodis-mcdwd-l3-f3-nrt-6.1"&gt;satellite flood product&lt;/a&gt; and some coding the following was created.
+&lt;img src="/images/australia_flood_2026/australia_flood_map.png" alt="no data"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/australia_flood_2026/australia_flood_bar.png" alt="no data"&gt;
+The water here is considered seawater. However, an area of almost 6,000 km² is currently only in Southern Australia in the area of the City Adelaide flooded. This corresponds to an area almost twice the size of the state of Vorarlberg.&lt;/p&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;Overall, the 2026 flooding in southern Australia highlights how extreme weather events can quickly impact large areas, affecting people, the environment, and the economy.&lt;/p&gt;
+&lt;h2&gt;Links:&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.earthdata.nasa.gov/"&gt;NASA Earth Observation Data&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.earthdata.nasa.gov/s3fs-public/2025-12/MCDWD_VCDWD_UserGuide_RevF.pdf?VersionId=OzkHdTGLfEeQtOvKT1eti.b3Jhqa_oL2"&gt;MODIS/VIIRS NRT Global Flood Products Documentation&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.earthdata.nasa.gov/data/catalog/lancemodis-mcdwd-l3-f3-nrt-6.1"&gt;MODIS/Aqua+Terra Flood Map Daily L3 Global 250m LLL Grid NRT&lt;/a&gt;
+&lt;br&gt;&lt;/p&gt;</content><category term="blog"/><category term="Hydrology"/><category term="Weather"/><category term="Python"/><category term="HTML"/></entry><entry><title>Inn Pegelstände</title><link href="https://markusgoller.at/inn-pegelstande.html" rel="alternate"/><published>2024-07-07T00:00:00+02:00</published><updated>2024-07-07T00:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2024-07-07:/inn-pegelstande.html</id><summary type="html">&lt;p&gt;Ganze 517 km lang ist der Inn. Er entspringt am Malojapass in der Schweiz und fließt dann durch Österreich und Deutschland, bevor er bei Passau in die Donau mündet.&lt;/p&gt;
 &lt;h2&gt;Wie viel Wasser verträgt der Inn?&lt;/h2&gt;
 &lt;p&gt;Im Folgenden soll gezeigt werden, wie drei Tiroler Pegel des Inns auf Niederschläge reagieren.&lt;/p&gt;
 &lt;h2&gt;Übersicht …&lt;/h2&gt;</summary><content type="html">&lt;p&gt;Ganze 517 km lang ist der Inn. Er entspringt am Malojapass in der Schweiz und fließt dann durch Österreich und Deutschland, bevor er bei Passau in die Donau mündet.&lt;/p&gt;
