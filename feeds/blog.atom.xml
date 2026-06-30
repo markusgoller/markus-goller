@@ -16,20 +16,26 @@
   }
 &lt;/style&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;h2&gt;Link to my private weather station:&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.wunderground.com/dashboard/pws/IPATSC5"&gt;IPATSC5-Wunderground&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;DWD&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://page.met.fu-berlin.de/wetterpate/static/anabwkna.gif" title="Wetterkarte" target="_blank"&gt;&lt;img src="https://www.met.fu-berlin.de/de/wetter/maps/anabwkna.gif" alt="no data anabwkna" width="100%" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/bwk_bodendruck_na_ana.png" title="ana"&gt;&lt;img src="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/bwk_bodendruck_na_ana.png" alt="no data ana" width="30%" /&gt;&lt;/a&gt;
 &lt;a href="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_036.png" title="+36"&gt;&lt;img src="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_036.png" alt="no data +36" width="30%" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Models&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://kachelmannwetter.com/at/modellkarten/euro/mitteleuropa/signifikantes-wetter/20260613-0400z.html"&gt;Global EZ&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
-&lt;iframe width="350" height="550" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=wind&amp;product=ecmwf&amp;level=surface&amp;lat=47.205&amp;lon=11.412&amp;detailLat=47.205&amp;detailLon=11.412000000000035&amp;marker=true" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=satellite&amp;product=satellite&amp;level=surface&amp;lat=45.491&amp;lon=16.348&amp;detailLat=48.205&amp;detailLon=16.368&amp;detail=true" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=radar&amp;product=radar&amp;level=surface&amp;lat=50&amp;lon=14" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=temp&amp;product=ecmwf&amp;level=surface&amp;lat=45.491&amp;lon=16.348&amp;detailLat=48.205&amp;detailLon=16.368&amp;detail=true" frameborder="0"&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;iframe frameborder="0" scrolling="NO" width="100%" src="https://www.meteoblue.com/en/weather/maps/widget/vienna_austria_2761369?windAnimation=1&amp;amp;gust=1&amp;amp;satellite=1&amp;amp;cloudsAndPrecipitation=1&amp;amp;temperature=1&amp;amp;sunshine=1&amp;amp;extremeForecastIndex=1&amp;amp;geoloc=fixed&amp;amp;tempunit=C&amp;amp;lengthunit=metric&amp;amp;windunit=km%252Fh&amp;amp;zoom=5&amp;amp;autowidth=auto" style="width: 100%; height: 700px;"&gt;&lt;/iframe&gt;
-&lt;div&gt;&lt;!-- DO NOT REMOVE THIS LINK --&gt;&lt;a href="https://www.meteoblue.com/en/weather/maps/innsbruck_austria_2775220?utm_source=map_widget&amp;utm_medium=linkus&amp;utm_content=map&amp;utm_campaign=Weather%2BWidget" target="_blank" rel="noopener"&gt;&lt;/div&gt;
-
-&lt;h2&gt;Link to my private weather station:&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://www.wunderground.com/dashboard/pws/IPATSC5"&gt;IPATSC5-Wunderground&lt;/a&gt;&lt;/p&gt;</content><category term="blog"/><category term="Weather"/><category term="Python"/><category term="HTML"/></entry><entry><title>Australia Flood in early 2026</title><link href="https://markusgoller.at/australia-flood-in-early-2026.html" rel="alternate"/><published>2026-03-10T00:00:00+01:00</published><updated>2026-03-10T00:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2026-03-10:/australia-flood-in-early-2026.html</id><summary type="html">&lt;!-- ?????????????? komplett gefüllt nur zweimal 1897 und 1989. On both occasions (1897 and 1989), the lake was so full that it overflowed through the Pirie-Torrens corridor into the Spencer Gulf. --&gt;
+&lt;div&gt;&lt;!-- DO NOT REMOVE THIS LINK --&gt;&lt;a href="https://www.meteoblue.com/en/weather/maps/innsbruck_austria_2775220?utm_source=map_widget&amp;utm_medium=linkus&amp;utm_content=map&amp;utm_campaign=Weather%2BWidget" target="_blank" rel="noopener"&gt;&lt;/div&gt;</content><category term="blog"/><category term="Weather"/><category term="Python"/><category term="HTML"/></entry><entry><title>Australia Flood in early 2026</title><link href="https://markusgoller.at/australia-flood-in-early-2026.html" rel="alternate"/><published>2026-03-10T00:00:00+01:00</published><updated>2026-03-10T00:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2026-03-10:/australia-flood-in-early-2026.html</id><summary type="html">&lt;!-- ?????????????? komplett gefüllt nur zweimal 1897 und 1989. On both occasions (1897 and 1989), the lake was so full that it overflowed through the Pirie-Torrens corridor into the Spencer Gulf. --&gt;
 
 &lt;p&gt;In early 2026, southern and central parts of Australia experienced significant flooding after weeks of heavy rainfall. A slow-moving tropical low-pressure system brought intense rain across large inland areas and eventually moved toward the southeastern states. The storms produced flash floods, road closures, and disruptions to travel and local communities …&lt;/p&gt;</summary><content type="html">&lt;!-- ?????????????? komplett gefüllt nur zweimal 1897 und 1989. On both occasions (1897 and 1989), the lake was so full that it overflowed through the Pirie-Torrens corridor into the Spencer Gulf. --&gt;
 
@@ -655,8 +661,8 @@ Basically the camera is pulled along the sled with the help of a motor. I was in
 &lt;span class="c1"&gt;#  Copyright (c) 2013 Fotosyn. All rights reserved.&lt;/span&gt;
 &lt;span class="c1"&gt;#&lt;/span&gt;
 &lt;span class="c1"&gt;#  Import some frameworks&lt;/span&gt;
-&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;
-&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;PiRailSlider_f&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;datetime&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;PiRailSlider_f&lt;/span&gt;
 
 
 &lt;span class="c1"&gt;# Make New folder&lt;/span&gt;
