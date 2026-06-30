@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus - blog</title><link href="https://markusgoller.at/" rel="alternate"/><link href="https://markusgoller.at/feeds/blog.atom.xml" rel="self"/><id>https://markusgoller.at/</id><updated>2026-03-11T00:00:00+01:00</updated><entry><title>Daily Weather Update</title><link href="https://markusgoller.at/daily-weather-update.html" rel="alternate"/><published>2026-03-11T00:00:00+01:00</published><updated>2026-03-11T00:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2026-03-11:/daily-weather-update.html</id><content type="html">&lt;!-- &lt;iframe src="https://ehrwald.panomax.com/zugspitze" style="width: 100%; height: 650px; border: none;" allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus - blog</title><link href="https://markusgoller.at/" rel="alternate"/><link href="https://markusgoller.at/feeds/blog.atom.xml" rel="self"/><id>https://markusgoller.at/</id><updated>2026-06-30T00:00:00+02:00</updated><entry><title>Daily Weather Update 1</title><link href="https://markusgoller.at/daily-weather-update-1.html" rel="alternate"/><published>2026-06-30T00:00:00+02:00</published><updated>2026-06-30T00:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2026-06-30:/daily-weather-update-1.html</id><content type="html">&lt;!-- &lt;iframe src="https://ehrwald.panomax.com/zugspitze" style="width: 100%; height: 650px; border: none;" allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;div id="date"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+  document.getElementById("date").textContent = new Date().toDateString();
+&lt;/script&gt;
+
+&lt;style&gt;
+  #date {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Arial, sans-serif;
+  }
+&lt;/style&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;h2&gt;DWD&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_036.png" title="+36"&gt;&lt;img src="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_036.png" alt="no data +36" width="30%" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=radar&amp;product=radar&amp;level=surface&amp;lat=50&amp;lon=14&amp;detailLat=47.161&amp;detailLon=11.355&amp;detail=true" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=temp&amp;product=ecmwf&amp;level=surface&amp;lat=45.491&amp;lon=16.348&amp;detailLat=47.161&amp;detailLon=11.355&amp;detail=true" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2&gt;Models&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://kachelmannwetter.com/at/modellkarten/rapid-id2/oesterreich/signifikantes-wetter/20260630-0400z.html"&gt;Global EZ&lt;/a&gt;&lt;/p&gt;</content><category term="blog"/><category term="Weather"/><category term="Python"/><category term="HTML"/></entry><entry><title>Daily Weather Update</title><link href="https://markusgoller.at/daily-weather-update.html" rel="alternate"/><published>2026-03-11T00:00:00+01:00</published><updated>2026-03-11T00:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2026-03-11:/daily-weather-update.html</id><content type="html">&lt;!-- &lt;iframe src="https://ehrwald.panomax.com/zugspitze" style="width: 100%; height: 650px; border: none;" allowfullscreen&gt;&lt;/iframe&gt; --&gt;
 
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;div id="date"&gt;&lt;/div&gt;
