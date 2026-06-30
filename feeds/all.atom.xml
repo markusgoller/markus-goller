@@ -25,13 +25,13 @@
 &lt;h2&gt;Models&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://kachelmannwetter.com/at/modellkarten/euro/mitteleuropa/signifikantes-wetter/20260613-0400z.html"&gt;Global EZ&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
-&lt;iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=satellite&amp;product=satellite&amp;level=surface&amp;lat=45.491&amp;lon=16.348&amp;detailLat=48.205&amp;detailLon=16.368&amp;detail=true" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=satellite&amp;product=satellite&amp;level=surface&amp;lat=45.491&amp;lon=16.348&amp;detailLat=47.259659&amp;detailLon=11.400375&amp;detail=true" frameborder="0"&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
-&lt;iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=radar&amp;product=radar&amp;level=surface&amp;lat=50&amp;lon=14" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=radar&amp;product=radar&amp;level=surface&amp;lat=50&amp;lon=14&amp;detailLat=47.259659&amp;detailLon=11.400375&amp;detail=true" frameborder="0"&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
-&lt;iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=temp&amp;product=ecmwf&amp;level=surface&amp;lat=45.491&amp;lon=16.348&amp;detailLat=48.205&amp;detailLon=16.368&amp;detail=true" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=temp&amp;product=ecmwf&amp;level=surface&amp;lat=45.491&amp;lon=16.348&amp;detailLat=47.259659&amp;detailLon=11.400375&amp;detail=true" frameborder="0"&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;iframe frameborder="0" scrolling="NO" width="100%" src="https://www.meteoblue.com/en/weather/maps/widget/vienna_austria_2761369?windAnimation=1&amp;amp;gust=1&amp;amp;satellite=1&amp;amp;cloudsAndPrecipitation=1&amp;amp;temperature=1&amp;amp;sunshine=1&amp;amp;extremeForecastIndex=1&amp;amp;geoloc=fixed&amp;amp;tempunit=C&amp;amp;lengthunit=metric&amp;amp;windunit=km%252Fh&amp;amp;zoom=5&amp;amp;autowidth=auto" style="width: 100%; height: 700px;"&gt;&lt;/iframe&gt;
