@@ -34,15 +34,15 @@ Tags: Weather, Python, HTML
 [Global EZ](https://kachelmannwetter.com/at/modellkarten/euro/mitteleuropa/signifikantes-wetter/20260613-0400z.html)
 
 </br>
-<iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=default&metricTemp=default&metricWind=default&zoom=5&overlay=satellite&product=satellite&level=surface&lat=45.491&lon=16.348&detailLat=48.205&detailLon=16.368&detail=true" frameborder="0"></iframe>
+<iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=default&metricTemp=default&metricWind=default&zoom=5&overlay=satellite&product=satellite&level=surface&lat=45.491&lon=16.348&detailLat=47.259659&detailLon=11.400375&detail=true" frameborder="0"></iframe>
 </br>
 
 </br>
-<iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=default&metricTemp=default&metricWind=default&zoom=5&overlay=radar&product=radar&level=surface&lat=50&lon=14" frameborder="0"></iframe>
+<iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=default&metricTemp=default&metricWind=default&zoom=5&overlay=radar&product=radar&level=surface&lat=50&lon=14&detailLat=47.259659&detailLon=11.400375&detail=true" frameborder="0"></iframe>
 </br>
 
 </br>
-<iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=default&metricTemp=default&metricWind=default&zoom=5&overlay=temp&product=ecmwf&level=surface&lat=45.491&lon=16.348&detailLat=48.205&detailLon=16.368&detail=true" frameborder="0"></iframe>
+<iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=default&metricTemp=default&metricWind=default&zoom=5&overlay=temp&product=ecmwf&level=surface&lat=45.491&lon=16.348&detailLat=47.259659&detailLon=11.400375&detail=true" frameborder="0"></iframe>
 </br>
 
 <br>
