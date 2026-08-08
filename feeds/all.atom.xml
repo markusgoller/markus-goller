@@ -1,5 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus</title><link href="https://markusgoller.at/" rel="alternate"/><link href="https://markusgoller.at/feeds/all.atom.xml" rel="self"/><id>https://markusgoller.at/</id><updated>2026-07-05T00:00:00+02:00</updated><entry><title>Daily Weather Update 1</title><link href="https://markusgoller.at/daily-weather-update-1.html" rel="alternate"/><published>2026-07-05T00:00:00+02:00</published><updated>2026-07-05T00:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2026-07-05:/daily-weather-update-1.html</id><content type="html">&lt;!-- &lt;iframe src="https://ehrwald.panomax.com/zugspitze" style="width: 100%; height: 650px; border: none;" allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog of Markus</title><link href="https://markusgoller.at/" rel="alternate"/><link href="https://markusgoller.at/feeds/all.atom.xml" rel="self"/><id>https://markusgoller.at/</id><updated>2026-08-08T00:00:00+02:00</updated><entry><title>Daily Weather Update</title><link href="https://markusgoller.at/daily-weather-update.html" rel="alternate"/><published>2026-08-08T00:00:00+02:00</published><updated>2026-08-08T00:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2026-08-08:/daily-weather-update.html</id><content type="html">&lt;!-- &lt;iframe src="https://ehrwald.panomax.com/zugspitze" style="width: 100%; height: 650px; border: none;" allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;div id="date"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+  document.getElementById("date").textContent = new Date().toDateString();
+&lt;/script&gt;
+
+&lt;style&gt;
+  #date {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Arial, sans-serif;
+  }
+&lt;/style&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;h2&gt;Link to my private weather station:&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.wunderground.com/dashboard/pws/IPATSC5"&gt;IPATSC5-Wunderground&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;DWD Wetterkarten&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/bwk_bodendruck_na_ana.png" title="ana"&gt;&lt;img src="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/bwk_bodendruck_na_ana.png" alt="no data ana" width="35%" /&gt;&lt;/a&gt;
+&lt;a href="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_036.png" title="+36"&gt;&lt;img src="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_036.png" alt="no data +36" width="30%" /&gt;&lt;/a&gt;
+&lt;a href="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_048.png" title="+48"&gt;&lt;img src="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_048.png" alt="no data +48" width="30%" /&gt;&lt;/a&gt;
+&lt;a href="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_060.png" title="+60"&gt;&lt;img src="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_060.png" alt="no data +60" width="30%" /&gt;&lt;/a&gt;
+&lt;a href="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_084.png" title="+84"&gt;&lt;img src="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_084.png" alt="no data +84" width="30%" /&gt;&lt;/a&gt;
+&lt;a href="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_108.png" title="+108"&gt;&lt;img src="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_108.png" alt="no data +108" width="30%" /&gt;&lt;/a&gt;
+&lt;/br&gt;&lt;/p&gt;
+&lt;h2&gt;Warnings&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://warnungen.zamg.at/html/de/heute/alle/at/" title="ZAMG-Wetterwarnungen" target="_blank"&gt;&lt;img src="https://warnungen.zamg.at/warnwidget/de/heute/alle/at/" alt="no data ZAMG-Wetterwarnungen" title="ZAMG-Wetterwarnungen"&gt;&lt;/a&gt;
+&lt;a href="https://uwz.at/"&gt;&lt;img title="uwz.at" width="110" height="110" alt="no data uwz.at" src="https://uwz.at/data/previews/AT_warning_today_all_desktop.png"&gt;&lt;/a&gt;
+www.uwz.at
+&lt;a href="https://www.dwd.de/DE/wetter/warnungen_gemeinden/warnWetter_node.html" title="dwd"&gt;&lt;img width="200" height="200" alt="no data dwd" src="https://www.dwd.de/DWD/warnungen/warnapp_gemeinden/json/warnungen_gemeinde_map_de.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Models&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://kachelmannwetter.com/at/modellkarten/euro/mitteleuropa/signifikantes-wetter/20260613-0400z.html"&gt;Global EZ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=satellite&amp;product=satellite&amp;level=surface&amp;lat=45.491&amp;lon=16.348&amp;detailLat=47.259659&amp;detailLon=11.400375&amp;detail=true" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=radar&amp;product=radar&amp;level=surface&amp;lat=50&amp;lon=14&amp;detailLat=47.259659&amp;detailLon=11.400375&amp;detail=true" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=temp&amp;product=ecmwf&amp;level=surface&amp;lat=45.491&amp;lon=16.348&amp;detailLat=47.259659&amp;detailLon=11.400375&amp;detail=true" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;iframe frameborder="0" scrolling="NO" width="100%" src="https://www.meteoblue.com/en/weather/maps/widget/innsbruck_austria_2761369?windAnimation=1&amp;amp;gust=1&amp;amp;satellite=1&amp;amp;cloudsAndPrecipitation=1&amp;amp;temperature=1&amp;amp;sunshine=1&amp;amp;extremeForecastIndex=1&amp;amp;geoloc=fixed&amp;amp;tempunit=C&amp;amp;lengthunit=metric&amp;amp;windunit=km%252Fh&amp;amp;zoom=5&amp;amp;autowidth=auto" style="width: 100%; height: 700px;"&gt;&lt;/iframe&gt;
+&lt;div&gt;&lt;!-- DO NOT REMOVE THIS LINK --&gt;&lt;a href="https://www.meteoblue.com/en/weather/maps/innsbruck_austria_2775220?utm_source=map_widget&amp;utm_medium=linkus&amp;utm_content=map&amp;utm_campaign=Weather%2BWidget" target="_blank" rel="noopener"&gt;&lt;/div&gt;
+
+&lt;!-- &lt;br&gt;
+&lt;iframe frameborder="0" scrolling="NO" width="100%" src="
+https://www.meteoblue.com/en/weather/maps/vienna_austria_2761369#coords=5.96/47.695/14.529&amp;map=windAnimation~rainbow~auto~10%20m%20above%20gnd~none" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;/br&gt; --&gt;</content><category term="blog"/><category term="Weather"/><category term="Python"/><category term="HTML"/></entry><entry><title>Daily Weather Update 1</title><link href="https://markusgoller.at/daily-weather-update-1.html" rel="alternate"/><published>2026-07-05T00:00:00+02:00</published><updated>2026-07-05T00:00:00+02:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2026-07-05:/daily-weather-update-1.html</id><content type="html">&lt;!-- &lt;iframe src="https://ehrwald.panomax.com/zugspitze" style="width: 100%; height: 650px; border: none;" allowfullscreen&gt;&lt;/iframe&gt; --&gt;
 
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;div id="date"&gt;&lt;/div&gt;
@@ -34,43 +84,7 @@
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
 &lt;iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=temp&amp;product=ecmwf&amp;level=surface&amp;lat=45.491&amp;lon=16.348&amp;detailLat=47.161&amp;detailLon=11.355&amp;detail=true" frameborder="0"&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;/br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kachelmannwetter.com/at/modellkarten/rapid-id2/oesterreich/signifikantes-wetter/20260630-0400z.html"&gt;ICON-D2&lt;/a&gt;&lt;/p&gt;</content><category term="blog"/><category term="Weather"/><category term="HTML"/></entry><entry><title>Daily Weather Update</title><link href="https://markusgoller.at/daily-weather-update.html" rel="alternate"/><published>2026-03-11T00:00:00+01:00</published><updated>2026-03-11T00:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2026-03-11:/daily-weather-update.html</id><content type="html">&lt;!-- &lt;iframe src="https://ehrwald.panomax.com/zugspitze" style="width: 100%; height: 650px; border: none;" allowfullscreen&gt;&lt;/iframe&gt; --&gt;
-
-&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
-&lt;div id="date"&gt;&lt;/div&gt;
-
-&lt;script&gt;
-  document.getElementById("date").textContent = new Date().toDateString();
-&lt;/script&gt;
-
-&lt;style&gt;
-  #date {
-    font-size: 48px;
-    font-weight: 900;
-    font-family: Arial, sans-serif;
-  }
-&lt;/style&gt;
-&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
-&lt;h2&gt;Link to my private weather station:&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://www.wunderground.com/dashboard/pws/IPATSC5"&gt;IPATSC5-Wunderground&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;DWD&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://page.met.fu-berlin.de/wetterpate/static/anabwkna.gif" title="Wetterkarte" target="_blank"&gt;&lt;img src="https://www.met.fu-berlin.de/de/wetter/maps/anabwkna.gif" alt="no data anabwkna" width="100%" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/bwk_bodendruck_na_ana.png" title="ana"&gt;&lt;img src="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/bwk_bodendruck_na_ana.png" alt="no data ana" width="30%" /&gt;&lt;/a&gt;
-&lt;a href="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_036.png" title="+36"&gt;&lt;img src="https://www.dwd.de/DWD/wetter/wv_spez/hobbymet/wetterkarten/ico_tkboden_na_036.png" alt="no data +36" width="30%" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Models&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://kachelmannwetter.com/at/modellkarten/euro/mitteleuropa/signifikantes-wetter/20260613-0400z.html"&gt;Global EZ&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
-&lt;iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=satellite&amp;product=satellite&amp;level=surface&amp;lat=45.491&amp;lon=16.348&amp;detailLat=47.259659&amp;detailLon=11.400375&amp;detail=true" frameborder="0"&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
-&lt;iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=radar&amp;product=radar&amp;level=surface&amp;lat=50&amp;lon=14&amp;detailLat=47.259659&amp;detailLon=11.400375&amp;detail=true" frameborder="0"&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
-&lt;iframe width="650" height="450" src="https://embed.windy.com/embed.html?type=map&amp;location=coordinates&amp;metricRain=default&amp;metricTemp=default&amp;metricWind=default&amp;zoom=5&amp;overlay=temp&amp;product=ecmwf&amp;level=surface&amp;lat=45.491&amp;lon=16.348&amp;detailLat=47.259659&amp;detailLon=11.400375&amp;detail=true" frameborder="0"&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;iframe frameborder="0" scrolling="NO" width="100%" src="https://www.meteoblue.com/en/weather/maps/widget/vienna_austria_2761369?windAnimation=1&amp;amp;gust=1&amp;amp;satellite=1&amp;amp;cloudsAndPrecipitation=1&amp;amp;temperature=1&amp;amp;sunshine=1&amp;amp;extremeForecastIndex=1&amp;amp;geoloc=fixed&amp;amp;tempunit=C&amp;amp;lengthunit=metric&amp;amp;windunit=km%252Fh&amp;amp;zoom=5&amp;amp;autowidth=auto" style="width: 100%; height: 700px;"&gt;&lt;/iframe&gt;
-&lt;div&gt;&lt;!-- DO NOT REMOVE THIS LINK --&gt;&lt;a href="https://www.meteoblue.com/en/weather/maps/innsbruck_austria_2775220?utm_source=map_widget&amp;utm_medium=linkus&amp;utm_content=map&amp;utm_campaign=Weather%2BWidget" target="_blank" rel="noopener"&gt;&lt;/div&gt;</content><category term="blog"/><category term="Weather"/><category term="Python"/><category term="HTML"/></entry><entry><title>Australia Flood in early 2026</title><link href="https://markusgoller.at/australia-flood-in-early-2026.html" rel="alternate"/><published>2026-03-10T00:00:00+01:00</published><updated>2026-03-10T00:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2026-03-10:/australia-flood-in-early-2026.html</id><summary type="html">&lt;!-- ?????????????? komplett gefüllt nur zweimal 1897 und 1989. On both occasions (1897 and 1989), the lake was so full that it overflowed through the Pirie-Torrens corridor into the Spencer Gulf. --&gt;
+&lt;p&gt;&lt;a href="https://kachelmannwetter.com/at/modellkarten/rapid-id2/oesterreich/signifikantes-wetter/20260630-0400z.html"&gt;ICON-D2&lt;/a&gt;&lt;/p&gt;</content><category term="blog"/><category term="Weather"/><category term="HTML"/></entry><entry><title>Australia Flood in early 2026</title><link href="https://markusgoller.at/australia-flood-in-early-2026.html" rel="alternate"/><published>2026-03-10T00:00:00+01:00</published><updated>2026-03-10T00:00:00+01:00</updated><author><name>Markus</name></author><id>tag:markusgoller.at,2026-03-10:/australia-flood-in-early-2026.html</id><summary type="html">&lt;!-- ?????????????? komplett gefüllt nur zweimal 1897 und 1989. On both occasions (1897 and 1989), the lake was so full that it overflowed through the Pirie-Torrens corridor into the Spencer Gulf. --&gt;
 
 &lt;p&gt;In early 2026, southern and central parts of Australia experienced significant flooding after weeks of heavy rainfall. A slow-moving tropical low-pressure system brought intense rain across large inland areas and eventually moved toward the southeastern states. The storms produced flash floods, road closures, and disruptions to travel and local communities …&lt;/p&gt;</summary><content type="html">&lt;!-- ?????????????? komplett gefüllt nur zweimal 1897 und 1989. On both occasions (1897 and 1989), the lake was so full that it overflowed through the Pirie-Torrens corridor into the Spencer Gulf. --&gt;
 
